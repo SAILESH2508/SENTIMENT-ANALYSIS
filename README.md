@@ -11,6 +11,14 @@ A machine learning application that predicts the sentiment (Positive, Negative, 
 *   **Input Validation**: Rejects nonsense or extremely short inputs.
 *   **Interactive UI**: Modern, responsive dashboard with Dark Blue/White theme.
 *   **Data Insights**: Visualizes the training data distribution.
+*   **Bulk Analysis**: Upload CSV/TXT files to analyze thousands of reviews or comments at once with finding keywords.
+*   **URL Analyzer**: Analyze sentiment of any web page or article by pasting the URL.
+*   **Multilingual Support**: Supports 50+ languages via auto-translation to English.
+*   **Text Comparison**: Compare the sentiment of two different texts side-by-side.
+*   **Word Clouds**: Generate visualizations of the most frequent positive and negative words.
+
+## 🚀 Demo
+[Streamlit Cloud Badge Here]
 
 ## 🛠️ Installation
 
@@ -42,6 +50,18 @@ A machine learning application that predicts the sentiment (Positive, Negative, 
     ```bash
     streamlit run app.py
     ```
+
+## 🌐 Deployment to Streamlit Cloud
+
+This project is ready for one-click deployment!
+
+1.  **Push to GitHub**: Ensure your code (including `requirements.txt` and `sentiment_pipeline.pkl`) is on GitHub.
+2.  **Sign up/Login**: Go to [Streamlit Cloud](https://streamlit.io/cloud).
+3.  **New App**: Click "New app".
+4.  **Connect Repo**: Select this repository, branch `main`, and main file `app.py`.
+5.  **Deploy**: Click "Deploy"!
+
+**Note**: The model file `sentiment_pipeline.pkl` (~87MB) is included in the repo to ensure fast startup on the cloud.
 
 ## 📂 Project Structure
 
