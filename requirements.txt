@@ -4,3 +4,7 @@ streamlit
 joblib
 matplotlib
 seaborn
+wordcloud
+requests
+beautifulsoup4
+deep-translator
