@@ -8,3 +8,12 @@ wordcloud
 requests
 beautifulsoup4
 deep-translator
+pyyaml
+redis
+cachetools
+asyncio
+fastapi
+uvicorn
+python-multipart
+pytest
+pytest-asyncio

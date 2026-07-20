@@ -21,11 +21,11 @@ def load_and_analyze():
         print("Dataset loaded successfully from URL.")
     except Exception as e:
         print(f"Failed to load from URL: {e}")
-        if os.path.exists("IMDB Dataset.csv"):
-            print("Loading from local file 'IMDB Dataset.csv'...")
-            df = pd.read_csv("IMDB Dataset.csv")
+        if os.path.exists("data/IMDB Dataset.csv"):
+            print("Loading from local file 'data/IMDB Dataset.csv'...")
+            df = pd.read_csv("data/IMDB Dataset.csv")
         else:
-            print("Please download the dataset and save it as 'IMDB Dataset.csv'")
+            print("Please download the dataset and save it as 'data/IMDB Dataset.csv'")
             return
 
     # Map labels: positive -> 1, negative -> 0
@@ -57,8 +57,8 @@ def load_and_analyze():
     print("Saved review_length.png")
 
     # Optional: Save split data for training
-    train_df.to_csv('train.csv', index=False)
-    test_df.to_csv('test.csv', index=False)
+    train_df.to_csv('data/train.csv', index=False)
+    test_df.to_csv('data/test.csv', index=False)
     print("Saved train.csv and test.csv")
 
 if __name__ == "__main__":

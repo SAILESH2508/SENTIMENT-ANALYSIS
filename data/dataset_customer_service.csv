@@ -1,0 +1,301 @@
+text,sentiment,department,satisfaction_rating,resolution_time_minutes,call_transfers,issue_type
+"Wonderful customer support! Professional, courteous, and very efficient.",Positive,Billing,4,50,1,Billing
+Fantastic service! They made a complicated issue seem simple to resolve.,Positive,Technical Support,4,27,4,Product
+Fantastic service! They made a complicated issue seem simple to resolve.,Positive,General Inquiry,5,85,2,Product
+Outstanding help from the support team! They exceeded all my expectations.,Positive,General Inquiry,4,57,5,Product
+"Perfect customer service experience! Quick, professional, and very effective.",Positive,Returns,4,150,2,Product
+Fantastic service! They made a complicated issue seem simple to resolve.,Positive,Technical Support,4,107,1,Product
+Best support experience I've ever had! The team was incredibly helpful and friendly.,Positive,Technical Support,4,91,3,Billing
+Fantastic service! They made a complicated issue seem simple to resolve.,Positive,Sales,5,176,5,Billing
+Excellent support team! They went above and beyond to help me with my problem.,Positive,General Inquiry,4,179,2,Product
+Quick response and professional service. Couldn't be happier with the experience!,Positive,General Inquiry,4,176,1,Billing
+Outstanding help from the support team! They exceeded all my expectations.,Positive,General Inquiry,5,119,4,Account
+Fantastic service! They made a complicated issue seem simple to resolve.,Positive,General Inquiry,4,85,3,Other
+Exceptional service quality! The representative was expert and very patient.,Positive,Technical Support,5,168,5,Other
+"Wonderful customer support! Professional, courteous, and very efficient.",Positive,Returns,5,88,0,Billing
+"Amazing customer service! Patient, helpful, and resolved everything perfectly.",Positive,Technical Support,5,47,3,Product
+Excellent support team! They went above and beyond to help me with my problem.,Positive,Sales,5,35,2,Billing
+Outstanding help from the support team! They exceeded all my expectations.,Positive,Returns,4,104,5,Other
+Best support experience I've ever had! The team was incredibly helpful and friendly.,Positive,Sales,4,45,5,Product
+Outstanding help from the support team! They exceeded all my expectations.,Positive,General Inquiry,5,62,4,Other
+Best support experience I've ever had! The team was incredibly helpful and friendly.,Positive,Returns,4,178,3,Product
+"Perfect customer service experience! Quick, professional, and very effective.",Positive,General Inquiry,4,79,5,Product
+"Amazing customer service! Patient, helpful, and resolved everything perfectly.",Positive,General Inquiry,4,103,5,Technical
+"Wonderful customer support! Professional, courteous, and very efficient.",Positive,Returns,5,159,4,Product
+Outstanding help from the support team! They exceeded all my expectations.,Positive,Sales,4,134,4,Product
+Outstanding help from the support team! They exceeded all my expectations.,Positive,Sales,4,10,5,Product
+Quick response and professional service. Couldn't be happier with the experience!,Positive,General Inquiry,5,144,5,Technical
+Exceptional service quality! The representative was expert and very patient.,Positive,Billing,4,35,0,Product
+"Amazing customer service! Patient, helpful, and resolved everything perfectly.",Positive,Technical Support,5,62,0,Billing
+Excellent support team! They went above and beyond to help me with my problem.,Positive,Technical Support,5,24,0,Account
+Exceptional service quality! The representative was expert and very patient.,Positive,Billing,4,160,0,Billing
+"Amazing customer service! Patient, helpful, and resolved everything perfectly.",Positive,Returns,5,33,0,Other
+Quick response and professional service. Couldn't be happier with the experience!,Positive,Returns,4,126,1,Account
+Exceptional service quality! The representative was expert and very patient.,Positive,Billing,4,143,3,Other
+Fantastic service! They made a complicated issue seem simple to resolve.,Positive,Sales,4,105,4,Other
+Outstanding customer service! The representative was knowledgeable and solved my issue in minutes.,Positive,Technical Support,5,179,5,Other
+"Amazing customer service! Patient, helpful, and resolved everything perfectly.",Positive,Technical Support,4,14,3,Billing
+Fantastic service! They made a complicated issue seem simple to resolve.,Positive,Technical Support,4,103,3,Product
+"Perfect customer service experience! Quick, professional, and very effective.",Positive,Returns,4,64,1,Billing
+Best support experience I've ever had! The team was incredibly helpful and friendly.,Positive,General Inquiry,5,81,4,Billing
+"Wonderful customer support! Professional, courteous, and very efficient.",Positive,Returns,4,74,2,Product
+Best support experience I've ever had! The team was incredibly helpful and friendly.,Positive,Sales,5,77,1,Technical
+Quick response and professional service. Couldn't be happier with the experience!,Positive,Sales,5,173,2,Account
+Outstanding customer service! The representative was knowledgeable and solved my issue in minutes.,Positive,Billing,4,110,0,Product
+"Wonderful customer support! Professional, courteous, and very efficient.",Positive,Technical Support,4,155,1,Product
+Fantastic service! They made a complicated issue seem simple to resolve.,Positive,General Inquiry,4,147,3,Billing
+Outstanding help from the support team! They exceeded all my expectations.,Positive,Sales,5,36,4,Other
+"Amazing customer service! Patient, helpful, and resolved everything perfectly.",Positive,Returns,5,115,0,Other
+Quick response and professional service. Couldn't be happier with the experience!,Positive,Technical Support,4,22,4,Billing
+Fantastic service! They made a complicated issue seem simple to resolve.,Positive,General Inquiry,5,156,4,Account
+"Wonderful customer support! Professional, courteous, and very efficient.",Positive,General Inquiry,5,31,5,Account
+Outstanding customer service! The representative was knowledgeable and solved my issue in minutes.,Positive,Sales,4,169,1,Technical
+Outstanding help from the support team! They exceeded all my expectations.,Positive,Sales,4,60,5,Billing
+Fantastic service! They made a complicated issue seem simple to resolve.,Positive,Technical Support,5,135,5,Technical
+Outstanding help from the support team! They exceeded all my expectations.,Positive,Technical Support,4,7,1,Other
+Exceptional service quality! The representative was expert and very patient.,Positive,Returns,4,130,5,Technical
+Quick response and professional service. Couldn't be happier with the experience!,Positive,Billing,4,176,4,Technical
+Outstanding customer service! The representative was knowledgeable and solved my issue in minutes.,Positive,Technical Support,5,10,1,Account
+Outstanding customer service! The representative was knowledgeable and solved my issue in minutes.,Positive,Technical Support,4,147,2,Billing
+"Amazing customer service! Patient, helpful, and resolved everything perfectly.",Positive,Technical Support,4,62,0,Billing
+Fantastic service! They made a complicated issue seem simple to resolve.,Positive,Returns,5,134,2,Billing
+Fantastic service! They made a complicated issue seem simple to resolve.,Positive,Returns,5,43,5,Account
+Fantastic service! They made a complicated issue seem simple to resolve.,Positive,Sales,5,42,5,Other
+Fantastic service! They made a complicated issue seem simple to resolve.,Positive,Billing,4,46,0,Account
+"Wonderful customer support! Professional, courteous, and very efficient.",Positive,Returns,5,128,2,Other
+"Perfect customer service experience! Quick, professional, and very effective.",Positive,Sales,5,91,4,Other
+Excellent support team! They went above and beyond to help me with my problem.,Positive,Returns,5,82,2,Billing
+"Wonderful customer support! Professional, courteous, and very efficient.",Positive,Returns,5,136,4,Technical
+Exceptional service quality! The representative was expert and very patient.,Positive,Sales,4,5,4,Technical
+Best support experience I've ever had! The team was incredibly helpful and friendly.,Positive,General Inquiry,5,40,5,Other
+Excellent support team! They went above and beyond to help me with my problem.,Positive,General Inquiry,5,175,2,Other
+Exceptional service quality! The representative was expert and very patient.,Positive,Technical Support,4,117,5,Product
+"Perfect customer service experience! Quick, professional, and very effective.",Positive,Technical Support,4,10,2,Other
+Quick response and professional service. Couldn't be happier with the experience!,Positive,Sales,5,22,5,Product
+Fantastic service! They made a complicated issue seem simple to resolve.,Positive,Billing,5,111,3,Billing
+Excellent support team! They went above and beyond to help me with my problem.,Positive,Sales,5,69,4,Technical
+"Amazing customer service! Patient, helpful, and resolved everything perfectly.",Positive,Sales,4,10,0,Billing
+Excellent support team! They went above and beyond to help me with my problem.,Positive,Sales,4,59,3,Account
+"Perfect customer service experience! Quick, professional, and very effective.",Positive,Sales,4,8,1,Technical
+Quick response and professional service. Couldn't be happier with the experience!,Positive,General Inquiry,4,175,2,Billing
+Best support experience I've ever had! The team was incredibly helpful and friendly.,Positive,Billing,5,173,3,Billing
+Excellent support team! They went above and beyond to help me with my problem.,Positive,Technical Support,5,16,0,Other
+Outstanding help from the support team! They exceeded all my expectations.,Positive,Sales,4,151,2,Product
+Best support experience I've ever had! The team was incredibly helpful and friendly.,Positive,General Inquiry,4,142,3,Account
+"Amazing customer service! Patient, helpful, and resolved everything perfectly.",Positive,Sales,5,121,2,Other
+Fantastic service! They made a complicated issue seem simple to resolve.,Positive,Billing,4,102,1,Account
+"Amazing customer service! Patient, helpful, and resolved everything perfectly.",Positive,Billing,5,70,3,Product
+Exceptional service quality! The representative was expert and very patient.,Positive,General Inquiry,4,179,0,Account
+Fantastic service! They made a complicated issue seem simple to resolve.,Positive,Returns,5,15,3,Other
+Fantastic service! They made a complicated issue seem simple to resolve.,Positive,General Inquiry,4,45,5,Product
+Fantastic service! They made a complicated issue seem simple to resolve.,Positive,Returns,5,63,1,Account
+Quick response and professional service. Couldn't be happier with the experience!,Positive,Returns,4,86,5,Product
+Fantastic service! They made a complicated issue seem simple to resolve.,Positive,Sales,4,96,5,Product
+Fantastic service! They made a complicated issue seem simple to resolve.,Positive,Technical Support,4,22,4,Billing
+Fantastic service! They made a complicated issue seem simple to resolve.,Positive,Technical Support,4,157,5,Other
+Quick response and professional service. Couldn't be happier with the experience!,Positive,Technical Support,4,35,4,Other
+"Wonderful customer support! Professional, courteous, and very efficient.",Positive,Returns,5,101,3,Account
+Quick response and professional service. Couldn't be happier with the experience!,Positive,Sales,4,59,2,Product
+Excellent support team! They went above and beyond to help me with my problem.,Positive,Billing,4,8,4,Technical
+Quick response and professional service. Couldn't be happier with the experience!,Positive,General Inquiry,5,64,5,Account
+Outstanding help from the support team! They exceeded all my expectations.,Positive,Technical Support,5,130,3,Product
+"Perfect customer service experience! Quick, professional, and very effective.",Positive,Returns,5,10,0,Billing
+"Amazing customer service! Patient, helpful, and resolved everything perfectly.",Positive,Billing,5,168,1,Product
+Outstanding customer service! The representative was knowledgeable and solved my issue in minutes.,Positive,Sales,5,65,0,Product
+Excellent support team! They went above and beyond to help me with my problem.,Positive,Sales,4,112,2,Other
+Excellent support team! They went above and beyond to help me with my problem.,Positive,Sales,4,162,2,Billing
+"Wonderful customer support! Professional, courteous, and very efficient.",Positive,Billing,4,19,2,Other
+"Perfect customer service experience! Quick, professional, and very effective.",Positive,Billing,5,35,3,Product
+Best support experience I've ever had! The team was incredibly helpful and friendly.,Positive,Billing,4,175,2,Technical
+"Amazing customer service! Patient, helpful, and resolved everything perfectly.",Positive,Returns,4,65,2,Product
+Best support experience I've ever had! The team was incredibly helpful and friendly.,Positive,Technical Support,4,99,0,Product
+"Amazing customer service! Patient, helpful, and resolved everything perfectly.",Positive,Sales,4,131,0,Technical
+"Amazing customer service! Patient, helpful, and resolved everything perfectly.",Positive,Billing,4,156,0,Product
+"Wonderful customer support! Professional, courteous, and very efficient.",Positive,General Inquiry,5,30,3,Billing
+Excellent support team! They went above and beyond to help me with my problem.,Positive,Sales,4,79,2,Other
+Outstanding customer service! The representative was knowledgeable and solved my issue in minutes.,Positive,General Inquiry,5,168,5,Technical
+"Perfect customer service experience! Quick, professional, and very effective.",Positive,Technical Support,4,175,3,Billing
+Quick response and professional service. Couldn't be happier with the experience!,Positive,Billing,5,87,4,Other
+"Perfect customer service experience! Quick, professional, and very effective.",Positive,Returns,4,36,0,Technical
+"Amazing customer service! Patient, helpful, and resolved everything perfectly.",Positive,Returns,5,9,1,Billing
+Outstanding customer service! The representative was knowledgeable and solved my issue in minutes.,Positive,Billing,5,30,2,Technical
+Worst customer service department! Transferred me 5 times with no resolution.,Negative,Returns,2,84,0,Product
+Terrible customer service! No one seems to know how to solve basic problems.,Negative,Technical Support,2,172,4,Account
+Completely unhelpful customer service! They made my issue even worse.,Negative,Returns,2,84,2,Account
+Terrible customer service! Waited 2 hours on hold just to be transferred again.,Negative,Technical Support,2,142,1,Technical
+Awful support experience! They hung up on me twice during the call.,Negative,Technical Support,1,146,3,Other
+Completely disappointed! Rude representatives and incorrect information provided.,Negative,Sales,2,65,0,Technical
+Horrible customer support! Unprofessional and clearly don't know their products.,Negative,Returns,1,30,5,Technical
+Terrible customer service! No one seems to know how to solve basic problems.,Negative,Sales,2,25,1,Account
+Terrible customer service! Waited 2 hours on hold just to be transferred again.,Negative,Billing,2,59,3,Technical
+Awful experience! Multiple calls with different representatives and still no solution.,Negative,Returns,1,107,2,Billing
+Worst customer service department! Transferred me 5 times with no resolution.,Negative,Sales,1,40,1,Billing
+Awful experience! Multiple calls with different representatives and still no solution.,Negative,Technical Support,2,17,5,Technical
+Awful experience! Multiple calls with different representatives and still no solution.,Negative,Sales,2,95,5,Technical
+Awful experience! Multiple calls with different representatives and still no solution.,Negative,Sales,1,124,2,Account
+Awful experience! Multiple calls with different representatives and still no solution.,Negative,Sales,2,72,0,Other
+Worst customer service department! Transferred me 5 times with no resolution.,Negative,Returns,1,53,4,Product
+Completely unhelpful customer service! They made my issue even worse.,Negative,Technical Support,1,14,5,Technical
+Terrible service! Long wait times and staff who seem annoyed to help.,Negative,General Inquiry,2,164,2,Product
+Awful support experience! They hung up on me twice during the call.,Negative,Sales,2,5,4,Account
+Awful experience! Multiple calls with different representatives and still no solution.,Negative,General Inquiry,2,63,4,Technical
+Terrible customer service! Waited 2 hours on hold just to be transferred again.,Negative,Returns,1,104,2,Account
+Awful experience! Multiple calls with different representatives and still no solution.,Negative,Technical Support,1,6,2,Account
+Terrible customer service! No one seems to know how to solve basic problems.,Negative,Sales,1,70,0,Product
+Worst support experience ever! Rude staff and no resolution to my problem.,Negative,Returns,1,92,1,Other
+Terrible customer service! No one seems to know how to solve basic problems.,Negative,Returns,2,158,4,Account
+Worst support experience ever! Rude staff and no resolution to my problem.,Negative,Billing,1,122,5,Billing
+Horrible customer support! Unprofessional and clearly don't know their products.,Negative,Billing,2,21,4,Billing
+Horrible customer support! Unprofessional and clearly don't know their products.,Negative,Technical Support,2,68,5,Other
+Horrible customer support! Unprofessional and clearly don't know their products.,Negative,Technical Support,2,48,3,Billing
+Horrible customer support! Unprofessional and clearly don't know their products.,Negative,Technical Support,2,11,1,Other
+Completely disappointed! Rude representatives and incorrect information provided.,Negative,Billing,1,126,5,Billing
+Terrible service! Long wait times and staff who seem annoyed to help.,Negative,Returns,2,106,2,Billing
+Horrible customer support! Unprofessional and clearly don't know their products.,Negative,Sales,1,166,2,Billing
+Awful experience! Multiple calls with different representatives and still no solution.,Negative,Billing,1,46,5,Product
+Horrible customer support! Unprofessional and clearly don't know their products.,Negative,Sales,2,42,5,Other
+Worst support experience ever! Rude staff and no resolution to my problem.,Negative,Technical Support,1,86,5,Other
+Worst support experience ever! Rude staff and no resolution to my problem.,Negative,Billing,1,15,3,Technical
+Horrible customer support! Unprofessional and clearly don't know their products.,Negative,Sales,2,72,0,Billing
+Terrible customer service! No one seems to know how to solve basic problems.,Negative,General Inquiry,2,26,4,Account
+Completely unhelpful customer service! They made my issue even worse.,Negative,Billing,2,33,3,Technical
+Worst support experience ever! Rude staff and no resolution to my problem.,Negative,Technical Support,2,136,5,Other
+Completely unhelpful customer service! They made my issue even worse.,Negative,Billing,2,106,1,Account
+Terrible customer service! Waited 2 hours on hold just to be transferred again.,Negative,Sales,2,28,3,Billing
+Completely unhelpful customer service! They made my issue even worse.,Negative,General Inquiry,1,131,5,Other
+Terrible service! Long wait times and staff who seem annoyed to help.,Negative,Technical Support,2,21,5,Other
+Terrible customer service! Waited 2 hours on hold just to be transferred again.,Negative,Technical Support,1,37,2,Technical
+Completely unhelpful customer service! They made my issue even worse.,Negative,Sales,2,126,4,Account
+Completely unhelpful customer service! They made my issue even worse.,Negative,Sales,1,100,1,Product
+Worst support experience ever! Rude staff and no resolution to my problem.,Negative,Billing,2,63,3,Technical
+Awful support experience! They hung up on me twice during the call.,Negative,Sales,2,131,1,Account
+Terrible customer service! Waited 2 hours on hold just to be transferred again.,Negative,Technical Support,1,60,3,Product
+Horrible customer support! Unprofessional and clearly don't know their products.,Negative,Billing,2,174,3,Account
+Terrible customer service! Waited 2 hours on hold just to be transferred again.,Negative,Billing,1,88,3,Account
+Horrible customer support! Unprofessional and clearly don't know their products.,Negative,Billing,1,34,3,Account
+Terrible customer service! No one seems to know how to solve basic problems.,Negative,Returns,1,121,2,Account
+Worst support experience ever! Rude staff and no resolution to my problem.,Negative,Billing,2,70,2,Technical
+Terrible customer service! No one seems to know how to solve basic problems.,Negative,Billing,2,49,2,Billing
+Completely disappointed! Rude representatives and incorrect information provided.,Negative,General Inquiry,2,9,2,Technical
+Completely disappointed! Rude representatives and incorrect information provided.,Negative,Returns,1,119,4,Technical
+Terrible customer service! No one seems to know how to solve basic problems.,Negative,Billing,2,84,1,Account
+Terrible service! Long wait times and staff who seem annoyed to help.,Negative,Technical Support,2,98,4,Other
+Terrible customer service! No one seems to know how to solve basic problems.,Negative,Technical Support,2,158,3,Billing
+Worst customer service department! Transferred me 5 times with no resolution.,Negative,General Inquiry,2,78,1,Technical
+Completely disappointed! Rude representatives and incorrect information provided.,Negative,Sales,1,121,3,Technical
+Awful support experience! They hung up on me twice during the call.,Negative,Technical Support,1,148,4,Billing
+Worst customer service department! Transferred me 5 times with no resolution.,Negative,Returns,1,101,1,Account
+Completely disappointed! Rude representatives and incorrect information provided.,Negative,Billing,1,102,5,Other
+Completely disappointed! Rude representatives and incorrect information provided.,Negative,General Inquiry,1,23,5,Technical
+Worst support experience ever! Rude staff and no resolution to my problem.,Negative,General Inquiry,2,12,2,Billing
+Horrible customer support! Unprofessional and clearly don't know their products.,Negative,Returns,2,72,1,Other
+Awful support experience! They hung up on me twice during the call.,Negative,General Inquiry,1,60,1,Account
+Terrible customer service! Waited 2 hours on hold just to be transferred again.,Negative,Billing,1,79,0,Account
+Horrible customer support! Unprofessional and clearly don't know their products.,Negative,General Inquiry,2,126,1,Other
+Terrible customer service! Waited 2 hours on hold just to be transferred again.,Negative,Returns,2,39,1,Product
+Awful experience! Multiple calls with different representatives and still no solution.,Negative,General Inquiry,1,160,2,Product
+Worst customer service department! Transferred me 5 times with no resolution.,Negative,Returns,2,157,5,Account
+Awful experience! Multiple calls with different representatives and still no solution.,Negative,General Inquiry,2,52,1,Account
+Awful experience! Multiple calls with different representatives and still no solution.,Negative,Billing,2,10,3,Other
+Terrible service! Long wait times and staff who seem annoyed to help.,Negative,Returns,2,64,0,Billing
+Awful experience! Multiple calls with different representatives and still no solution.,Negative,Sales,1,101,1,Billing
+Awful experience! Multiple calls with different representatives and still no solution.,Negative,Sales,2,91,2,Other
+Worst customer service department! Transferred me 5 times with no resolution.,Negative,Technical Support,2,86,4,Product
+Worst support experience ever! Rude staff and no resolution to my problem.,Negative,Billing,2,141,4,Billing
+Terrible service! Long wait times and staff who seem annoyed to help.,Negative,Technical Support,1,36,0,Product
+Terrible customer service! Waited 2 hours on hold just to be transferred again.,Negative,Sales,2,138,3,Account
+Terrible customer service! No one seems to know how to solve basic problems.,Negative,Returns,2,95,4,Technical
+Awful support experience! They hung up on me twice during the call.,Negative,Returns,2,123,4,Other
+Completely disappointed! Rude representatives and incorrect information provided.,Negative,Returns,2,131,2,Other
+Terrible customer service! Waited 2 hours on hold just to be transferred again.,Negative,General Inquiry,1,55,2,Technical
+Worst support experience ever! Rude staff and no resolution to my problem.,Negative,Billing,1,155,1,Account
+Standard customer service experience. Got my issue resolved but took a while.,Neutral,General Inquiry,3,53,4,Billing
+Okay service overall. They solved my problem but the process could be better.,Neutral,Returns,3,24,4,Other
+Standard service level. The representative was adequate and resolved the issue.,Neutral,Technical Support,3,111,3,Account
+Okay service overall. They solved my problem but the process could be better.,Neutral,Sales,3,55,5,Account
+Fair service experience. Process was a bit slow but they did help in the end.,Neutral,Technical Support,3,46,1,Account
+Average customer service quality. Nothing to complain about but nothing special.,Neutral,Sales,3,43,4,Billing
+Standard service level. The representative was adequate and resolved the issue.,Neutral,Sales,3,147,2,Technical
+Standard service level. The representative was adequate and resolved the issue.,Neutral,General Inquiry,3,94,5,Other
+Okay customer support. Not great but not terrible either. Got what I needed.,Neutral,Technical Support,3,26,1,Billing
+Average customer service quality. Nothing to complain about but nothing special.,Neutral,General Inquiry,3,35,0,Other
+Average support quality. The representative was polite but not particularly helpful.,Neutral,Technical Support,3,121,0,Account
+Fair service experience. Process was a bit slow but they did help in the end.,Neutral,General Inquiry,3,50,4,Product
+Average support quality. The representative was polite but not particularly helpful.,Neutral,Technical Support,3,137,1,Billing
+Standard customer service experience. Got my issue resolved but took a while.,Neutral,Technical Support,3,160,2,Product
+Standard service level. The representative was adequate and resolved the issue.,Neutral,Technical Support,3,120,1,Technical
+Decent support but nothing exceptional. Issue was resolved eventually.,Neutral,Returns,3,118,5,Billing
+Fair customer service experience. Met basic expectations without exceeding them.,Neutral,Returns,3,52,4,Account
+Fair customer service experience. Met basic expectations without exceeding them.,Neutral,Returns,3,79,4,Account
+Okay customer support. Not great but not terrible either. Got what I needed.,Neutral,Sales,3,82,4,Technical
+Decent support but nothing exceptional. Issue was resolved eventually.,Neutral,Sales,3,42,1,Billing
+Fair customer service experience. Met basic expectations without exceeding them.,Neutral,Billing,3,125,3,Other
+Fair customer service experience. Met basic expectations without exceeding them.,Neutral,Returns,3,166,2,Billing
+Fair service experience. Process was a bit slow but they did help in the end.,Neutral,Technical Support,3,136,3,Billing
+Average support quality. The representative was polite but not particularly helpful.,Neutral,Returns,3,161,0,Account
+Fair service experience. Process was a bit slow but they did help in the end.,Neutral,Returns,3,87,2,Billing
+Fair service experience. Process was a bit slow but they did help in the end.,Neutral,Billing,3,159,3,Account
+Decent support but nothing exceptional. Issue was resolved eventually.,Neutral,General Inquiry,3,96,0,Product
+Average customer service quality. Nothing to complain about but nothing special.,Neutral,Returns,3,132,1,Other
+Decent support but nothing exceptional. Issue was resolved eventually.,Neutral,Billing,3,72,0,Technical
+Average experience with customer service. Could be more efficient but it's fine.,Neutral,Returns,3,132,5,Technical
+Okay customer support. Not great but not terrible either. Got what I needed.,Neutral,General Inquiry,3,109,0,Technical
+Decent support but nothing exceptional. Issue was resolved eventually.,Neutral,Returns,3,45,5,Billing
+Okay customer support. Not great but not terrible either. Got what I needed.,Neutral,Billing,3,146,2,Account
+Okay customer support. Not great but not terrible either. Got what I needed.,Neutral,Technical Support,3,133,4,Billing
+Fair service experience. Process was a bit slow but they did help in the end.,Neutral,Billing,3,178,2,Account
+Average customer service quality. Nothing to complain about but nothing special.,Neutral,Billing,3,105,4,Product
+Average customer service quality. Nothing to complain about but nothing special.,Neutral,Technical Support,3,85,1,Other
+Okay service overall. They solved my problem but the process could be better.,Neutral,Billing,3,155,2,Billing
+Average customer service quality. Nothing to complain about but nothing special.,Neutral,Technical Support,3,97,3,Account
+Standard customer service experience. Got my issue resolved but took a while.,Neutral,Sales,3,107,3,Product
+Fair customer service experience. Met basic expectations without exceeding them.,Neutral,Sales,3,61,3,Billing
+Average experience with customer service. Could be more efficient but it's fine.,Neutral,Billing,3,177,0,Other
+Average support quality. The representative was polite but not particularly helpful.,Neutral,Technical Support,3,171,0,Other
+Okay customer support. Not great but not terrible either. Got what I needed.,Neutral,General Inquiry,3,60,1,Account
+Average support quality. The representative was polite but not particularly helpful.,Neutral,Technical Support,3,142,1,Technical
+Fair customer service experience. Met basic expectations without exceeding them.,Neutral,Sales,3,67,2,Technical
+Standard customer service experience. Got my issue resolved but took a while.,Neutral,Sales,3,165,1,Other
+Standard service level. The representative was adequate and resolved the issue.,Neutral,General Inquiry,3,57,1,Account
+Decent support but nothing exceptional. Issue was resolved eventually.,Neutral,Billing,3,72,0,Technical
+Average support quality. The representative was polite but not particularly helpful.,Neutral,Sales,3,141,4,Billing
+Average support quality. The representative was polite but not particularly helpful.,Neutral,Billing,3,119,2,Product
+Decent support but nothing exceptional. Issue was resolved eventually.,Neutral,Sales,3,168,1,Billing
+Average experience with customer service. Could be more efficient but it's fine.,Neutral,Technical Support,3,62,1,Product
+Average support quality. The representative was polite but not particularly helpful.,Neutral,Sales,3,5,4,Product
+Standard customer service experience. Got my issue resolved but took a while.,Neutral,Sales,3,23,5,Billing
+Decent support but nothing exceptional. Issue was resolved eventually.,Neutral,Technical Support,3,18,4,Account
+Average support quality. The representative was polite but not particularly helpful.,Neutral,Returns,3,157,1,Billing
+Okay service overall. They solved my problem but the process could be better.,Neutral,Sales,3,39,0,Billing
+Decent support but nothing exceptional. Issue was resolved eventually.,Neutral,General Inquiry,3,178,0,Other
+Okay service overall. They solved my problem but the process could be better.,Neutral,Billing,3,63,4,Product
+Fair service experience. Process was a bit slow but they did help in the end.,Neutral,General Inquiry,3,95,2,Billing
+Average customer service quality. Nothing to complain about but nothing special.,Neutral,Technical Support,3,35,1,Technical
+Standard service level. The representative was adequate and resolved the issue.,Neutral,Billing,3,74,4,Account
+Okay service overall. They solved my problem but the process could be better.,Neutral,General Inquiry,3,121,1,Technical
+Standard customer service experience. Got my issue resolved but took a while.,Neutral,Sales,3,57,1,Product
+Okay customer support. Not great but not terrible either. Got what I needed.,Neutral,Technical Support,3,111,5,Technical
+Okay customer support. Not great but not terrible either. Got what I needed.,Neutral,Billing,3,34,1,Billing
+Fair customer service experience. Met basic expectations without exceeding them.,Neutral,Technical Support,3,106,4,Account
+Standard service level. The representative was adequate and resolved the issue.,Neutral,Billing,3,132,1,Other
+Average support quality. The representative was polite but not particularly helpful.,Neutral,Sales,3,81,2,Account
+Average support quality. The representative was polite but not particularly helpful.,Neutral,General Inquiry,3,82,3,Product
+Fair service experience. Process was a bit slow but they did help in the end.,Neutral,Billing,3,48,4,Account
+Decent support but nothing exceptional. Issue was resolved eventually.,Neutral,Returns,3,138,0,Other
+Decent support but nothing exceptional. Issue was resolved eventually.,Neutral,Returns,3,138,3,Other
+Standard customer service experience. Got my issue resolved but took a while.,Neutral,Billing,3,145,2,Product
+Average support quality. The representative was polite but not particularly helpful.,Neutral,Sales,3,68,0,Billing
+Standard customer service experience. Got my issue resolved but took a while.,Neutral,Sales,3,74,5,Other
+Average customer service quality. Nothing to complain about but nothing special.,Neutral,Billing,3,19,5,Account
+Average support quality. The representative was polite but not particularly helpful.,Neutral,Billing,3,29,4,Billing
+Fair customer service experience. Met basic expectations without exceeding them.,Neutral,Returns,3,167,2,Billing
+Okay customer support. Not great but not terrible either. Got what I needed.,Neutral,General Inquiry,3,103,5,Other
+Average experience with customer service. Could be more efficient but it's fine.,Neutral,Technical Support,3,163,3,Product
+Average customer service quality. Nothing to complain about but nothing special.,Neutral,Sales,3,122,2,Account
+Fair customer service experience. Met basic expectations without exceeding them.,Neutral,General Inquiry,3,143,1,Billing
+Average experience with customer service. Could be more efficient but it's fine.,Neutral,Billing,3,83,1,Billing
+Standard service level. The representative was adequate and resolved the issue.,Neutral,Returns,3,92,3,Other
+Decent support but nothing exceptional. Issue was resolved eventually.,Neutral,Sales,3,145,3,Other
+Average support quality. The representative was polite but not particularly helpful.,Neutral,Billing,3,140,2,Product
+Okay customer support. Not great but not terrible either. Got what I needed.,Neutral,Technical Support,3,102,2,Account
+Standard service level. The representative was adequate and resolved the issue.,Neutral,Returns,3,104,5,Account

@@ -1,0 +1,301 @@
+post_id,text,sentiment,platform,likes,shares,comments,timestamp,user_followers
+POST_0001,Just had the most amazing coffee at this new cafe! ☕ #blessed #coffeelover,Positive,LinkedIn,76,35,17,2025-12-26T03:14:56.867820,756
+POST_0002,Amazing concert last night! The band was incredible! 🎵 #music #livemusic,Positive,Twitter,29,10,2,2025-12-28T16:14:56.867820,7924
+POST_0003,Finished my first marathon today! Feeling incredible! 🏃‍♀️ #achievement #running,Positive,Instagram,46,25,8,2025-12-26T19:14:56.867820,8248
+POST_0004,Finished my first marathon today! Feeling incredible! 🏃‍♀️ #achievement #running,Positive,LinkedIn,162,17,15,2025-12-24T10:14:56.867820,9880
+POST_0005,Finished my first marathon today! Feeling incredible! 🏃‍♀️ #achievement #running,Positive,Facebook,78,30,6,2025-12-27T05:14:56.867820,6394
+POST_0006,Perfect weather for a picnic in the park! 🌞 #beautiful #outdoors,Positive,Twitter,93,44,20,2025-12-26T01:14:56.867820,2681
+POST_0007,Beautiful sunset tonight! Nature never fails to amaze me 🌅 #grateful,Positive,LinkedIn,30,88,25,2025-12-24T15:14:56.867820,4862
+POST_0008,Just had the most amazing coffee at this new cafe! ☕ #blessed #coffeelover,Positive,Instagram,35,1,8,2025-12-23T20:14:56.867820,3431
+POST_0009,Amazing concert last night! The band was incredible! 🎵 #music #livemusic,Positive,Twitter,54,32,16,2025-12-28T11:14:56.867820,3189
+POST_0010,Got promoted at work today! Hard work really pays off! 🎉 #success #career,Positive,LinkedIn,151,15,13,2025-12-24T11:14:56.867820,7050
+POST_0011,Just had the most amazing coffee at this new cafe! ☕ #blessed #coffeelover,Positive,Instagram,27,34,7,2025-12-29T11:14:56.867820,7137
+POST_0012,Beautiful sunset tonight! Nature never fails to amaze me 🌅 #grateful,Positive,LinkedIn,62,64,12,2025-12-23T03:14:56.867820,7386
+POST_0013,Just had the most amazing coffee at this new cafe! ☕ #blessed #coffeelover,Positive,Instagram,90,19,11,2025-12-24T21:14:56.867820,7657
+POST_0014,Perfect weather for a picnic in the park! 🌞 #beautiful #outdoors,Positive,Twitter,109,3,9,2025-12-28T12:14:56.867820,9233
+POST_0015,Beautiful sunset tonight! Nature never fails to amaze me 🌅 #grateful,Positive,Facebook,186,21,1,2025-12-28T06:14:56.867820,4139
+POST_0016,Got promoted at work today! Hard work really pays off! 🎉 #success #career,Positive,Twitter,262,38,0,2025-12-22T21:14:56.867820,9785
+POST_0017,Beautiful sunset tonight! Nature never fails to amaze me 🌅 #grateful,Positive,Instagram,143,3,0,2025-12-24T08:14:56.867820,8188
+POST_0018,Finished my first marathon today! Feeling incredible! 🏃‍♀️ #achievement #running,Positive,Twitter,158,12,7,2025-12-24T22:14:56.867820,8047
+POST_0019,This new restaurant is absolutely fantastic! Must try! 🍽️ #foodie #delicious,Positive,TikTok,393,45,16,2025-12-23T18:14:56.867820,2115
+POST_0020,Finished my first marathon today! Feeling incredible! 🏃‍♀️ #achievement #running,Positive,TikTok,90,0,2,2025-12-27T07:14:56.867820,6586
+POST_0021,Got promoted at work today! Hard work really pays off! 🎉 #success #career,Positive,LinkedIn,173,37,1,2025-12-28T15:14:56.867820,7889
+POST_0022,Best vacation ever! The beaches here are absolutely stunning 🏖️ #paradise,Positive,LinkedIn,147,39,11,2025-12-23T09:14:56.867820,9311
+POST_0023,Beautiful sunset tonight! Nature never fails to amaze me 🌅 #grateful,Positive,TikTok,154,44,21,2025-12-24T03:14:56.867820,9894
+POST_0024,Just adopted the cutest puppy! My heart is so full ❤️ 🐶 #puppylove,Positive,Instagram,122,39,12,2025-12-26T05:14:56.867820,3883
+POST_0025,Just adopted the cutest puppy! My heart is so full ❤️ 🐶 #puppylove,Positive,Instagram,116,53,3,2025-12-22T19:14:56.867820,2131
+POST_0026,Loving this new book! Can't put it down! 📚 #reading #bookworm,Positive,Facebook,148,19,19,2025-12-27T11:14:56.867820,1831
+POST_0027,Perfect weather for a picnic in the park! 🌞 #beautiful #outdoors,Positive,TikTok,7,12,6,2025-12-24T13:14:56.867820,9511
+POST_0028,Just had the most amazing coffee at this new cafe! ☕ #blessed #coffeelover,Positive,Twitter,36,15,17,2025-12-27T12:14:56.867820,6266
+POST_0029,Finished my first marathon today! Feeling incredible! 🏃‍♀️ #achievement #running,Positive,LinkedIn,258,28,34,2025-12-29T08:14:56.867820,768
+POST_0030,Beautiful sunset tonight! Nature never fails to amaze me 🌅 #grateful,Positive,TikTok,104,16,29,2025-12-22T12:14:56.867820,2417
+POST_0031,Finished my first marathon today! Feeling incredible! 🏃‍♀️ #achievement #running,Positive,LinkedIn,58,31,13,2025-12-25T06:14:56.867820,4269
+POST_0032,Perfect weather for a picnic in the park! 🌞 #beautiful #outdoors,Positive,Instagram,359,54,32,2025-12-24T00:14:56.867820,3606
+POST_0033,Got promoted at work today! Hard work really pays off! 🎉 #success #career,Positive,LinkedIn,31,29,0,2025-12-24T13:14:56.867820,7156
+POST_0034,Perfect weather for a picnic in the park! 🌞 #beautiful #outdoors,Positive,Facebook,129,19,7,2025-12-25T14:14:56.867820,8937
+POST_0035,Perfect weather for a picnic in the park! 🌞 #beautiful #outdoors,Positive,LinkedIn,20,43,10,2025-12-29T07:14:56.867820,4431
+POST_0036,Beautiful sunset tonight! Nature never fails to amaze me 🌅 #grateful,Positive,Facebook,87,47,1,2025-12-27T17:14:56.867820,1674
+POST_0037,Best vacation ever! The beaches here are absolutely stunning 🏖️ #paradise,Positive,Facebook,274,33,16,2025-12-27T10:14:56.867820,2907
+POST_0038,Best vacation ever! The beaches here are absolutely stunning 🏖️ #paradise,Positive,Instagram,64,44,26,2025-12-24T09:14:56.867820,836
+POST_0039,Best vacation ever! The beaches here are absolutely stunning 🏖️ #paradise,Positive,LinkedIn,191,8,0,2025-12-24T02:14:56.867820,4570
+POST_0040,Finished my first marathon today! Feeling incredible! 🏃‍♀️ #achievement #running,Positive,Instagram,79,19,12,2025-12-28T14:14:56.867820,8132
+POST_0041,Finished my first marathon today! Feeling incredible! 🏃‍♀️ #achievement #running,Positive,LinkedIn,229,8,30,2025-12-26T05:14:56.867820,109
+POST_0042,Best vacation ever! The beaches here are absolutely stunning 🏖️ #paradise,Positive,Facebook,42,22,2,2025-12-23T02:14:56.867820,7665
+POST_0043,Got promoted at work today! Hard work really pays off! 🎉 #success #career,Positive,Twitter,141,69,18,2025-12-25T14:14:56.867820,3958
+POST_0044,Amazing concert last night! The band was incredible! 🎵 #music #livemusic,Positive,Instagram,0,19,0,2025-12-23T03:14:56.867820,5600
+POST_0045,Just adopted the cutest puppy! My heart is so full ❤️ 🐶 #puppylove,Positive,TikTok,43,12,4,2025-12-29T11:14:56.867820,2058
+POST_0046,Loving this new book! Can't put it down! 📚 #reading #bookworm,Positive,TikTok,60,36,22,2025-12-24T07:14:56.867820,2656
+POST_0047,Just adopted the cutest puppy! My heart is so full ❤️ 🐶 #puppylove,Positive,Facebook,166,5,8,2025-12-26T02:14:56.867820,7338
+POST_0048,Perfect weather for a picnic in the park! 🌞 #beautiful #outdoors,Positive,Instagram,182,31,12,2025-12-23T04:14:56.867820,9050
+POST_0049,Perfect weather for a picnic in the park! 🌞 #beautiful #outdoors,Positive,Facebook,105,1,44,2025-12-29T10:14:56.867820,3399
+POST_0050,Loving this new book! Can't put it down! 📚 #reading #bookworm,Positive,Twitter,387,83,14,2025-12-26T11:14:56.867820,3992
+POST_0051,Just adopted the cutest puppy! My heart is so full ❤️ 🐶 #puppylove,Positive,Twitter,76,1,6,2025-12-29T11:14:56.867820,3609
+POST_0052,Amazing concert last night! The band was incredible! 🎵 #music #livemusic,Positive,LinkedIn,249,11,24,2025-12-27T13:14:56.867820,7461
+POST_0053,This new restaurant is absolutely fantastic! Must try! 🍽️ #foodie #delicious,Positive,TikTok,49,31,21,2025-12-28T15:14:56.867820,2961
+POST_0054,This new restaurant is absolutely fantastic! Must try! 🍽️ #foodie #delicious,Positive,Twitter,152,17,3,2025-12-26T16:14:56.867820,5140
+POST_0055,Finished my first marathon today! Feeling incredible! 🏃‍♀️ #achievement #running,Positive,LinkedIn,18,12,0,2025-12-26T07:14:56.867820,5731
+POST_0056,Loving this new book! Can't put it down! 📚 #reading #bookworm,Positive,Instagram,139,61,1,2025-12-24T10:14:56.867820,2508
+POST_0057,Finished my first marathon today! Feeling incredible! 🏃‍♀️ #achievement #running,Positive,LinkedIn,353,37,34,2025-12-29T09:14:56.867820,5366
+POST_0058,Just had the most amazing coffee at this new cafe! ☕ #blessed #coffeelover,Positive,LinkedIn,197,76,4,2025-12-25T05:14:56.867820,6446
+POST_0059,Loving this new book! Can't put it down! 📚 #reading #bookworm,Positive,TikTok,280,24,33,2025-12-24T15:14:56.867820,9029
+POST_0060,Just had the most amazing coffee at this new cafe! ☕ #blessed #coffeelover,Positive,LinkedIn,179,14,5,2025-12-23T09:14:56.867820,2566
+POST_0061,Just had the most amazing coffee at this new cafe! ☕ #blessed #coffeelover,Positive,TikTok,80,22,10,2025-12-28T18:14:56.867820,1004
+POST_0062,Just had the most amazing coffee at this new cafe! ☕ #blessed #coffeelover,Positive,Instagram,301,34,23,2025-12-26T10:14:56.867820,8786
+POST_0063,Best vacation ever! The beaches here are absolutely stunning 🏖️ #paradise,Positive,TikTok,135,26,8,2025-12-24T17:14:56.867820,1460
+POST_0064,Got promoted at work today! Hard work really pays off! 🎉 #success #career,Positive,Instagram,1,6,4,2025-12-26T00:14:56.867820,6450
+POST_0065,Just adopted the cutest puppy! My heart is so full ❤️ 🐶 #puppylove,Positive,Facebook,25,18,10,2025-12-27T07:14:56.867820,6673
+POST_0066,Amazing concert last night! The band was incredible! 🎵 #music #livemusic,Positive,LinkedIn,63,60,12,2025-12-25T07:14:56.869125,1573
+POST_0067,Got promoted at work today! Hard work really pays off! 🎉 #success #career,Positive,Facebook,424,87,8,2025-12-25T19:14:56.869125,9857
+POST_0068,Got promoted at work today! Hard work really pays off! 🎉 #success #career,Positive,Twitter,21,25,4,2025-12-22T15:14:56.869125,5062
+POST_0069,Finished my first marathon today! Feeling incredible! 🏃‍♀️ #achievement #running,Positive,Facebook,88,31,21,2025-12-23T06:14:56.869125,6884
+POST_0070,Just had the most amazing coffee at this new cafe! ☕ #blessed #coffeelover,Positive,Facebook,94,7,41,2025-12-22T13:14:56.869125,8886
+POST_0071,Just had the most amazing coffee at this new cafe! ☕ #blessed #coffeelover,Positive,Twitter,136,0,0,2025-12-26T00:14:56.869125,2824
+POST_0072,Just had the most amazing coffee at this new cafe! ☕ #blessed #coffeelover,Positive,LinkedIn,334,73,32,2025-12-26T05:14:56.869125,9631
+POST_0073,Loving this new book! Can't put it down! 📚 #reading #bookworm,Positive,TikTok,95,68,13,2025-12-26T07:14:56.869125,5167
+POST_0074,Beautiful sunset tonight! Nature never fails to amaze me 🌅 #grateful,Positive,TikTok,360,9,34,2025-12-25T23:14:56.869125,4577
+POST_0075,Finished my first marathon today! Feeling incredible! 🏃‍♀️ #achievement #running,Positive,LinkedIn,154,45,0,2025-12-28T15:14:56.869125,1962
+POST_0076,Amazing concert last night! The band was incredible! 🎵 #music #livemusic,Positive,LinkedIn,93,21,7,2025-12-24T15:14:56.869125,7076
+POST_0077,Got promoted at work today! Hard work really pays off! 🎉 #success #career,Positive,Twitter,61,11,0,2025-12-26T02:14:56.869125,1587
+POST_0078,Amazing concert last night! The band was incredible! 🎵 #music #livemusic,Positive,Instagram,46,23,5,2025-12-22T21:14:56.869125,1864
+POST_0079,Loving this new book! Can't put it down! 📚 #reading #bookworm,Positive,LinkedIn,167,8,10,2025-12-26T19:14:56.869125,5813
+POST_0080,Best vacation ever! The beaches here are absolutely stunning 🏖️ #paradise,Positive,Twitter,20,3,7,2025-12-27T07:14:56.869125,4341
+POST_0081,This new restaurant is absolutely fantastic! Must try! 🍽️ #foodie #delicious,Positive,Twitter,100,18,10,2025-12-23T02:14:56.869125,9490
+POST_0082,Amazing concert last night! The band was incredible! 🎵 #music #livemusic,Positive,Twitter,149,49,20,2025-12-25T11:14:56.869125,5758
+POST_0083,Beautiful sunset tonight! Nature never fails to amaze me 🌅 #grateful,Positive,Facebook,133,35,14,2025-12-27T21:14:56.869125,8143
+POST_0084,Loving this new book! Can't put it down! 📚 #reading #bookworm,Positive,TikTok,74,11,2,2025-12-26T09:14:56.869125,5981
+POST_0085,This new restaurant is absolutely fantastic! Must try! 🍽️ #foodie #delicious,Positive,Instagram,28,5,5,2025-12-24T19:14:56.869125,5409
+POST_0086,Perfect weather for a picnic in the park! 🌞 #beautiful #outdoors,Positive,TikTok,193,20,14,2025-12-22T20:14:56.869125,5831
+POST_0087,Just had the most amazing coffee at this new cafe! ☕ #blessed #coffeelover,Positive,Facebook,200,56,27,2025-12-25T20:14:56.869125,8615
+POST_0088,Just had the most amazing coffee at this new cafe! ☕ #blessed #coffeelover,Positive,Facebook,283,20,20,2025-12-25T13:14:56.869125,5341
+POST_0089,Finished my first marathon today! Feeling incredible! 🏃‍♀️ #achievement #running,Positive,TikTok,135,9,41,2025-12-22T13:14:56.869125,2345
+POST_0090,Best vacation ever! The beaches here are absolutely stunning 🏖️ #paradise,Positive,Facebook,193,34,32,2025-12-27T06:14:56.869125,3187
+POST_0091,Just adopted the cutest puppy! My heart is so full ❤️ 🐶 #puppylove,Positive,Facebook,26,64,9,2025-12-27T20:14:56.869125,7061
+POST_0092,This new restaurant is absolutely fantastic! Must try! 🍽️ #foodie #delicious,Positive,Twitter,45,9,1,2025-12-28T12:14:56.869125,3892
+POST_0093,Just adopted the cutest puppy! My heart is so full ❤️ 🐶 #puppylove,Positive,LinkedIn,227,8,4,2025-12-24T19:14:56.869125,9050
+POST_0094,Loving this new book! Can't put it down! 📚 #reading #bookworm,Positive,Twitter,73,1,0,2025-12-29T08:14:56.869125,1686
+POST_0095,Beautiful sunset tonight! Nature never fails to amaze me 🌅 #grateful,Positive,TikTok,235,54,21,2025-12-23T14:14:56.869125,3330
+POST_0096,Best vacation ever! The beaches here are absolutely stunning 🏖️ #paradise,Positive,Facebook,131,18,9,2025-12-25T09:14:56.869125,9041
+POST_0097,Finished my first marathon today! Feeling incredible! 🏃‍♀️ #achievement #running,Positive,LinkedIn,170,36,26,2025-12-25T12:14:56.869125,8139
+POST_0098,Best vacation ever! The beaches here are absolutely stunning 🏖️ #paradise,Positive,TikTok,103,3,4,2025-12-26T21:14:56.869125,6971
+POST_0099,Just had the most amazing coffee at this new cafe! ☕ #blessed #coffeelover,Positive,Instagram,128,19,8,2025-12-24T16:14:56.869125,676
+POST_0100,This new restaurant is absolutely fantastic! Must try! 🍽️ #foodie #delicious,Positive,LinkedIn,67,17,5,2025-12-28T23:14:56.869125,8707
+POST_0101,Perfect weather for a picnic in the park! 🌞 #beautiful #outdoors,Positive,Facebook,100,23,9,2025-12-29T00:14:56.869125,9626
+POST_0102,Just adopted the cutest puppy! My heart is so full ❤️ 🐶 #puppylove,Positive,Instagram,111,48,20,2025-12-27T19:14:56.869125,3190
+POST_0103,Beautiful sunset tonight! Nature never fails to amaze me 🌅 #grateful,Positive,LinkedIn,142,39,24,2025-12-26T02:14:56.869125,7147
+POST_0104,Got promoted at work today! Hard work really pays off! 🎉 #success #career,Positive,TikTok,5,11,5,2025-12-27T22:14:56.869125,4887
+POST_0105,Best vacation ever! The beaches here are absolutely stunning 🏖️ #paradise,Positive,LinkedIn,51,13,22,2025-12-23T05:14:56.869125,5877
+POST_0106,Loving this new book! Can't put it down! 📚 #reading #bookworm,Positive,Instagram,96,28,2,2025-12-23T21:14:56.869125,4104
+POST_0107,Best vacation ever! The beaches here are absolutely stunning 🏖️ #paradise,Positive,Facebook,13,34,23,2025-12-24T00:14:56.869125,4736
+POST_0108,Finished my first marathon today! Feeling incredible! 🏃‍♀️ #achievement #running,Positive,Instagram,105,65,18,2025-12-23T22:14:56.869125,2401
+POST_0109,Finished my first marathon today! Feeling incredible! 🏃‍♀️ #achievement #running,Positive,Facebook,197,25,10,2025-12-28T05:14:56.869125,8329
+POST_0110,Got promoted at work today! Hard work really pays off! 🎉 #success #career,Positive,TikTok,55,41,17,2025-12-23T01:14:56.869125,2990
+POST_0111,Just had the most amazing coffee at this new cafe! ☕ #blessed #coffeelover,Positive,Facebook,195,31,8,2025-12-26T10:14:56.869125,3149
+POST_0112,This new restaurant is absolutely fantastic! Must try! 🍽️ #foodie #delicious,Positive,Instagram,127,2,13,2025-12-28T02:14:56.869125,3321
+POST_0113,Just had the most amazing coffee at this new cafe! ☕ #blessed #coffeelover,Positive,TikTok,41,1,8,2025-12-27T10:14:56.869125,871
+POST_0114,Beautiful sunset tonight! Nature never fails to amaze me 🌅 #grateful,Positive,TikTok,241,30,36,2025-12-23T08:14:56.870145,8517
+POST_0115,Just had the most amazing coffee at this new cafe! ☕ #blessed #coffeelover,Positive,LinkedIn,273,31,37,2025-12-23T01:14:56.870145,6220
+POST_0116,Got promoted at work today! Hard work really pays off! 🎉 #success #career,Positive,Instagram,47,22,1,2025-12-25T08:14:56.870145,2898
+POST_0117,Amazing concert last night! The band was incredible! 🎵 #music #livemusic,Positive,LinkedIn,61,10,1,2025-12-29T08:14:56.870145,7068
+POST_0118,Just had the most amazing coffee at this new cafe! ☕ #blessed #coffeelover,Positive,LinkedIn,14,37,5,2025-12-23T18:14:56.870145,3655
+POST_0119,Amazing concert last night! The band was incredible! 🎵 #music #livemusic,Positive,Twitter,251,18,8,2025-12-25T20:14:56.870145,1773
+POST_0120,Finished my first marathon today! Feeling incredible! 🏃‍♀️ #achievement #running,Positive,LinkedIn,131,10,26,2025-12-27T13:14:56.870145,4075
+POST_0121,This movie was a complete waste of time and money 🎬 #terrible #regret,Negative,TikTok,71,16,1,2025-12-27T08:14:56.870145,4162
+POST_0122,Terrible service at this restaurant. Never going back! 😠 #disappointed,Negative,LinkedIn,2,8,2,2025-12-23T17:14:56.870145,2434
+POST_0123,Food poisoning from that new place. Feeling awful! 🤢 #sick #foodpoisoning,Negative,Facebook,25,10,5,2025-12-28T09:14:56.870145,7435
+POST_0124,Stuck in traffic for 2 hours! This is ridiculous! 😤 #frustrated #traffic,Negative,TikTok,42,10,4,2025-12-27T16:14:56.870145,9042
+POST_0125,Lost my wallet today. What a terrible day! 😞 #stressed #badday,Negative,Instagram,55,27,3,2025-12-27T00:14:56.870145,1788
+POST_0126,Food poisoning from that new place. Feeling awful! 🤢 #sick #foodpoisoning,Negative,Instagram,13,11,1,2025-12-24T18:14:56.870145,1073
+POST_0127,Terrible service at this restaurant. Never going back! 😠 #disappointed,Negative,Facebook,123,27,10,2025-12-29T05:14:56.870145,5197
+POST_0128,This movie was a complete waste of time and money 🎬 #terrible #regret,Negative,Instagram,10,8,5,2025-12-29T03:14:56.870145,4922
+POST_0129,Rain ruined our outdoor wedding plans 😢 #disappointed #weather,Negative,Twitter,15,25,0,2025-12-26T00:14:56.870145,1979
+POST_0130,Terrible service at this restaurant. Never going back! 😠 #disappointed,Negative,Twitter,62,16,13,2025-12-27T21:14:56.870145,6005
+POST_0131,Phone screen cracked for the third time this year 📱 #annoyed #technology,Negative,TikTok,7,2,0,2025-12-25T13:14:56.870145,4080
+POST_0132,My flight got cancelled AGAIN! Worst airline ever! ✈️ #angry #travel,Negative,LinkedIn,145,4,2,2025-12-28T12:14:56.870145,2962
+POST_0133,Terrible service at this restaurant. Never going back! 😠 #disappointed,Negative,Instagram,50,24,14,2025-12-23T00:14:56.870145,1737
+POST_0134,Terrible service at this restaurant. Never going back! 😠 #disappointed,Negative,TikTok,18,4,1,2025-12-25T05:14:56.870145,3450
+POST_0135,Phone screen cracked for the third time this year 📱 #annoyed #technology,Negative,Facebook,56,25,3,2025-12-27T22:14:56.870145,9649
+POST_0136,This movie was a complete waste of time and money 🎬 #terrible #regret,Negative,TikTok,48,6,6,2025-12-23T16:14:56.870145,7139
+POST_0137,Rain ruined our outdoor wedding plans 😢 #disappointed #weather,Negative,TikTok,71,12,13,2025-12-28T20:14:56.870145,1161
+POST_0138,This movie was a complete waste of time and money 🎬 #terrible #regret,Negative,LinkedIn,28,2,2,2025-12-27T08:14:56.870145,3694
+POST_0139,Terrible service at this restaurant. Never going back! 😠 #disappointed,Negative,LinkedIn,47,6,3,2025-12-26T17:14:56.870145,9764
+POST_0140,This movie was a complete waste of time and money 🎬 #terrible #regret,Negative,Instagram,107,20,11,2025-12-25T15:14:56.870145,5267
+POST_0141,My car broke down on the highway. Could this day get worse? 🚗 #unlucky,Negative,Facebook,49,13,4,2025-12-23T16:14:56.870145,1613
+POST_0142,Terrible service at this restaurant. Never going back! 😠 #disappointed,Negative,Instagram,7,2,1,2025-12-28T08:14:56.870145,3942
+POST_0143,Terrible service at this restaurant. Never going back! 😠 #disappointed,Negative,Twitter,52,12,5,2025-12-27T00:14:56.870145,3311
+POST_0144,This movie was a complete waste of time and money 🎬 #terrible #regret,Negative,Twitter,49,28,8,2025-12-22T13:14:56.870145,6618
+POST_0145,My car broke down on the highway. Could this day get worse? 🚗 #unlucky,Negative,TikTok,67,10,3,2025-12-27T05:14:56.870145,7171
+POST_0146,This movie was a complete waste of time and money 🎬 #terrible #regret,Negative,Instagram,44,4,5,2025-12-25T19:14:56.870145,5370
+POST_0147,Food poisoning from that new place. Feeling awful! 🤢 #sick #foodpoisoning,Negative,Facebook,59,3,4,2025-12-28T04:14:56.870145,5196
+POST_0148,This movie was a complete waste of time and money 🎬 #terrible #regret,Negative,Instagram,119,5,9,2025-12-27T12:14:56.870145,6725
+POST_0149,Phone screen cracked for the third time this year 📱 #annoyed #technology,Negative,Twitter,5,5,5,2025-12-28T00:14:56.870145,4432
+POST_0150,My flight got cancelled AGAIN! Worst airline ever! ✈️ #angry #travel,Negative,Instagram,174,16,8,2025-12-24T08:14:56.870145,474
+POST_0151,Customer service was absolutely horrible today 📞 #frustrated #poorservice,Negative,Twitter,15,0,2,2025-12-27T18:14:56.870145,1551
+POST_0152,Rain ruined our outdoor wedding plans 😢 #disappointed #weather,Negative,Instagram,41,13,16,2025-12-22T17:14:56.870145,5363
+POST_0153,Rain ruined our outdoor wedding plans 😢 #disappointed #weather,Negative,Instagram,34,4,2,2025-12-24T09:14:56.870145,1886
+POST_0154,Stuck in traffic for 2 hours! This is ridiculous! 😤 #frustrated #traffic,Negative,Facebook,92,5,3,2025-12-22T14:14:56.870145,6639
+POST_0155,Rain ruined our outdoor wedding plans 😢 #disappointed #weather,Negative,TikTok,48,18,4,2025-12-23T09:14:56.870145,8520
+POST_0156,Rain ruined our outdoor wedding plans 😢 #disappointed #weather,Negative,LinkedIn,13,8,0,2025-12-24T10:14:56.870145,2872
+POST_0157,My flight got cancelled AGAIN! Worst airline ever! ✈️ #angry #travel,Negative,Instagram,23,4,2,2025-12-28T20:14:56.870145,2448
+POST_0158,Rain ruined our outdoor wedding plans 😢 #disappointed #weather,Negative,Instagram,135,10,15,2025-12-23T00:14:56.870145,1706
+POST_0159,Rain ruined our outdoor wedding plans 😢 #disappointed #weather,Negative,TikTok,14,4,1,2025-12-25T22:14:56.870145,5390
+POST_0160,This movie was a complete waste of time and money 🎬 #terrible #regret,Negative,LinkedIn,87,0,9,2025-12-24T14:14:56.870145,1081
+POST_0161,Food poisoning from that new place. Feeling awful! 🤢 #sick #foodpoisoning,Negative,Facebook,90,11,6,2025-12-28T11:14:56.870145,1725
+POST_0162,Phone screen cracked for the third time this year 📱 #annoyed #technology,Negative,LinkedIn,138,11,10,2025-12-26T23:14:56.870145,3004
+POST_0163,Food poisoning from that new place. Feeling awful! 🤢 #sick #foodpoisoning,Negative,LinkedIn,22,15,8,2025-12-29T03:14:56.870145,568
+POST_0164,Phone screen cracked for the third time this year 📱 #annoyed #technology,Negative,TikTok,68,31,9,2025-12-23T11:14:56.870145,1905
+POST_0165,This movie was a complete waste of time and money 🎬 #terrible #regret,Negative,Instagram,1,3,2,2025-12-28T15:14:56.870145,138
+POST_0166,Terrible service at this restaurant. Never going back! 😠 #disappointed,Negative,LinkedIn,95,5,13,2025-12-28T10:14:56.870145,4162
+POST_0167,Terrible service at this restaurant. Never going back! 😠 #disappointed,Negative,Facebook,45,0,2,2025-12-27T11:14:56.870145,8543
+POST_0168,This movie was a complete waste of time and money 🎬 #terrible #regret,Negative,Facebook,44,12,7,2025-12-28T21:14:56.870145,9826
+POST_0169,Terrible service at this restaurant. Never going back! 😠 #disappointed,Negative,LinkedIn,64,10,18,2025-12-28T19:14:56.870145,6464
+POST_0170,Terrible service at this restaurant. Never going back! 😠 #disappointed,Negative,Instagram,4,21,9,2025-12-29T04:14:56.870145,8608
+POST_0171,This movie was a complete waste of time and money 🎬 #terrible #regret,Negative,Instagram,24,18,5,2025-12-24T03:14:56.870145,5393
+POST_0172,My car broke down on the highway. Could this day get worse? 🚗 #unlucky,Negative,LinkedIn,0,1,1,2025-12-28T00:14:56.870145,2657
+POST_0173,This movie was a complete waste of time and money 🎬 #terrible #regret,Negative,Instagram,141,21,14,2025-12-25T16:14:56.870145,6584
+POST_0174,Terrible service at this restaurant. Never going back! 😠 #disappointed,Negative,Facebook,1,11,8,2025-12-25T09:14:56.870145,3548
+POST_0175,Food poisoning from that new place. Feeling awful! 🤢 #sick #foodpoisoning,Negative,Instagram,23,6,5,2025-12-22T20:14:56.870145,4075
+POST_0176,Customer service was absolutely horrible today 📞 #frustrated #poorservice,Negative,Facebook,152,26,10,2025-12-26T16:14:56.870145,8700
+POST_0177,Rain ruined our outdoor wedding plans 😢 #disappointed #weather,Negative,Facebook,60,2,0,2025-12-26T04:14:56.870145,9873
+POST_0178,This movie was a complete waste of time and money 🎬 #terrible #regret,Negative,LinkedIn,150,11,13,2025-12-27T01:14:56.870145,4131
+POST_0179,This movie was a complete waste of time and money 🎬 #terrible #regret,Negative,Facebook,26,33,14,2025-12-24T02:14:56.870145,2823
+POST_0180,Lost my wallet today. What a terrible day! 😞 #stressed #badday,Negative,LinkedIn,0,5,3,2025-12-24T12:14:56.870145,7117
+POST_0181,Rain ruined our outdoor wedding plans 😢 #disappointed #weather,Negative,Twitter,42,1,4,2025-12-27T18:14:56.870145,6861
+POST_0182,Customer service was absolutely horrible today 📞 #frustrated #poorservice,Negative,Twitter,4,14,5,2025-12-28T21:14:56.870145,2012
+POST_0183,Phone screen cracked for the third time this year 📱 #annoyed #technology,Negative,TikTok,19,3,1,2025-12-27T19:14:56.870145,9324
+POST_0184,This movie was a complete waste of time and money 🎬 #terrible #regret,Negative,Instagram,130,1,14,2025-12-28T00:14:56.870145,3315
+POST_0185,Lost my wallet today. What a terrible day! 😞 #stressed #badday,Negative,LinkedIn,109,5,9,2025-12-26T17:14:56.870145,3901
+POST_0186,Lost my wallet today. What a terrible day! 😞 #stressed #badday,Negative,TikTok,52,19,10,2025-12-22T14:14:56.870145,2830
+POST_0187,Terrible service at this restaurant. Never going back! 😠 #disappointed,Negative,Twitter,55,8,1,2025-12-29T03:14:56.870145,1878
+POST_0188,My car broke down on the highway. Could this day get worse? 🚗 #unlucky,Negative,Facebook,76,15,2,2025-12-28T22:14:56.870145,7701
+POST_0189,Rain ruined our outdoor wedding plans 😢 #disappointed #weather,Negative,Facebook,82,9,8,2025-12-25T07:14:56.870145,3413
+POST_0190,Stuck in traffic for 2 hours! This is ridiculous! 😤 #frustrated #traffic,Negative,Instagram,38,1,4,2025-12-28T16:14:56.870145,4732
+POST_0191,Customer service was absolutely horrible today 📞 #frustrated #poorservice,Negative,Twitter,73,4,10,2025-12-28T07:14:56.870145,9806
+POST_0192,Lost my wallet today. What a terrible day! 😞 #stressed #badday,Negative,LinkedIn,25,1,1,2025-12-28T14:14:56.870145,9710
+POST_0193,Terrible service at this restaurant. Never going back! 😠 #disappointed,Negative,TikTok,38,10,3,2025-12-24T21:14:56.870145,3116
+POST_0194,Stuck in traffic for 2 hours! This is ridiculous! 😤 #frustrated #traffic,Negative,LinkedIn,23,8,2,2025-12-24T09:14:56.870145,1583
+POST_0195,Stuck in traffic for 2 hours! This is ridiculous! 😤 #frustrated #traffic,Negative,Facebook,1,3,3,2025-12-23T08:14:56.870145,1442
+POST_0196,Rain ruined our outdoor wedding plans 😢 #disappointed #weather,Negative,LinkedIn,90,25,17,2025-12-25T05:14:56.870145,8394
+POST_0197,Rain ruined our outdoor wedding plans 😢 #disappointed #weather,Negative,Instagram,15,3,2,2025-12-29T09:14:56.870145,7076
+POST_0198,Stuck in traffic for 2 hours! This is ridiculous! 😤 #frustrated #traffic,Negative,Facebook,49,11,3,2025-12-22T12:14:56.870145,497
+POST_0199,My car broke down on the highway. Could this day get worse? 🚗 #unlucky,Negative,TikTok,94,8,1,2025-12-25T19:14:56.870145,5892
+POST_0200,My flight got cancelled AGAIN! Worst airline ever! ✈️ #angry #travel,Negative,Instagram,95,23,12,2025-12-28T14:14:56.870145,7306
+POST_0201,My car broke down on the highway. Could this day get worse? 🚗 #unlucky,Negative,Instagram,70,27,6,2025-12-23T10:14:56.870145,1137
+POST_0202,Customer service was absolutely horrible today 📞 #frustrated #poorservice,Negative,Instagram,38,7,17,2025-12-27T04:14:56.870145,6883
+POST_0203,My flight got cancelled AGAIN! Worst airline ever! ✈️ #angry #travel,Negative,Facebook,83,11,9,2025-12-25T00:14:56.870145,9611
+POST_0204,My flight got cancelled AGAIN! Worst airline ever! ✈️ #angry #travel,Negative,Facebook,10,6,0,2025-12-24T08:14:56.870145,3555
+POST_0205,Lost my wallet today. What a terrible day! 😞 #stressed #badday,Negative,Facebook,25,17,9,2025-12-23T12:14:56.870145,8038
+POST_0206,Stuck in traffic for 2 hours! This is ridiculous! 😤 #frustrated #traffic,Negative,TikTok,140,21,4,2025-12-28T13:14:56.870145,2127
+POST_0207,Lost my wallet today. What a terrible day! 😞 #stressed #badday,Negative,TikTok,92,5,4,2025-12-28T10:14:56.870145,9722
+POST_0208,Lost my wallet today. What a terrible day! 😞 #stressed #badday,Negative,Facebook,106,12,9,2025-12-24T17:14:56.870145,7881
+POST_0209,Rain ruined our outdoor wedding plans 😢 #disappointed #weather,Negative,Instagram,9,1,2,2025-12-26T13:14:56.870145,3265
+POST_0210,Customer service was absolutely horrible today 📞 #frustrated #poorservice,Negative,LinkedIn,9,28,13,2025-12-26T12:14:56.870145,3941
+POST_0211,Regular workout at the gym today. Keeping up the routine 💪 #fitness,Neutral,LinkedIn,9,7,3,2025-12-24T09:14:56.870145,659
+POST_0212,Had lunch at the usual place. Same as always 🍽️ #lunch #routine,Neutral,LinkedIn,96,13,10,2025-12-23T03:14:56.870145,1850
+POST_0213,"Weather is okay today, not too hot, not too cold 🌤️ #weather",Neutral,Instagram,22,4,3,2025-12-27T14:14:56.870145,7096
+POST_0214,Went for a walk in the neighborhood. Nice and quiet 🚶‍♀️ #walk,Neutral,Facebook,24,14,0,2025-12-23T00:14:56.870145,1614
+POST_0215,"Weather is okay today, not too hot, not too cold 🌤️ #weather",Neutral,LinkedIn,16,3,1,2025-12-28T22:14:56.870145,252
+POST_0216,Cooked dinner at home tonight. Simple pasta dish 🍝 #cooking,Neutral,LinkedIn,41,2,1,2025-12-25T22:14:56.870145,3310
+POST_0217,Watching TV after work. Nothing special planned tonight 📺 #relaxing,Neutral,TikTok,45,9,0,2025-12-24T20:14:56.870145,4281
+POST_0218,Watching TV after work. Nothing special planned tonight 📺 #relaxing,Neutral,Facebook,13,0,0,2025-12-24T12:14:56.870145,3882
+POST_0219,Cooked dinner at home tonight. Simple pasta dish 🍝 #cooking,Neutral,TikTok,4,5,2,2025-12-23T14:14:56.870145,5743
+POST_0220,"Weather is okay today, not too hot, not too cold 🌤️ #weather",Neutral,Twitter,20,0,1,2025-12-26T02:14:56.870145,9956
+POST_0221,Watching TV after work. Nothing special planned tonight 📺 #relaxing,Neutral,Instagram,38,1,5,2025-12-24T05:14:56.870145,4417
+POST_0222,Went for a walk in the neighborhood. Nice and quiet 🚶‍♀️ #walk,Neutral,Twitter,34,6,1,2025-12-23T09:14:56.870145,2353
+POST_0223,"Finished reading that book. It was alright, nothing special 📖 #reading",Neutral,Facebook,69,8,1,2025-12-28T20:14:56.870145,2680
+POST_0224,Just finished grocery shopping. Regular Tuesday stuff 🛒 #routine,Neutral,TikTok,69,16,4,2025-12-28T23:14:56.870145,570
+POST_0225,Had lunch at the usual place. Same as always 🍽️ #lunch #routine,Neutral,TikTok,12,0,0,2025-12-25T05:14:56.870145,1390
+POST_0226,Just finished grocery shopping. Regular Tuesday stuff 🛒 #routine,Neutral,TikTok,28,4,9,2025-12-28T08:14:56.870145,224
+POST_0227,Watching TV after work. Nothing special planned tonight 📺 #relaxing,Neutral,Instagram,51,5,5,2025-12-24T04:14:56.870145,6475
+POST_0228,Went for a walk in the neighborhood. Nice and quiet 🚶‍♀️ #walk,Neutral,Instagram,73,4,5,2025-12-24T08:14:56.870145,3957
+POST_0229,Regular workout at the gym today. Keeping up the routine 💪 #fitness,Neutral,Instagram,43,2,0,2025-12-24T14:14:56.870145,8513
+POST_0230,"Finished reading that book. It was alright, nothing special 📖 #reading",Neutral,Instagram,88,14,7,2025-12-23T08:14:56.870145,9631
+POST_0231,Commute was normal today. No delays or issues 🚌 #commute,Neutral,TikTok,2,2,1,2025-12-25T20:14:56.870145,7902
+POST_0232,Commute was normal today. No delays or issues 🚌 #commute,Neutral,LinkedIn,65,13,7,2025-12-25T04:14:56.870145,998
+POST_0233,Cooked dinner at home tonight. Simple pasta dish 🍝 #cooking,Neutral,LinkedIn,67,4,0,2025-12-27T02:14:56.870145,5790
+POST_0234,"Finished reading that book. It was alright, nothing special 📖 #reading",Neutral,Facebook,39,3,8,2025-12-23T04:14:56.870145,2634
+POST_0235,Commute was normal today. No delays or issues 🚌 #commute,Neutral,Twitter,38,1,4,2025-12-22T18:14:56.870145,5487
+POST_0236,Cooked dinner at home tonight. Simple pasta dish 🍝 #cooking,Neutral,TikTok,89,18,0,2025-12-24T14:14:56.870145,9208
+POST_0237,Meeting went as expected. Nothing surprising happened 💼 #work,Neutral,LinkedIn,29,6,4,2025-12-27T05:14:56.870145,1454
+POST_0238,Watching TV after work. Nothing special planned tonight 📺 #relaxing,Neutral,Twitter,25,4,0,2025-12-23T16:14:56.871461,481
+POST_0239,Had lunch at the usual place. Same as always 🍽️ #lunch #routine,Neutral,Facebook,17,4,1,2025-12-24T17:14:56.871461,5967
+POST_0240,"Finished reading that book. It was alright, nothing special 📖 #reading",Neutral,Twitter,16,4,1,2025-12-25T22:14:56.871461,2889
+POST_0241,Regular workout at the gym today. Keeping up the routine 💪 #fitness,Neutral,LinkedIn,28,6,4,2025-12-23T15:14:56.871461,4030
+POST_0242,Just finished grocery shopping. Regular Tuesday stuff 🛒 #routine,Neutral,Facebook,4,1,1,2025-12-26T18:14:56.871461,810
+POST_0243,Watching TV after work. Nothing special planned tonight 📺 #relaxing,Neutral,TikTok,50,10,4,2025-12-23T15:14:56.871461,8630
+POST_0244,Cooked dinner at home tonight. Simple pasta dish 🍝 #cooking,Neutral,Facebook,54,0,2,2025-12-28T09:14:56.871461,3884
+POST_0245,Regular workout at the gym today. Keeping up the routine 💪 #fitness,Neutral,Instagram,22,0,2,2025-12-23T06:14:56.871461,2236
+POST_0246,Meeting went as expected. Nothing surprising happened 💼 #work,Neutral,Facebook,24,8,0,2025-12-24T13:14:56.871461,6300
+POST_0247,Meeting went as expected. Nothing surprising happened 💼 #work,Neutral,TikTok,6,4,2,2025-12-22T12:14:56.871461,4933
+POST_0248,Cooked dinner at home tonight. Simple pasta dish 🍝 #cooking,Neutral,LinkedIn,0,0,1,2025-12-25T17:14:56.871461,8562
+POST_0249,Went for a walk in the neighborhood. Nice and quiet 🚶‍♀️ #walk,Neutral,Facebook,1,1,0,2025-12-24T23:14:56.871461,3122
+POST_0250,Watching TV after work. Nothing special planned tonight 📺 #relaxing,Neutral,TikTok,37,12,3,2025-12-24T04:14:56.871461,5302
+POST_0251,Just finished grocery shopping. Regular Tuesday stuff 🛒 #routine,Neutral,Facebook,70,0,5,2025-12-23T06:14:56.871461,7082
+POST_0252,Had lunch at the usual place. Same as always 🍽️ #lunch #routine,Neutral,TikTok,14,1,3,2025-12-29T09:14:56.871461,9646
+POST_0253,Commute was normal today. No delays or issues 🚌 #commute,Neutral,Twitter,11,1,3,2025-12-28T23:14:56.871461,1066
+POST_0254,Commute was normal today. No delays or issues 🚌 #commute,Neutral,Facebook,54,6,1,2025-12-28T16:14:56.871461,2703
+POST_0255,Had lunch at the usual place. Same as always 🍽️ #lunch #routine,Neutral,Instagram,18,8,1,2025-12-23T04:14:56.871461,6117
+POST_0256,"Finished reading that book. It was alright, nothing special 📖 #reading",Neutral,LinkedIn,0,6,3,2025-12-23T22:14:56.871461,450
+POST_0257,Meeting went as expected. Nothing surprising happened 💼 #work,Neutral,Facebook,13,2,0,2025-12-24T02:14:56.871461,2133
+POST_0258,"Weather is okay today, not too hot, not too cold 🌤️ #weather",Neutral,Facebook,55,14,0,2025-12-28T11:14:56.871461,1830
+POST_0259,"Finished reading that book. It was alright, nothing special 📖 #reading",Neutral,Twitter,19,2,2,2025-12-27T21:14:56.871461,3690
+POST_0260,Meeting went as expected. Nothing surprising happened 💼 #work,Neutral,Instagram,36,4,0,2025-12-24T08:14:56.871461,9974
+POST_0261,Regular workout at the gym today. Keeping up the routine 💪 #fitness,Neutral,Facebook,14,2,1,2025-12-28T15:14:56.871461,3636
+POST_0262,"Finished reading that book. It was alright, nothing special 📖 #reading",Neutral,Twitter,36,9,1,2025-12-23T00:14:56.871461,3456
+POST_0263,"Weather is okay today, not too hot, not too cold 🌤️ #weather",Neutral,Facebook,9,4,2,2025-12-25T10:14:56.871461,9347
+POST_0264,Went for a walk in the neighborhood. Nice and quiet 🚶‍♀️ #walk,Neutral,TikTok,19,9,5,2025-12-24T02:14:56.871461,5299
+POST_0265,Commute was normal today. No delays or issues 🚌 #commute,Neutral,Twitter,50,7,8,2025-12-26T10:14:56.871461,7851
+POST_0266,Watching TV after work. Nothing special planned tonight 📺 #relaxing,Neutral,Twitter,16,4,9,2025-12-26T02:14:56.871461,7274
+POST_0267,Regular workout at the gym today. Keeping up the routine 💪 #fitness,Neutral,LinkedIn,3,0,1,2025-12-24T03:14:56.871461,8506
+POST_0268,Had lunch at the usual place. Same as always 🍽️ #lunch #routine,Neutral,Facebook,0,11,6,2025-12-26T03:14:56.871461,6213
+POST_0269,"Finished reading that book. It was alright, nothing special 📖 #reading",Neutral,Facebook,60,10,1,2025-12-25T19:14:56.871461,154
+POST_0270,Just finished grocery shopping. Regular Tuesday stuff 🛒 #routine,Neutral,TikTok,7,1,1,2025-12-25T17:14:56.871461,7970
+POST_0271,Went for a walk in the neighborhood. Nice and quiet 🚶‍♀️ #walk,Neutral,Twitter,44,3,1,2025-12-23T06:14:56.871461,9925
+POST_0272,Cooked dinner at home tonight. Simple pasta dish 🍝 #cooking,Neutral,Twitter,28,9,1,2025-12-26T05:14:56.871461,3383
+POST_0273,Went for a walk in the neighborhood. Nice and quiet 🚶‍♀️ #walk,Neutral,Instagram,31,3,0,2025-12-23T01:14:56.871461,5476
+POST_0274,Meeting went as expected. Nothing surprising happened 💼 #work,Neutral,TikTok,15,1,0,2025-12-23T13:14:56.871461,8940
+POST_0275,"Weather is okay today, not too hot, not too cold 🌤️ #weather",Neutral,Instagram,81,8,3,2025-12-25T08:14:56.871461,5611
+POST_0276,Watching TV after work. Nothing special planned tonight 📺 #relaxing,Neutral,LinkedIn,19,5,1,2025-12-28T05:14:56.871461,3755
+POST_0277,"Weather is okay today, not too hot, not too cold 🌤️ #weather",Neutral,Twitter,10,3,0,2025-12-26T18:14:56.871461,4982
+POST_0278,"Weather is okay today, not too hot, not too cold 🌤️ #weather",Neutral,Twitter,11,1,0,2025-12-23T21:14:56.871461,2659
+POST_0279,Cooked dinner at home tonight. Simple pasta dish 🍝 #cooking,Neutral,Facebook,0,5,0,2025-12-25T01:14:56.871461,780
+POST_0280,Cooked dinner at home tonight. Simple pasta dish 🍝 #cooking,Neutral,LinkedIn,15,4,2,2025-12-24T11:14:56.871461,2371
+POST_0281,Regular workout at the gym today. Keeping up the routine 💪 #fitness,Neutral,Twitter,1,13,4,2025-12-25T01:14:56.871461,3333
+POST_0282,"Finished reading that book. It was alright, nothing special 📖 #reading",Neutral,Twitter,66,7,1,2025-12-27T23:14:56.871461,940
+POST_0283,Meeting went as expected. Nothing surprising happened 💼 #work,Neutral,LinkedIn,2,3,4,2025-12-29T04:14:56.871461,8138
+POST_0284,Just finished grocery shopping. Regular Tuesday stuff 🛒 #routine,Neutral,TikTok,8,2,2,2025-12-26T12:14:56.871461,1100
+POST_0285,Commute was normal today. No delays or issues 🚌 #commute,Neutral,Instagram,55,2,3,2025-12-24T14:14:56.871461,6540
+POST_0286,Commute was normal today. No delays or issues 🚌 #commute,Neutral,TikTok,13,16,0,2025-12-28T08:14:56.871461,9364
+POST_0287,Regular workout at the gym today. Keeping up the routine 💪 #fitness,Neutral,Twitter,22,0,0,2025-12-22T22:14:56.871461,7388
+POST_0288,Went for a walk in the neighborhood. Nice and quiet 🚶‍♀️ #walk,Neutral,Facebook,68,14,7,2025-12-25T17:14:56.871461,5503
+POST_0289,"Finished reading that book. It was alright, nothing special 📖 #reading",Neutral,TikTok,33,6,0,2025-12-28T00:14:56.871461,6772
+POST_0290,Regular workout at the gym today. Keeping up the routine 💪 #fitness,Neutral,Twitter,30,5,4,2025-12-29T02:14:56.871461,5672
+POST_0291,Had lunch at the usual place. Same as always 🍽️ #lunch #routine,Neutral,TikTok,7,1,1,2025-12-27T16:14:56.871461,2642
+POST_0292,Went for a walk in the neighborhood. Nice and quiet 🚶‍♀️ #walk,Neutral,Facebook,50,5,1,2025-12-26T15:14:56.871461,7160
+POST_0293,"Finished reading that book. It was alright, nothing special 📖 #reading",Neutral,Instagram,60,0,3,2025-12-25T16:14:56.871461,1674
+POST_0294,Had lunch at the usual place. Same as always 🍽️ #lunch #routine,Neutral,TikTok,24,2,0,2025-12-25T04:14:56.871461,1757
+POST_0295,"Weather is okay today, not too hot, not too cold 🌤️ #weather",Neutral,Twitter,6,1,6,2025-12-23T09:14:56.871461,4503
+POST_0296,Went for a walk in the neighborhood. Nice and quiet 🚶‍♀️ #walk,Neutral,Instagram,55,4,0,2025-12-26T22:14:56.871461,6535
+POST_0297,Regular workout at the gym today. Keeping up the routine 💪 #fitness,Neutral,Twitter,15,0,0,2025-12-24T04:14:56.871461,2162
+POST_0298,Commute was normal today. No delays or issues 🚌 #commute,Neutral,Twitter,23,7,1,2025-12-28T18:14:56.871461,8005
+POST_0299,Had lunch at the usual place. Same as always 🍽️ #lunch #routine,Neutral,TikTok,63,15,5,2025-12-22T23:14:56.871461,7467
+POST_0300,Regular workout at the gym today. Keeping up the routine 💪 #fitness,Neutral,Instagram,4,1,0,2025-12-28T18:14:56.871461,4679

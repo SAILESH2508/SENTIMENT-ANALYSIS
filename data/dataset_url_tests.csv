@@ -1,0 +1,6 @@
+url,title,expected_sentiment,content_preview,category
+https://example-news.com/positive-breakthrough,Scientists Achieve Major Breakthrough in Clean Energy,Positive,Researchers have successfully developed a revolutionary clean energy technology...,Technology
+https://example-blog.com/negative-review,Disappointing Experience with New Restaurant,Negative,"After hearing great things about this new restaurant, I was completely disappointed...",Review
+https://example-news.com/neutral-report,City Council Discusses Budget Allocation,Neutral,The city council met yesterday to review the proposed budget for the upcoming fiscal year...,News
+https://example-tech.com/amazing-product,Revolutionary New Smartphone Features,Positive,The latest smartphone release includes incredible new features that will change how we use mobile devices...,Technology
+https://example-review.com/terrible-service,Worst Customer Service Experience Ever,Negative,I have never experienced such poor customer service in my entire life...,Review

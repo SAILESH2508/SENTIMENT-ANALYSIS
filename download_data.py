@@ -26,4 +26,4 @@ def download_file(url, filename):
 
 if __name__ == "__main__":
     url = "https://raw.githubusercontent.com/Ankit152/IMDB-sentiment-analysis/master/IMDB-Dataset.csv"
-    download_file(url, "IMDB Dataset.csv")
+    download_file(url, "data/IMDB Dataset.csv")

@@ -1,0 +1,601 @@
+text,sentiment,rating,category,verified_purchase,helpful_votes,price_range
+Perfect! Works flawlessly and looks fantastic. Highly recommend!,Positive,5,Clothing,True,27,$50-100
+Amazing! This product is even better than I hoped it would be!,Positive,5,Clothing,True,79,$100+
+Perfect! Works flawlessly and looks fantastic. Highly recommend!,Positive,5,Electronics,False,77,$0-25
+Amazing product! Exceeded my expectations in every way. Fast shipping too!,Positive,4,Toys,True,81,$50-100
+Best purchase I've made this year! Absolutely love everything about it!,Positive,4,Electronics,True,4,$0-25
+Superb quality and great design. Worth every penny and more!,Positive,4,Electronics,True,89,$0-25
+Amazing! This product is even better than I hoped it would be!,Positive,4,Sports,True,54,$25-50
+Amazing product! Exceeded my expectations in every way. Fast shipping too!,Positive,4,Electronics,False,83,$100+
+Amazing! This product is even better than I hoped it would be!,Positive,4,Toys,False,52,$0-25
+Outstanding quality for the price. Customer service was excellent too!,Positive,4,Toys,False,64,$25-50
+Outstanding quality for the price. Customer service was excellent too!,Positive,5,Electronics,False,27,$50-100
+Excellent product that works perfectly. Great customer support!,Positive,5,Sports,False,97,$25-50
+Outstanding quality for the price. Customer service was excellent too!,Positive,4,Books,True,18,$100+
+Amazing product! Exceeded my expectations in every way. Fast shipping too!,Positive,4,Toys,False,100,$100+
+Superb quality and great design. Worth every penny and more!,Positive,5,Home & Kitchen,True,92,$0-25
+Outstanding quality for the price. Customer service was excellent too!,Positive,4,Books,True,77,$50-100
+Excellent product that works perfectly. Great customer support!,Positive,5,Toys,False,44,$100+
+Perfect! Works flawlessly and looks fantastic. Highly recommend!,Positive,4,Sports,True,88,$25-50
+Perfect! Works flawlessly and looks fantastic. Highly recommend!,Positive,5,Electronics,False,41,$50-100
+Perfect! Works flawlessly and looks fantastic. Highly recommend!,Positive,5,Electronics,True,89,$50-100
+Incredible value! This has made my life so much easier. 5 stars!,Positive,5,Toys,True,66,$25-50
+Superb quality and great design. Worth every penny and more!,Positive,5,Clothing,False,40,$25-50
+Love this! Great quality and exactly as described. Will buy again!,Positive,5,Toys,False,31,$100+
+Amazing! This product is even better than I hoped it would be!,Positive,5,Clothing,True,79,$50-100
+Fantastic product with amazing build quality. Arrived quickly!,Positive,5,Home & Kitchen,True,54,$50-100
+Amazing product! Exceeded my expectations in every way. Fast shipping too!,Positive,4,Books,False,76,$100+
+Fantastic product with amazing build quality. Arrived quickly!,Positive,4,Sports,True,95,$0-25
+Amazing product! Exceeded my expectations in every way. Fast shipping too!,Positive,5,Home & Kitchen,False,41,$25-50
+Fantastic product with amazing build quality. Arrived quickly!,Positive,4,Electronics,True,91,$50-100
+Perfect! Works flawlessly and looks fantastic. Highly recommend!,Positive,4,Sports,True,43,$25-50
+Excellent product that works perfectly. Great customer support!,Positive,5,Electronics,False,16,$0-25
+Excellent product that works perfectly. Great customer support!,Positive,5,Clothing,True,51,$25-50
+Superb quality and great design. Worth every penny and more!,Positive,5,Beauty,True,69,$50-100
+Best purchase I've made this year! Absolutely love everything about it!,Positive,5,Books,False,44,$0-25
+Amazing! This product is even better than I hoped it would be!,Positive,4,Beauty,True,34,$100+
+Excellent product that works perfectly. Great customer support!,Positive,4,Toys,False,87,$0-25
+Incredible value! This has made my life so much easier. 5 stars!,Positive,4,Sports,True,80,$50-100
+Fantastic product with amazing build quality. Arrived quickly!,Positive,4,Beauty,False,70,$0-25
+Fantastic product with amazing build quality. Arrived quickly!,Positive,4,Toys,True,66,$100+
+Perfect! Works flawlessly and looks fantastic. Highly recommend!,Positive,4,Toys,False,2,$25-50
+Perfect! Works flawlessly and looks fantastic. Highly recommend!,Positive,4,Sports,True,46,$25-50
+Amazing! This product is even better than I hoped it would be!,Positive,5,Beauty,False,36,$50-100
+Outstanding quality for the price. Customer service was excellent too!,Positive,5,Electronics,False,72,$0-25
+Incredible value! This has made my life so much easier. 5 stars!,Positive,5,Home & Kitchen,True,31,$25-50
+Best purchase I've made this year! Absolutely love everything about it!,Positive,5,Clothing,False,47,$100+
+Love this! Great quality and exactly as described. Will buy again!,Positive,5,Clothing,False,59,$0-25
+Perfect! Works flawlessly and looks fantastic. Highly recommend!,Positive,4,Sports,True,4,$50-100
+Amazing! This product is even better than I hoped it would be!,Positive,5,Clothing,True,80,$100+
+Perfect! Works flawlessly and looks fantastic. Highly recommend!,Positive,5,Home & Kitchen,True,41,$25-50
+Excellent product that works perfectly. Great customer support!,Positive,4,Toys,True,99,$50-100
+Fantastic product with amazing build quality. Arrived quickly!,Positive,5,Toys,False,14,$0-25
+Fantastic product with amazing build quality. Arrived quickly!,Positive,5,Books,True,18,$100+
+Fantastic product with amazing build quality. Arrived quickly!,Positive,5,Toys,False,51,$100+
+Superb quality and great design. Worth every penny and more!,Positive,4,Home & Kitchen,True,6,$50-100
+Incredible value! This has made my life so much easier. 5 stars!,Positive,5,Sports,True,11,$50-100
+Best purchase I've made this year! Absolutely love everything about it!,Positive,5,Books,False,63,$0-25
+Perfect! Works flawlessly and looks fantastic. Highly recommend!,Positive,5,Toys,False,30,$100+
+Outstanding quality for the price. Customer service was excellent too!,Positive,4,Toys,False,84,$25-50
+Incredible value! This has made my life so much easier. 5 stars!,Positive,4,Toys,False,36,$100+
+Best purchase I've made this year! Absolutely love everything about it!,Positive,5,Books,True,52,$0-25
+Outstanding quality for the price. Customer service was excellent too!,Positive,4,Home & Kitchen,True,79,$50-100
+Perfect! Works flawlessly and looks fantastic. Highly recommend!,Positive,5,Beauty,False,73,$25-50
+Excellent product that works perfectly. Great customer support!,Positive,4,Sports,False,64,$100+
+Incredible value! This has made my life so much easier. 5 stars!,Positive,5,Clothing,False,98,$50-100
+Amazing product! Exceeded my expectations in every way. Fast shipping too!,Positive,5,Beauty,False,51,$25-50
+Fantastic product with amazing build quality. Arrived quickly!,Positive,4,Home & Kitchen,False,52,$25-50
+Best purchase I've made this year! Absolutely love everything about it!,Positive,4,Home & Kitchen,True,98,$0-25
+Excellent product that works perfectly. Great customer support!,Positive,5,Books,False,69,$0-25
+Outstanding quality for the price. Customer service was excellent too!,Positive,5,Toys,True,71,$100+
+Superb quality and great design. Worth every penny and more!,Positive,5,Clothing,True,31,$50-100
+Love this! Great quality and exactly as described. Will buy again!,Positive,5,Beauty,False,42,$100+
+Outstanding quality for the price. Customer service was excellent too!,Positive,5,Electronics,True,57,$100+
+Fantastic product with amazing build quality. Arrived quickly!,Positive,4,Home & Kitchen,True,18,$100+
+Superb quality and great design. Worth every penny and more!,Positive,4,Home & Kitchen,False,96,$0-25
+Amazing product! Exceeded my expectations in every way. Fast shipping too!,Positive,4,Beauty,True,75,$25-50
+Incredible value! This has made my life so much easier. 5 stars!,Positive,4,Clothing,True,37,$50-100
+Amazing! This product is even better than I hoped it would be!,Positive,5,Sports,True,41,$25-50
+Perfect! Works flawlessly and looks fantastic. Highly recommend!,Positive,4,Electronics,False,39,$100+
+Amazing product! Exceeded my expectations in every way. Fast shipping too!,Positive,4,Sports,True,9,$50-100
+Best purchase I've made this year! Absolutely love everything about it!,Positive,4,Beauty,False,34,$25-50
+Best purchase I've made this year! Absolutely love everything about it!,Positive,5,Books,False,26,$0-25
+Amazing product! Exceeded my expectations in every way. Fast shipping too!,Positive,4,Sports,True,84,$50-100
+Amazing! This product is even better than I hoped it would be!,Positive,5,Beauty,False,81,$50-100
+Amazing! This product is even better than I hoped it would be!,Positive,4,Home & Kitchen,False,84,$25-50
+Amazing product! Exceeded my expectations in every way. Fast shipping too!,Positive,5,Sports,False,22,$25-50
+Incredible value! This has made my life so much easier. 5 stars!,Positive,5,Toys,False,27,$25-50
+Excellent product that works perfectly. Great customer support!,Positive,4,Sports,False,82,$50-100
+Perfect! Works flawlessly and looks fantastic. Highly recommend!,Positive,4,Toys,True,66,$0-25
+Amazing! This product is even better than I hoped it would be!,Positive,4,Toys,True,65,$0-25
+Perfect! Works flawlessly and looks fantastic. Highly recommend!,Positive,4,Beauty,True,82,$100+
+Fantastic product with amazing build quality. Arrived quickly!,Positive,5,Home & Kitchen,False,65,$100+
+Amazing product! Exceeded my expectations in every way. Fast shipping too!,Positive,4,Clothing,True,11,$100+
+Amazing product! Exceeded my expectations in every way. Fast shipping too!,Positive,4,Clothing,False,69,$0-25
+Outstanding quality for the price. Customer service was excellent too!,Positive,4,Electronics,True,38,$0-25
+Fantastic product with amazing build quality. Arrived quickly!,Positive,4,Beauty,True,28,$25-50
+Love this! Great quality and exactly as described. Will buy again!,Positive,5,Toys,True,29,$0-25
+Excellent product that works perfectly. Great customer support!,Positive,5,Electronics,True,82,$100+
+Perfect! Works flawlessly and looks fantastic. Highly recommend!,Positive,4,Books,True,54,$100+
+Incredible value! This has made my life so much easier. 5 stars!,Positive,5,Toys,False,81,$0-25
+Fantastic product with amazing build quality. Arrived quickly!,Positive,4,Home & Kitchen,False,56,$0-25
+Fantastic product with amazing build quality. Arrived quickly!,Positive,4,Clothing,True,11,$0-25
+Incredible value! This has made my life so much easier. 5 stars!,Positive,5,Beauty,False,22,$50-100
+Love this! Great quality and exactly as described. Will buy again!,Positive,5,Sports,False,83,$50-100
+Fantastic product with amazing build quality. Arrived quickly!,Positive,5,Electronics,False,26,$25-50
+Perfect! Works flawlessly and looks fantastic. Highly recommend!,Positive,5,Beauty,True,41,$0-25
+Fantastic product with amazing build quality. Arrived quickly!,Positive,5,Electronics,True,40,$25-50
+Superb quality and great design. Worth every penny and more!,Positive,4,Sports,True,97,$100+
+Perfect! Works flawlessly and looks fantastic. Highly recommend!,Positive,4,Books,False,87,$0-25
+Excellent product that works perfectly. Great customer support!,Positive,4,Beauty,True,86,$0-25
+Love this! Great quality and exactly as described. Will buy again!,Positive,5,Toys,False,61,$50-100
+Fantastic product with amazing build quality. Arrived quickly!,Positive,4,Sports,False,74,$0-25
+Amazing! This product is even better than I hoped it would be!,Positive,4,Electronics,True,28,$100+
+Best purchase I've made this year! Absolutely love everything about it!,Positive,4,Toys,False,89,$25-50
+Superb quality and great design. Worth every penny and more!,Positive,5,Home & Kitchen,False,89,$100+
+Incredible value! This has made my life so much easier. 5 stars!,Positive,5,Home & Kitchen,False,100,$25-50
+Outstanding quality for the price. Customer service was excellent too!,Positive,4,Home & Kitchen,False,16,$25-50
+Superb quality and great design. Worth every penny and more!,Positive,4,Beauty,True,92,$100+
+Fantastic product with amazing build quality. Arrived quickly!,Positive,5,Toys,True,35,$100+
+Outstanding quality for the price. Customer service was excellent too!,Positive,5,Sports,False,57,$25-50
+Superb quality and great design. Worth every penny and more!,Positive,4,Sports,False,89,$50-100
+Outstanding quality for the price. Customer service was excellent too!,Positive,4,Books,True,79,$0-25
+Love this! Great quality and exactly as described. Will buy again!,Positive,5,Home & Kitchen,True,89,$0-25
+Amazing product! Exceeded my expectations in every way. Fast shipping too!,Positive,5,Sports,False,31,$0-25
+Superb quality and great design. Worth every penny and more!,Positive,5,Books,True,55,$100+
+Fantastic product with amazing build quality. Arrived quickly!,Positive,4,Home & Kitchen,False,21,$25-50
+Perfect! Works flawlessly and looks fantastic. Highly recommend!,Positive,4,Toys,False,72,$50-100
+Amazing! This product is even better than I hoped it would be!,Positive,5,Clothing,True,28,$0-25
+Incredible value! This has made my life so much easier. 5 stars!,Positive,4,Toys,False,81,$0-25
+Superb quality and great design. Worth every penny and more!,Positive,4,Home & Kitchen,True,96,$50-100
+Love this! Great quality and exactly as described. Will buy again!,Positive,5,Books,True,0,$25-50
+Amazing product! Exceeded my expectations in every way. Fast shipping too!,Positive,5,Electronics,False,85,$50-100
+Excellent product that works perfectly. Great customer support!,Positive,5,Beauty,False,18,$25-50
+Incredible value! This has made my life so much easier. 5 stars!,Positive,4,Beauty,False,75,$0-25
+Outstanding quality for the price. Customer service was excellent too!,Positive,5,Sports,True,88,$0-25
+Amazing! This product is even better than I hoped it would be!,Positive,4,Beauty,False,8,$25-50
+Amazing product! Exceeded my expectations in every way. Fast shipping too!,Positive,4,Clothing,False,76,$50-100
+Outstanding quality for the price. Customer service was excellent too!,Positive,5,Clothing,True,47,$100+
+Love this! Great quality and exactly as described. Will buy again!,Positive,4,Home & Kitchen,True,27,$100+
+Incredible value! This has made my life so much easier. 5 stars!,Positive,4,Electronics,True,21,$50-100
+Superb quality and great design. Worth every penny and more!,Positive,4,Home & Kitchen,False,66,$25-50
+Perfect! Works flawlessly and looks fantastic. Highly recommend!,Positive,4,Home & Kitchen,False,87,$100+
+Excellent product that works perfectly. Great customer support!,Positive,5,Clothing,True,33,$25-50
+Fantastic product with amazing build quality. Arrived quickly!,Positive,5,Books,False,99,$0-25
+Love this! Great quality and exactly as described. Will buy again!,Positive,4,Toys,True,93,$25-50
+Amazing! This product is even better than I hoped it would be!,Positive,5,Beauty,True,75,$100+
+Amazing product! Exceeded my expectations in every way. Fast shipping too!,Positive,5,Sports,True,98,$50-100
+Perfect! Works flawlessly and looks fantastic. Highly recommend!,Positive,4,Sports,True,48,$25-50
+Best purchase I've made this year! Absolutely love everything about it!,Positive,5,Toys,True,50,$100+
+Best purchase I've made this year! Absolutely love everything about it!,Positive,5,Electronics,True,27,$25-50
+Love this! Great quality and exactly as described. Will buy again!,Positive,4,Toys,True,53,$100+
+Love this! Great quality and exactly as described. Will buy again!,Positive,5,Books,True,93,$100+
+Superb quality and great design. Worth every penny and more!,Positive,4,Sports,True,57,$100+
+Amazing! This product is even better than I hoped it would be!,Positive,4,Beauty,False,21,$100+
+Excellent product that works perfectly. Great customer support!,Positive,4,Sports,True,26,$50-100
+Best purchase I've made this year! Absolutely love everything about it!,Positive,4,Clothing,True,38,$0-25
+Incredible value! This has made my life so much easier. 5 stars!,Positive,5,Sports,True,96,$50-100
+Incredible value! This has made my life so much easier. 5 stars!,Positive,4,Electronics,True,52,$100+
+Outstanding quality for the price. Customer service was excellent too!,Positive,5,Home & Kitchen,True,81,$25-50
+Best purchase I've made this year! Absolutely love everything about it!,Positive,5,Toys,False,57,$100+
+Best purchase I've made this year! Absolutely love everything about it!,Positive,5,Toys,False,52,$100+
+Superb quality and great design. Worth every penny and more!,Positive,4,Clothing,False,70,$0-25
+Superb quality and great design. Worth every penny and more!,Positive,4,Clothing,True,10,$50-100
+Amazing! This product is even better than I hoped it would be!,Positive,4,Beauty,True,64,$25-50
+Fantastic product with amazing build quality. Arrived quickly!,Positive,4,Toys,False,22,$0-25
+Excellent product that works perfectly. Great customer support!,Positive,4,Sports,False,41,$100+
+Perfect! Works flawlessly and looks fantastic. Highly recommend!,Positive,4,Beauty,True,7,$25-50
+Superb quality and great design. Worth every penny and more!,Positive,4,Home & Kitchen,False,32,$50-100
+Incredible value! This has made my life so much easier. 5 stars!,Positive,4,Electronics,False,83,$100+
+Love this! Great quality and exactly as described. Will buy again!,Positive,5,Home & Kitchen,True,32,$0-25
+Outstanding quality for the price. Customer service was excellent too!,Positive,5,Beauty,True,90,$100+
+Fantastic product with amazing build quality. Arrived quickly!,Positive,4,Clothing,False,40,$0-25
+Amazing product! Exceeded my expectations in every way. Fast shipping too!,Positive,5,Sports,True,42,$50-100
+Amazing product! Exceeded my expectations in every way. Fast shipping too!,Positive,4,Books,False,41,$50-100
+Perfect! Works flawlessly and looks fantastic. Highly recommend!,Positive,5,Books,True,66,$100+
+Love this! Great quality and exactly as described. Will buy again!,Positive,4,Clothing,False,31,$0-25
+Love this! Great quality and exactly as described. Will buy again!,Positive,5,Sports,True,14,$0-25
+Best purchase I've made this year! Absolutely love everything about it!,Positive,4,Sports,True,15,$25-50
+Superb quality and great design. Worth every penny and more!,Positive,4,Electronics,False,40,$50-100
+Perfect! Works flawlessly and looks fantastic. Highly recommend!,Positive,4,Clothing,False,48,$50-100
+Superb quality and great design. Worth every penny and more!,Positive,4,Home & Kitchen,True,0,$0-25
+Love this! Great quality and exactly as described. Will buy again!,Positive,5,Beauty,True,8,$25-50
+Perfect! Works flawlessly and looks fantastic. Highly recommend!,Positive,4,Books,True,55,$0-25
+Perfect! Works flawlessly and looks fantastic. Highly recommend!,Positive,5,Books,False,40,$25-50
+Superb quality and great design. Worth every penny and more!,Positive,5,Beauty,False,54,$0-25
+Superb quality and great design. Worth every penny and more!,Positive,5,Home & Kitchen,False,44,$100+
+Perfect! Works flawlessly and looks fantastic. Highly recommend!,Positive,5,Home & Kitchen,False,65,$0-25
+Incredible value! This has made my life so much easier. 5 stars!,Positive,5,Home & Kitchen,False,17,$0-25
+Superb quality and great design. Worth every penny and more!,Positive,5,Toys,False,4,$100+
+Best purchase I've made this year! Absolutely love everything about it!,Positive,4,Sports,False,0,$50-100
+Excellent product that works perfectly. Great customer support!,Positive,4,Toys,False,51,$100+
+Excellent product that works perfectly. Great customer support!,Positive,5,Electronics,True,78,$100+
+Amazing product! Exceeded my expectations in every way. Fast shipping too!,Positive,4,Home & Kitchen,False,75,$100+
+Fantastic product with amazing build quality. Arrived quickly!,Positive,4,Beauty,True,14,$100+
+Outstanding quality for the price. Customer service was excellent too!,Positive,4,Clothing,False,21,$0-25
+Best purchase I've made this year! Absolutely love everything about it!,Positive,4,Toys,False,48,$50-100
+Best purchase I've made this year! Absolutely love everything about it!,Positive,4,Sports,False,5,$50-100
+Love this! Great quality and exactly as described. Will buy again!,Positive,4,Books,True,73,$100+
+Excellent product that works perfectly. Great customer support!,Positive,5,Electronics,False,2,$50-100
+Amazing product! Exceeded my expectations in every way. Fast shipping too!,Positive,5,Sports,True,77,$0-25
+Perfect! Works flawlessly and looks fantastic. Highly recommend!,Positive,4,Home & Kitchen,True,20,$50-100
+Perfect! Works flawlessly and looks fantastic. Highly recommend!,Positive,4,Books,False,58,$100+
+Excellent product that works perfectly. Great customer support!,Positive,4,Books,False,6,$100+
+Superb quality and great design. Worth every penny and more!,Positive,5,Toys,True,14,$0-25
+Best purchase I've made this year! Absolutely love everything about it!,Positive,5,Toys,True,42,$0-25
+Love this! Great quality and exactly as described. Will buy again!,Positive,5,Clothing,True,43,$100+
+Best purchase I've made this year! Absolutely love everything about it!,Positive,5,Sports,True,36,$0-25
+Love this! Great quality and exactly as described. Will buy again!,Positive,5,Electronics,False,28,$100+
+Superb quality and great design. Worth every penny and more!,Positive,5,Books,True,70,$0-25
+Fantastic product with amazing build quality. Arrived quickly!,Positive,5,Clothing,False,90,$100+
+Incredible value! This has made my life so much easier. 5 stars!,Positive,4,Clothing,False,61,$25-50
+Amazing! This product is even better than I hoped it would be!,Positive,4,Home & Kitchen,True,65,$50-100
+Love this! Great quality and exactly as described. Will buy again!,Positive,4,Electronics,False,37,$100+
+Perfect! Works flawlessly and looks fantastic. Highly recommend!,Positive,5,Books,False,28,$0-25
+Amazing! This product is even better than I hoped it would be!,Positive,4,Books,True,25,$25-50
+Perfect! Works flawlessly and looks fantastic. Highly recommend!,Positive,4,Toys,True,63,$0-25
+Love this! Great quality and exactly as described. Will buy again!,Positive,4,Electronics,True,68,$50-100
+Love this! Great quality and exactly as described. Will buy again!,Positive,4,Beauty,True,76,$25-50
+Fantastic product with amazing build quality. Arrived quickly!,Positive,5,Toys,True,58,$25-50
+Love this! Great quality and exactly as described. Will buy again!,Positive,4,Home & Kitchen,True,90,$25-50
+Incredible value! This has made my life so much easier. 5 stars!,Positive,4,Toys,True,20,$25-50
+Excellent product that works perfectly. Great customer support!,Positive,4,Electronics,False,93,$50-100
+Excellent product that works perfectly. Great customer support!,Positive,5,Books,True,76,$25-50
+Amazing product! Exceeded my expectations in every way. Fast shipping too!,Positive,5,Electronics,True,28,$25-50
+Perfect! Works flawlessly and looks fantastic. Highly recommend!,Positive,5,Home & Kitchen,True,3,$25-50
+Perfect! Works flawlessly and looks fantastic. Highly recommend!,Positive,5,Sports,False,24,$100+
+Amazing! This product is even better than I hoped it would be!,Positive,5,Books,False,90,$100+
+Superb quality and great design. Worth every penny and more!,Positive,5,Sports,False,13,$100+
+Excellent product that works perfectly. Great customer support!,Positive,5,Toys,False,61,$25-50
+Perfect! Works flawlessly and looks fantastic. Highly recommend!,Positive,5,Books,True,57,$0-25
+Love this! Great quality and exactly as described. Will buy again!,Positive,4,Toys,False,64,$50-100
+Fantastic product with amazing build quality. Arrived quickly!,Positive,5,Beauty,True,62,$100+
+Love this! Great quality and exactly as described. Will buy again!,Positive,4,Electronics,True,90,$25-50
+Incredible value! This has made my life so much easier. 5 stars!,Positive,5,Sports,True,31,$0-25
+Incredible value! This has made my life so much easier. 5 stars!,Positive,4,Electronics,True,22,$25-50
+Outstanding quality for the price. Customer service was excellent too!,Positive,5,Electronics,False,2,$100+
+Superb quality and great design. Worth every penny and more!,Positive,4,Clothing,False,91,$25-50
+Superb quality and great design. Worth every penny and more!,Positive,5,Beauty,True,9,$25-50
+Superb quality and great design. Worth every penny and more!,Positive,5,Electronics,False,14,$100+
+Superb quality and great design. Worth every penny and more!,Positive,4,Electronics,False,80,$0-25
+Fantastic product with amazing build quality. Arrived quickly!,Positive,4,Beauty,False,96,$50-100
+Cheap quality that falls apart immediately. Not worth any price!,Negative,1,Sports,True,58,$100+
+Awful product with zero quality control. Very frustrated with purchase!,Negative,1,Toys,True,74,$50-100
+Terrible quality! Broke after just one day of use. Complete waste of money!,Negative,2,Home & Kitchen,True,38,$0-25
+Complete garbage! Doesn't work as advertised. Save your money!,Negative,2,Beauty,True,54,$100+
+Awful product with zero quality control. Very frustrated with purchase!,Negative,2,Clothing,True,40,$0-25
+Worst purchase ever! Nothing like the description. Requesting refund immediately!,Negative,2,Books,True,64,$25-50
+Completely useless! Product doesn't do what it claims to do!,Negative,1,Clothing,True,13,$0-25
+Cheap quality that falls apart immediately. Not worth any price!,Negative,1,Books,False,22,$0-25
+Complete garbage! Doesn't work as advertised. Save your money!,Negative,2,Home & Kitchen,False,55,$50-100
+Completely useless! Product doesn't do what it claims to do!,Negative,1,Home & Kitchen,False,62,$100+
+Cheap quality that falls apart immediately. Not worth any price!,Negative,2,Home & Kitchen,True,14,$100+
+Overpriced junk! Product arrived damaged and customer service is unhelpful!,Negative,2,Sports,True,72,$25-50
+Terrible quality! Broke after just one day of use. Complete waste of money!,Negative,1,Toys,True,26,$100+
+Awful product with zero quality control. Very frustrated with purchase!,Negative,1,Electronics,False,37,$0-25
+Completely useless! Product doesn't do what it claims to do!,Negative,2,Books,False,76,$0-25
+Cheap quality that falls apart immediately. Not worth any price!,Negative,2,Beauty,False,97,$100+
+Worst purchase ever! Nothing like the description. Requesting refund immediately!,Negative,2,Sports,False,19,$25-50
+Cheap quality that falls apart immediately. Not worth any price!,Negative,2,Home & Kitchen,False,78,$100+
+Complete garbage! Doesn't work as advertised. Save your money!,Negative,2,Sports,False,21,$100+
+Completely useless! Product doesn't do what it claims to do!,Negative,2,Clothing,False,83,$25-50
+Completely useless! Product doesn't do what it claims to do!,Negative,1,Clothing,False,36,$50-100
+Horrible experience! Product is defective and return process is nightmare!,Negative,2,Books,False,82,$0-25
+Awful product with zero quality control. Very frustrated with purchase!,Negative,1,Toys,False,21,$100+
+Completely useless! Product doesn't do what it claims to do!,Negative,1,Books,False,13,$100+
+Horrible experience! Product is defective and return process is nightmare!,Negative,2,Clothing,False,53,$50-100
+Cheap quality that falls apart immediately. Not worth any price!,Negative,2,Sports,False,92,$100+
+Completely useless! Product doesn't do what it claims to do!,Negative,1,Home & Kitchen,False,52,$50-100
+Horrible experience! Product is defective and return process is nightmare!,Negative,1,Home & Kitchen,False,79,$25-50
+Poor quality materials and shoddy construction. Very disappointed!,Negative,2,Home & Kitchen,False,61,$50-100
+Misleading description and terrible quality. Avoid this seller!,Negative,2,Books,True,67,$100+
+Overpriced junk! Product arrived damaged and customer service is unhelpful!,Negative,1,Toys,False,16,$100+
+Awful product with zero quality control. Very frustrated with purchase!,Negative,2,Beauty,False,59,$25-50
+Completely useless! Product doesn't do what it claims to do!,Negative,1,Sports,False,12,$0-25
+Awful product with zero quality control. Very frustrated with purchase!,Negative,2,Clothing,True,77,$0-25
+Terrible quality! Broke after just one day of use. Complete waste of money!,Negative,2,Home & Kitchen,True,80,$50-100
+Completely useless! Product doesn't do what it claims to do!,Negative,1,Electronics,True,22,$25-50
+Terrible quality! Broke after just one day of use. Complete waste of money!,Negative,2,Electronics,True,49,$25-50
+Awful product with zero quality control. Very frustrated with purchase!,Negative,2,Home & Kitchen,True,86,$0-25
+Horrible experience! Product is defective and return process is nightmare!,Negative,1,Books,True,71,$100+
+Complete garbage! Doesn't work as advertised. Save your money!,Negative,2,Clothing,True,59,$50-100
+Complete garbage! Doesn't work as advertised. Save your money!,Negative,2,Home & Kitchen,True,43,$100+
+Poor quality materials and shoddy construction. Very disappointed!,Negative,1,Books,True,57,$0-25
+Poor quality materials and shoddy construction. Very disappointed!,Negative,2,Home & Kitchen,False,71,$0-25
+Misleading description and terrible quality. Avoid this seller!,Negative,2,Sports,False,36,$100+
+Overpriced junk! Product arrived damaged and customer service is unhelpful!,Negative,1,Sports,False,5,$25-50
+Poor quality materials and shoddy construction. Very disappointed!,Negative,1,Beauty,True,60,$50-100
+Misleading description and terrible quality. Avoid this seller!,Negative,2,Books,False,84,$0-25
+Worst purchase ever! Nothing like the description. Requesting refund immediately!,Negative,1,Books,True,85,$25-50
+Misleading description and terrible quality. Avoid this seller!,Negative,1,Sports,True,34,$25-50
+Terrible quality! Broke after just one day of use. Complete waste of money!,Negative,2,Toys,True,79,$50-100
+Awful product with zero quality control. Very frustrated with purchase!,Negative,2,Electronics,True,81,$25-50
+Completely useless! Product doesn't do what it claims to do!,Negative,2,Books,True,85,$50-100
+Poor quality materials and shoddy construction. Very disappointed!,Negative,2,Toys,False,73,$25-50
+Complete garbage! Doesn't work as advertised. Save your money!,Negative,2,Beauty,False,2,$100+
+Horrible experience! Product is defective and return process is nightmare!,Negative,2,Clothing,True,7,$0-25
+Horrible experience! Product is defective and return process is nightmare!,Negative,2,Sports,False,58,$50-100
+Worst purchase ever! Nothing like the description. Requesting refund immediately!,Negative,2,Electronics,False,45,$100+
+Worst purchase ever! Nothing like the description. Requesting refund immediately!,Negative,2,Toys,False,65,$50-100
+Worst purchase ever! Nothing like the description. Requesting refund immediately!,Negative,2,Sports,True,44,$25-50
+Overpriced junk! Product arrived damaged and customer service is unhelpful!,Negative,1,Sports,True,75,$100+
+Horrible experience! Product is defective and return process is nightmare!,Negative,1,Sports,False,64,$50-100
+Completely useless! Product doesn't do what it claims to do!,Negative,1,Toys,False,96,$50-100
+Cheap quality that falls apart immediately. Not worth any price!,Negative,1,Toys,False,21,$100+
+Awful product with zero quality control. Very frustrated with purchase!,Negative,1,Electronics,False,48,$0-25
+Worst purchase ever! Nothing like the description. Requesting refund immediately!,Negative,2,Books,True,15,$50-100
+Cheap quality that falls apart immediately. Not worth any price!,Negative,1,Clothing,False,24,$50-100
+Cheap quality that falls apart immediately. Not worth any price!,Negative,2,Toys,True,88,$0-25
+Cheap quality that falls apart immediately. Not worth any price!,Negative,1,Toys,False,72,$25-50
+Cheap quality that falls apart immediately. Not worth any price!,Negative,1,Sports,False,26,$0-25
+Poor quality materials and shoddy construction. Very disappointed!,Negative,2,Clothing,False,18,$0-25
+Complete garbage! Doesn't work as advertised. Save your money!,Negative,2,Toys,False,80,$0-25
+Overpriced junk! Product arrived damaged and customer service is unhelpful!,Negative,1,Toys,False,5,$0-25
+Overpriced junk! Product arrived damaged and customer service is unhelpful!,Negative,1,Sports,False,2,$100+
+Terrible quality! Broke after just one day of use. Complete waste of money!,Negative,1,Beauty,True,36,$50-100
+Awful product with zero quality control. Very frustrated with purchase!,Negative,1,Electronics,True,22,$100+
+Poor quality materials and shoddy construction. Very disappointed!,Negative,1,Sports,False,63,$100+
+Horrible experience! Product is defective and return process is nightmare!,Negative,2,Toys,False,76,$25-50
+Completely useless! Product doesn't do what it claims to do!,Negative,2,Toys,True,32,$25-50
+Terrible quality! Broke after just one day of use. Complete waste of money!,Negative,2,Home & Kitchen,True,46,$50-100
+Complete garbage! Doesn't work as advertised. Save your money!,Negative,1,Electronics,False,38,$50-100
+Cheap quality that falls apart immediately. Not worth any price!,Negative,1,Toys,True,45,$25-50
+Misleading description and terrible quality. Avoid this seller!,Negative,1,Books,True,51,$100+
+Horrible experience! Product is defective and return process is nightmare!,Negative,2,Electronics,False,38,$0-25
+Overpriced junk! Product arrived damaged and customer service is unhelpful!,Negative,1,Toys,False,50,$0-25
+Overpriced junk! Product arrived damaged and customer service is unhelpful!,Negative,1,Sports,False,24,$0-25
+Terrible quality! Broke after just one day of use. Complete waste of money!,Negative,2,Beauty,False,96,$25-50
+Misleading description and terrible quality. Avoid this seller!,Negative,2,Toys,True,72,$50-100
+Poor quality materials and shoddy construction. Very disappointed!,Negative,1,Toys,True,43,$50-100
+Worst purchase ever! Nothing like the description. Requesting refund immediately!,Negative,2,Electronics,True,81,$100+
+Overpriced junk! Product arrived damaged and customer service is unhelpful!,Negative,2,Clothing,False,10,$50-100
+Cheap quality that falls apart immediately. Not worth any price!,Negative,2,Electronics,True,24,$0-25
+Misleading description and terrible quality. Avoid this seller!,Negative,2,Toys,True,84,$50-100
+Misleading description and terrible quality. Avoid this seller!,Negative,2,Electronics,True,13,$25-50
+Completely useless! Product doesn't do what it claims to do!,Negative,2,Electronics,False,57,$100+
+Worst purchase ever! Nothing like the description. Requesting refund immediately!,Negative,1,Electronics,True,36,$100+
+Horrible experience! Product is defective and return process is nightmare!,Negative,1,Toys,False,82,$25-50
+Terrible quality! Broke after just one day of use. Complete waste of money!,Negative,1,Toys,True,36,$0-25
+Complete garbage! Doesn't work as advertised. Save your money!,Negative,1,Home & Kitchen,True,1,$25-50
+Complete garbage! Doesn't work as advertised. Save your money!,Negative,2,Beauty,False,73,$50-100
+Completely useless! Product doesn't do what it claims to do!,Negative,2,Beauty,True,100,$50-100
+Complete garbage! Doesn't work as advertised. Save your money!,Negative,2,Home & Kitchen,True,46,$50-100
+Misleading description and terrible quality. Avoid this seller!,Negative,1,Books,False,38,$50-100
+Horrible experience! Product is defective and return process is nightmare!,Negative,1,Electronics,True,91,$25-50
+Completely useless! Product doesn't do what it claims to do!,Negative,2,Electronics,True,27,$50-100
+Complete garbage! Doesn't work as advertised. Save your money!,Negative,1,Home & Kitchen,True,1,$50-100
+Completely useless! Product doesn't do what it claims to do!,Negative,2,Beauty,False,83,$100+
+Worst purchase ever! Nothing like the description. Requesting refund immediately!,Negative,2,Books,True,48,$25-50
+Overpriced junk! Product arrived damaged and customer service is unhelpful!,Negative,1,Beauty,True,46,$50-100
+Terrible quality! Broke after just one day of use. Complete waste of money!,Negative,1,Toys,True,81,$25-50
+Cheap quality that falls apart immediately. Not worth any price!,Negative,1,Books,False,87,$100+
+Cheap quality that falls apart immediately. Not worth any price!,Negative,2,Clothing,True,27,$25-50
+Cheap quality that falls apart immediately. Not worth any price!,Negative,2,Clothing,True,21,$50-100
+Worst purchase ever! Nothing like the description. Requesting refund immediately!,Negative,1,Books,True,39,$25-50
+Misleading description and terrible quality. Avoid this seller!,Negative,1,Electronics,False,87,$0-25
+Cheap quality that falls apart immediately. Not worth any price!,Negative,2,Beauty,False,69,$50-100
+Overpriced junk! Product arrived damaged and customer service is unhelpful!,Negative,1,Books,False,68,$0-25
+Horrible experience! Product is defective and return process is nightmare!,Negative,1,Clothing,True,12,$50-100
+Poor quality materials and shoddy construction. Very disappointed!,Negative,2,Toys,False,27,$100+
+Misleading description and terrible quality. Avoid this seller!,Negative,2,Beauty,False,28,$0-25
+Completely useless! Product doesn't do what it claims to do!,Negative,2,Toys,True,3,$50-100
+Completely useless! Product doesn't do what it claims to do!,Negative,2,Clothing,True,65,$25-50
+Cheap quality that falls apart immediately. Not worth any price!,Negative,1,Electronics,True,27,$100+
+Misleading description and terrible quality. Avoid this seller!,Negative,2,Sports,True,85,$100+
+Poor quality materials and shoddy construction. Very disappointed!,Negative,2,Electronics,False,76,$0-25
+Worst purchase ever! Nothing like the description. Requesting refund immediately!,Negative,2,Toys,False,41,$100+
+Worst purchase ever! Nothing like the description. Requesting refund immediately!,Negative,2,Clothing,True,82,$100+
+Worst purchase ever! Nothing like the description. Requesting refund immediately!,Negative,1,Sports,True,55,$25-50
+Horrible experience! Product is defective and return process is nightmare!,Negative,2,Sports,True,72,$50-100
+Complete garbage! Doesn't work as advertised. Save your money!,Negative,2,Electronics,True,87,$0-25
+Cheap quality that falls apart immediately. Not worth any price!,Negative,2,Books,False,88,$0-25
+Horrible experience! Product is defective and return process is nightmare!,Negative,1,Sports,False,6,$0-25
+Worst purchase ever! Nothing like the description. Requesting refund immediately!,Negative,2,Clothing,False,61,$100+
+Awful product with zero quality control. Very frustrated with purchase!,Negative,1,Books,False,46,$100+
+Complete garbage! Doesn't work as advertised. Save your money!,Negative,2,Home & Kitchen,True,97,$50-100
+Horrible experience! Product is defective and return process is nightmare!,Negative,2,Toys,False,90,$50-100
+Worst purchase ever! Nothing like the description. Requesting refund immediately!,Negative,2,Books,False,40,$50-100
+Complete garbage! Doesn't work as advertised. Save your money!,Negative,1,Sports,True,29,$0-25
+Horrible experience! Product is defective and return process is nightmare!,Negative,1,Beauty,False,22,$25-50
+Complete garbage! Doesn't work as advertised. Save your money!,Negative,2,Clothing,False,44,$100+
+Complete garbage! Doesn't work as advertised. Save your money!,Negative,2,Toys,False,38,$25-50
+Horrible experience! Product is defective and return process is nightmare!,Negative,2,Toys,False,18,$100+
+Completely useless! Product doesn't do what it claims to do!,Negative,2,Clothing,True,20,$25-50
+Terrible quality! Broke after just one day of use. Complete waste of money!,Negative,2,Books,True,4,$100+
+Worst purchase ever! Nothing like the description. Requesting refund immediately!,Negative,2,Home & Kitchen,True,88,$25-50
+Horrible experience! Product is defective and return process is nightmare!,Negative,2,Clothing,False,35,$25-50
+Complete garbage! Doesn't work as advertised. Save your money!,Negative,2,Sports,True,79,$0-25
+Awful product with zero quality control. Very frustrated with purchase!,Negative,1,Home & Kitchen,True,26,$100+
+Completely useless! Product doesn't do what it claims to do!,Negative,1,Toys,True,76,$25-50
+Overpriced junk! Product arrived damaged and customer service is unhelpful!,Negative,1,Electronics,False,12,$0-25
+Worst purchase ever! Nothing like the description. Requesting refund immediately!,Negative,2,Toys,True,56,$50-100
+Terrible quality! Broke after just one day of use. Complete waste of money!,Negative,2,Toys,True,60,$50-100
+Terrible quality! Broke after just one day of use. Complete waste of money!,Negative,2,Electronics,False,31,$50-100
+Cheap quality that falls apart immediately. Not worth any price!,Negative,1,Clothing,False,61,$50-100
+Horrible experience! Product is defective and return process is nightmare!,Negative,1,Toys,False,100,$50-100
+Awful product with zero quality control. Very frustrated with purchase!,Negative,1,Books,True,5,$0-25
+Overpriced junk! Product arrived damaged and customer service is unhelpful!,Negative,2,Electronics,False,15,$50-100
+Misleading description and terrible quality. Avoid this seller!,Negative,2,Toys,False,70,$25-50
+Awful product with zero quality control. Very frustrated with purchase!,Negative,1,Sports,False,89,$25-50
+Worst purchase ever! Nothing like the description. Requesting refund immediately!,Negative,1,Books,True,63,$25-50
+Worst purchase ever! Nothing like the description. Requesting refund immediately!,Negative,2,Electronics,True,16,$100+
+Misleading description and terrible quality. Avoid this seller!,Negative,1,Home & Kitchen,True,53,$100+
+Horrible experience! Product is defective and return process is nightmare!,Negative,2,Clothing,False,28,$100+
+Worst purchase ever! Nothing like the description. Requesting refund immediately!,Negative,1,Clothing,True,89,$100+
+Complete garbage! Doesn't work as advertised. Save your money!,Negative,1,Electronics,False,89,$50-100
+Complete garbage! Doesn't work as advertised. Save your money!,Negative,2,Beauty,True,27,$25-50
+Complete garbage! Doesn't work as advertised. Save your money!,Negative,2,Toys,True,51,$100+
+Terrible quality! Broke after just one day of use. Complete waste of money!,Negative,2,Home & Kitchen,False,71,$25-50
+Complete garbage! Doesn't work as advertised. Save your money!,Negative,2,Electronics,True,68,$0-25
+Complete garbage! Doesn't work as advertised. Save your money!,Negative,1,Clothing,False,82,$50-100
+Worst purchase ever! Nothing like the description. Requesting refund immediately!,Negative,1,Home & Kitchen,True,64,$50-100
+Terrible quality! Broke after just one day of use. Complete waste of money!,Negative,1,Clothing,False,5,$100+
+Worst purchase ever! Nothing like the description. Requesting refund immediately!,Negative,2,Books,False,33,$100+
+Completely useless! Product doesn't do what it claims to do!,Negative,1,Books,True,55,$50-100
+Misleading description and terrible quality. Avoid this seller!,Negative,1,Sports,False,72,$50-100
+Poor quality materials and shoddy construction. Very disappointed!,Negative,1,Books,True,95,$50-100
+Complete garbage! Doesn't work as advertised. Save your money!,Negative,1,Clothing,False,51,$50-100
+Cheap quality that falls apart immediately. Not worth any price!,Negative,1,Home & Kitchen,True,58,$100+
+Complete garbage! Doesn't work as advertised. Save your money!,Negative,2,Sports,True,72,$0-25
+Complete garbage! Doesn't work as advertised. Save your money!,Negative,1,Books,False,75,$0-25
+Worst purchase ever! Nothing like the description. Requesting refund immediately!,Negative,1,Home & Kitchen,False,46,$25-50
+Decent product with some good points and some bad ones. Fair overall.,Neutral,3,Home & Kitchen,False,62,$25-50
+It works but there are probably better options available elsewhere.,Neutral,3,Electronics,True,38,$25-50
+Acceptable product with average performance. Does what it says.,Neutral,3,Beauty,True,32,$25-50
+Average quality and performance. Could be better but not terrible.,Neutral,3,Books,True,80,$50-100
+Fair product that meets basic expectations without exceeding them.,Neutral,3,Clothing,True,7,$50-100
+Average quality and performance. Could be better but not terrible.,Neutral,3,Clothing,True,25,$50-100
+Mediocre quality but functional. Not amazing but not awful either.,Neutral,3,Beauty,False,57,$25-50
+Acceptable product with average performance. Does what it says.,Neutral,3,Home & Kitchen,False,88,$100+
+Fair product that meets basic expectations without exceeding them.,Neutral,3,Clothing,False,54,$0-25
+"It's alright, serves its purpose but lacks wow factor. Standard product.",Neutral,3,Clothing,False,58,$25-50
+"It's alright, serves its purpose but lacks wow factor. Standard product.",Neutral,3,Books,True,51,$25-50
+Fair product that meets basic expectations without exceeding them.,Neutral,3,Home & Kitchen,False,83,$50-100
+Fair product that meets basic expectations without exceeding them.,Neutral,3,Sports,True,69,$50-100
+"It's okay, does the job but nothing special. Average quality for the price.",Neutral,3,Electronics,False,10,$0-25
+Works as expected though not particularly impressive. It's fine.,Neutral,3,Electronics,False,23,$100+
+Mediocre quality but functional. Not amazing but not awful either.,Neutral,3,Toys,True,93,$50-100
+"Reasonable quality for the price point. Nothing more, nothing less.",Neutral,3,Electronics,True,82,$0-25
+It works but there are probably better options available elsewhere.,Neutral,3,Home & Kitchen,False,34,$50-100
+Mediocre quality but functional. Not amazing but not awful either.,Neutral,3,Books,False,91,$0-25
+"Reasonable quality for the price point. Nothing more, nothing less.",Neutral,3,Sports,True,32,$25-50
+Average quality and performance. Could be better but not terrible.,Neutral,3,Sports,False,63,$50-100
+Average quality and performance. Could be better but not terrible.,Neutral,3,Home & Kitchen,False,14,$100+
+Average quality and performance. Could be better but not terrible.,Neutral,3,Toys,True,22,$25-50
+Mediocre quality but functional. Not amazing but not awful either.,Neutral,3,Toys,False,12,$0-25
+It works but there are probably better options available elsewhere.,Neutral,3,Home & Kitchen,False,75,$100+
+"It's okay, does the job but nothing special. Average quality for the price.",Neutral,3,Beauty,True,47,$100+
+Mediocre quality but functional. Not amazing but not awful either.,Neutral,3,Home & Kitchen,True,19,$0-25
+It works but there are probably better options available elsewhere.,Neutral,3,Electronics,True,44,$25-50
+Fair product that meets basic expectations without exceeding them.,Neutral,3,Clothing,True,77,$0-25
+Mediocre quality but functional. Not amazing but not awful either.,Neutral,3,Books,False,98,$100+
+Average quality and performance. Could be better but not terrible.,Neutral,3,Books,True,81,$100+
+"It's alright, serves its purpose but lacks wow factor. Standard product.",Neutral,3,Sports,True,77,$50-100
+Mediocre quality but functional. Not amazing but not awful either.,Neutral,3,Toys,False,78,$50-100
+Works as expected though not particularly impressive. It's fine.,Neutral,3,Toys,True,44,$25-50
+"Reasonable quality for the price point. Nothing more, nothing less.",Neutral,3,Books,True,74,$50-100
+It works but there are probably better options available elsewhere.,Neutral,3,Beauty,False,13,$50-100
+"It's alright, serves its purpose but lacks wow factor. Standard product.",Neutral,3,Electronics,True,37,$0-25
+"It's okay, does the job but nothing special. Average quality for the price.",Neutral,3,Beauty,True,49,$100+
+Average quality and performance. Could be better but not terrible.,Neutral,3,Toys,True,34,$100+
+Average quality and performance. Could be better but not terrible.,Neutral,3,Sports,False,73,$50-100
+Fair product that meets basic expectations without exceeding them.,Neutral,3,Toys,True,76,$50-100
+Fair product that meets basic expectations without exceeding them.,Neutral,3,Electronics,True,20,$100+
+Works as expected though not particularly impressive. It's fine.,Neutral,3,Beauty,False,92,$0-25
+Works as expected though not particularly impressive. It's fine.,Neutral,3,Electronics,False,69,$0-25
+Fair product that meets basic expectations without exceeding them.,Neutral,3,Toys,True,89,$50-100
+Works as expected though not particularly impressive. It's fine.,Neutral,3,Sports,True,79,$0-25
+It works but there are probably better options available elsewhere.,Neutral,3,Electronics,False,29,$25-50
+"It's alright, serves its purpose but lacks wow factor. Standard product.",Neutral,3,Clothing,True,92,$100+
+"It's okay, does the job but nothing special. Average quality for the price.",Neutral,3,Books,True,95,$100+
+Fair product that meets basic expectations without exceeding them.,Neutral,3,Beauty,False,34,$100+
+Works as expected though not particularly impressive. It's fine.,Neutral,3,Clothing,True,68,$100+
+"Reasonable quality for the price point. Nothing more, nothing less.",Neutral,3,Clothing,True,70,$100+
+"It's okay, does the job but nothing special. Average quality for the price.",Neutral,3,Beauty,True,78,$0-25
+"It's okay, does the job but nothing special. Average quality for the price.",Neutral,3,Sports,True,94,$0-25
+"Reasonable quality for the price point. Nothing more, nothing less.",Neutral,3,Electronics,False,18,$0-25
+Average quality and performance. Could be better but not terrible.,Neutral,3,Electronics,False,98,$100+
+It works but there are probably better options available elsewhere.,Neutral,3,Toys,True,4,$50-100
+Average quality and performance. Could be better but not terrible.,Neutral,3,Home & Kitchen,True,66,$0-25
+Fair product that meets basic expectations without exceeding them.,Neutral,3,Beauty,False,18,$25-50
+Mediocre quality but functional. Not amazing but not awful either.,Neutral,3,Electronics,False,66,$0-25
+Decent product with some good points and some bad ones. Fair overall.,Neutral,3,Sports,False,64,$25-50
+Fair product that meets basic expectations without exceeding them.,Neutral,3,Toys,False,15,$100+
+"It's okay, does the job but nothing special. Average quality for the price.",Neutral,3,Toys,False,21,$25-50
+Fair product that meets basic expectations without exceeding them.,Neutral,3,Toys,False,26,$25-50
+Acceptable product with average performance. Does what it says.,Neutral,3,Electronics,True,63,$100+
+"It's alright, serves its purpose but lacks wow factor. Standard product.",Neutral,3,Home & Kitchen,True,68,$100+
+"It's okay, does the job but nothing special. Average quality for the price.",Neutral,3,Toys,False,65,$50-100
+Works as expected though not particularly impressive. It's fine.,Neutral,3,Beauty,True,64,$25-50
+Fair product that meets basic expectations without exceeding them.,Neutral,3,Home & Kitchen,False,86,$50-100
+Fair product that meets basic expectations without exceeding them.,Neutral,3,Clothing,True,78,$50-100
+Decent product with some good points and some bad ones. Fair overall.,Neutral,3,Sports,True,89,$25-50
+Decent product with some good points and some bad ones. Fair overall.,Neutral,3,Sports,False,57,$0-25
+Average quality and performance. Could be better but not terrible.,Neutral,3,Home & Kitchen,True,91,$50-100
+Acceptable product with average performance. Does what it says.,Neutral,3,Home & Kitchen,False,49,$25-50
+"Reasonable quality for the price point. Nothing more, nothing less.",Neutral,3,Books,True,58,$25-50
+Fair product that meets basic expectations without exceeding them.,Neutral,3,Books,True,93,$100+
+"Reasonable quality for the price point. Nothing more, nothing less.",Neutral,3,Sports,False,70,$25-50
+Acceptable product with average performance. Does what it says.,Neutral,3,Toys,False,67,$50-100
+"Reasonable quality for the price point. Nothing more, nothing less.",Neutral,3,Toys,True,54,$50-100
+"It's alright, serves its purpose but lacks wow factor. Standard product.",Neutral,3,Sports,False,87,$25-50
+Fair product that meets basic expectations without exceeding them.,Neutral,3,Sports,True,97,$0-25
+"Reasonable quality for the price point. Nothing more, nothing less.",Neutral,3,Sports,True,29,$0-25
+Works as expected though not particularly impressive. It's fine.,Neutral,3,Clothing,False,83,$25-50
+Average quality and performance. Could be better but not terrible.,Neutral,3,Books,False,91,$50-100
+It works but there are probably better options available elsewhere.,Neutral,3,Sports,False,53,$100+
+Fair product that meets basic expectations without exceeding them.,Neutral,3,Clothing,False,55,$25-50
+Works as expected though not particularly impressive. It's fine.,Neutral,3,Clothing,False,16,$0-25
+"It's alright, serves its purpose but lacks wow factor. Standard product.",Neutral,3,Electronics,False,46,$0-25
+Mediocre quality but functional. Not amazing but not awful either.,Neutral,3,Electronics,True,43,$0-25
+Acceptable product with average performance. Does what it says.,Neutral,3,Books,False,30,$100+
+Average quality and performance. Could be better but not terrible.,Neutral,3,Toys,False,54,$100+
+Fair product that meets basic expectations without exceeding them.,Neutral,3,Electronics,True,0,$0-25
+It works but there are probably better options available elsewhere.,Neutral,3,Home & Kitchen,True,72,$50-100
+"It's okay, does the job but nothing special. Average quality for the price.",Neutral,3,Home & Kitchen,False,25,$50-100
+"It's alright, serves its purpose but lacks wow factor. Standard product.",Neutral,3,Electronics,False,18,$25-50
+Mediocre quality but functional. Not amazing but not awful either.,Neutral,3,Sports,True,74,$50-100
+Fair product that meets basic expectations without exceeding them.,Neutral,3,Home & Kitchen,False,79,$0-25
+"It's alright, serves its purpose but lacks wow factor. Standard product.",Neutral,3,Clothing,True,85,$50-100
+Works as expected though not particularly impressive. It's fine.,Neutral,3,Toys,True,33,$100+
+"It's okay, does the job but nothing special. Average quality for the price.",Neutral,3,Sports,False,82,$50-100
+Mediocre quality but functional. Not amazing but not awful either.,Neutral,3,Toys,True,21,$100+
+"It's alright, serves its purpose but lacks wow factor. Standard product.",Neutral,3,Books,False,26,$25-50
+"It's alright, serves its purpose but lacks wow factor. Standard product.",Neutral,3,Sports,True,0,$25-50
+It works but there are probably better options available elsewhere.,Neutral,3,Sports,True,14,$100+
+Average quality and performance. Could be better but not terrible.,Neutral,3,Beauty,False,83,$100+
+Acceptable product with average performance. Does what it says.,Neutral,3,Home & Kitchen,True,38,$50-100
+"Reasonable quality for the price point. Nothing more, nothing less.",Neutral,3,Beauty,False,39,$0-25
+"It's okay, does the job but nothing special. Average quality for the price.",Neutral,3,Electronics,True,59,$100+
+"It's okay, does the job but nothing special. Average quality for the price.",Neutral,3,Clothing,True,10,$100+
+Acceptable product with average performance. Does what it says.,Neutral,3,Beauty,True,40,$50-100
+Works as expected though not particularly impressive. It's fine.,Neutral,3,Home & Kitchen,True,36,$100+
+Decent product with some good points and some bad ones. Fair overall.,Neutral,3,Books,False,79,$100+
+Decent product with some good points and some bad ones. Fair overall.,Neutral,3,Books,False,95,$0-25
+Mediocre quality but functional. Not amazing but not awful either.,Neutral,3,Books,False,37,$50-100
+Average quality and performance. Could be better but not terrible.,Neutral,3,Books,False,94,$25-50
+"It's alright, serves its purpose but lacks wow factor. Standard product.",Neutral,3,Beauty,True,39,$0-25
+Decent product with some good points and some bad ones. Fair overall.,Neutral,3,Books,True,0,$50-100
+"It's okay, does the job but nothing special. Average quality for the price.",Neutral,3,Home & Kitchen,False,25,$0-25
+Fair product that meets basic expectations without exceeding them.,Neutral,3,Beauty,False,80,$0-25
+"It's okay, does the job but nothing special. Average quality for the price.",Neutral,3,Clothing,False,74,$25-50
+Acceptable product with average performance. Does what it says.,Neutral,3,Beauty,True,52,$0-25
+Decent product with some good points and some bad ones. Fair overall.,Neutral,3,Books,True,68,$0-25
+It works but there are probably better options available elsewhere.,Neutral,3,Electronics,False,19,$50-100
+It works but there are probably better options available elsewhere.,Neutral,3,Beauty,True,55,$25-50
+Mediocre quality but functional. Not amazing but not awful either.,Neutral,3,Toys,False,25,$100+
+Works as expected though not particularly impressive. It's fine.,Neutral,3,Home & Kitchen,False,34,$50-100
+"Reasonable quality for the price point. Nothing more, nothing less.",Neutral,3,Clothing,False,98,$0-25
+Fair product that meets basic expectations without exceeding them.,Neutral,3,Clothing,False,76,$0-25
+"It's okay, does the job but nothing special. Average quality for the price.",Neutral,3,Clothing,False,37,$25-50
+Mediocre quality but functional. Not amazing but not awful either.,Neutral,3,Electronics,False,25,$0-25
+"It's okay, does the job but nothing special. Average quality for the price.",Neutral,3,Electronics,False,63,$25-50
+Works as expected though not particularly impressive. It's fine.,Neutral,3,Home & Kitchen,False,88,$100+
+Acceptable product with average performance. Does what it says.,Neutral,3,Beauty,False,28,$100+
+Fair product that meets basic expectations without exceeding them.,Neutral,3,Home & Kitchen,False,4,$25-50
+Fair product that meets basic expectations without exceeding them.,Neutral,3,Beauty,True,90,$50-100
+Decent product with some good points and some bad ones. Fair overall.,Neutral,3,Sports,False,28,$50-100
+"It's okay, does the job but nothing special. Average quality for the price.",Neutral,3,Beauty,False,36,$100+
+Average quality and performance. Could be better but not terrible.,Neutral,3,Books,True,30,$50-100
+"Reasonable quality for the price point. Nothing more, nothing less.",Neutral,3,Books,True,70,$25-50
+Works as expected though not particularly impressive. It's fine.,Neutral,3,Clothing,True,61,$50-100
+"It's alright, serves its purpose but lacks wow factor. Standard product.",Neutral,3,Toys,True,44,$50-100
+Fair product that meets basic expectations without exceeding them.,Neutral,3,Clothing,True,85,$100+
+Works as expected though not particularly impressive. It's fine.,Neutral,3,Beauty,False,13,$25-50
+Decent product with some good points and some bad ones. Fair overall.,Neutral,3,Toys,False,46,$0-25
+"Reasonable quality for the price point. Nothing more, nothing less.",Neutral,3,Toys,True,67,$50-100
+Mediocre quality but functional. Not amazing but not awful either.,Neutral,3,Home & Kitchen,True,65,$100+
+Acceptable product with average performance. Does what it says.,Neutral,3,Toys,False,18,$50-100
+Decent product with some good points and some bad ones. Fair overall.,Neutral,3,Sports,False,53,$25-50
+It works but there are probably better options available elsewhere.,Neutral,3,Sports,True,31,$50-100
+Decent product with some good points and some bad ones. Fair overall.,Neutral,3,Sports,False,75,$0-25
+"It's okay, does the job but nothing special. Average quality for the price.",Neutral,3,Beauty,True,98,$50-100
+Average quality and performance. Could be better but not terrible.,Neutral,3,Electronics,False,59,$100+
+"It's okay, does the job but nothing special. Average quality for the price.",Neutral,3,Home & Kitchen,False,18,$50-100
+Mediocre quality but functional. Not amazing but not awful either.,Neutral,3,Sports,True,8,$0-25
+"It's alright, serves its purpose but lacks wow factor. Standard product.",Neutral,3,Sports,False,50,$0-25
+Decent product with some good points and some bad ones. Fair overall.,Neutral,3,Clothing,True,22,$100+
+Acceptable product with average performance. Does what it says.,Neutral,3,Clothing,False,63,$100+
+Fair product that meets basic expectations without exceeding them.,Neutral,3,Beauty,True,0,$100+
+Decent product with some good points and some bad ones. Fair overall.,Neutral,3,Sports,False,89,$25-50
+Average quality and performance. Could be better but not terrible.,Neutral,3,Electronics,True,88,$0-25
+It works but there are probably better options available elsewhere.,Neutral,3,Sports,False,16,$100+
+Acceptable product with average performance. Does what it says.,Neutral,3,Electronics,True,16,$100+
+Average quality and performance. Could be better but not terrible.,Neutral,3,Toys,False,64,$100+
+Fair product that meets basic expectations without exceeding them.,Neutral,3,Sports,True,61,$0-25
+Acceptable product with average performance. Does what it says.,Neutral,3,Clothing,False,1,$0-25
+Works as expected though not particularly impressive. It's fine.,Neutral,3,Beauty,True,0,$0-25
+Fair product that meets basic expectations without exceeding them.,Neutral,3,Toys,False,12,$25-50
+"It's okay, does the job but nothing special. Average quality for the price.",Neutral,3,Books,False,61,$0-25
+Average quality and performance. Could be better but not terrible.,Neutral,3,Books,True,69,$0-25
+"It's okay, does the job but nothing special. Average quality for the price.",Neutral,3,Sports,False,65,$100+
+Average quality and performance. Could be better but not terrible.,Neutral,3,Beauty,True,23,$0-25
+"It's okay, does the job but nothing special. Average quality for the price.",Neutral,3,Home & Kitchen,False,44,$0-25
+"It's okay, does the job but nothing special. Average quality for the price.",Neutral,3,Electronics,True,56,$0-25
+Average quality and performance. Could be better but not terrible.,Neutral,3,Clothing,True,17,$0-25
+"It's okay, does the job but nothing special. Average quality for the price.",Neutral,3,Sports,True,7,$50-100
+"It's alright, serves its purpose but lacks wow factor. Standard product.",Neutral,3,Beauty,True,6,$100+
+Works as expected though not particularly impressive. It's fine.,Neutral,3,Sports,True,81,$0-25
+"It's okay, does the job but nothing special. Average quality for the price.",Neutral,3,Clothing,False,26,$50-100
+"It's alright, serves its purpose but lacks wow factor. Standard product.",Neutral,3,Clothing,True,26,$25-50
+It works but there are probably better options available elsewhere.,Neutral,3,Electronics,True,52,$100+

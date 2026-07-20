@@ -1,0 +1,151 @@
+headline_id,text,sentiment,category,source,publish_date,views,shares
+NEWS_0001,Local Community Raises $100K for Children's Hospital,Positive,Health,National News,2025-12-01,23022,769
+NEWS_0002,"Technology Company Announces 1,000 New Jobs",Positive,Economy,National News,2025-12-09,58296,3091
+NEWS_0003,Medical Research Shows Promising Cancer Treatment Results,Positive,Sports,Local News,2025-12-01,38930,601
+NEWS_0004,Local Community Raises $100K for Children's Hospital,Positive,Environment,Wire Service,2025-12-25,98024,4558
+NEWS_0005,Student Wins International Science Competition,Positive,Politics,Local News,2025-12-16,23974,3777
+NEWS_0006,Medical Research Shows Promising Cancer Treatment Results,Positive,Entertainment,Wire Service,2025-12-25,66001,4203
+NEWS_0007,Unemployment Rate Drops to Lowest Level in Decade,Positive,Politics,Online News,2025-12-12,73497,4074
+NEWS_0008,Local Community Raises $100K for Children's Hospital,Positive,Technology,Online News,2025-12-13,89144,1055
+NEWS_0009,City Opens New Public Park with Free Activities,Positive,Politics,Wire Service,2025-11-30,5267,2248
+NEWS_0010,Local School Receives Award for Excellence in Education,Positive,Sports,Local News,2025-12-15,21957,1074
+NEWS_0011,Environmental Initiative Successfully Cleans Up River,Positive,Sports,National News,2025-12-19,52204,1408
+NEWS_0012,"Technology Company Announces 1,000 New Jobs",Positive,Environment,Wire Service,2025-12-10,75662,96
+NEWS_0013,Environmental Initiative Successfully Cleans Up River,Positive,Sports,National News,2025-12-05,85700,3171
+NEWS_0014,Scientists Discover Breakthrough Treatment for Rare Disease,Positive,Economy,Wire Service,2025-12-01,9010,3155
+NEWS_0015,Medical Research Shows Promising Cancer Treatment Results,Positive,Economy,Online News,2025-12-22,18796,351
+NEWS_0016,Student Wins International Science Competition,Positive,Health,Online News,2025-12-01,85481,3880
+NEWS_0017,Environmental Initiative Successfully Cleans Up River,Positive,Environment,National News,2025-12-21,85047,1572
+NEWS_0018,Student Wins International Science Competition,Positive,Technology,National News,2025-12-01,11111,1581
+NEWS_0019,City Opens New Public Park with Free Activities,Positive,Economy,Online News,2025-12-14,19449,215
+NEWS_0020,Unemployment Rate Drops to Lowest Level in Decade,Positive,Technology,Wire Service,2025-12-17,40654,599
+NEWS_0021,"Technology Company Announces 1,000 New Jobs",Positive,Health,Local News,2025-12-25,28851,1251
+NEWS_0022,Unemployment Rate Drops to Lowest Level in Decade,Positive,Sports,Online News,2025-12-10,70742,3836
+NEWS_0023,Environmental Initiative Successfully Cleans Up River,Positive,Politics,Online News,2025-12-22,46291,711
+NEWS_0024,Student Wins International Science Competition,Positive,Health,Online News,2025-12-27,58811,393
+NEWS_0025,City Opens New Public Park with Free Activities,Positive,Environment,National News,2025-12-09,65976,4375
+NEWS_0026,Unemployment Rate Drops to Lowest Level in Decade,Positive,Technology,National News,2025-12-27,3181,3888
+NEWS_0027,Local Community Raises $100K for Children's Hospital,Positive,Health,National News,2025-12-04,56612,1296
+NEWS_0028,"New Renewable Energy Project Powers 50,000 Homes",Positive,Technology,National News,2025-12-19,14151,4899
+NEWS_0029,"Technology Company Announces 1,000 New Jobs",Positive,Entertainment,Local News,2025-12-11,31761,2856
+NEWS_0030,Local Community Raises $100K for Children's Hospital,Positive,Environment,Wire Service,2025-12-15,18732,1265
+NEWS_0031,Student Wins International Science Competition,Positive,Sports,National News,2025-11-29,92119,248
+NEWS_0032,Environmental Initiative Successfully Cleans Up River,Positive,Environment,Wire Service,2025-12-23,73904,4585
+NEWS_0033,Medical Research Shows Promising Cancer Treatment Results,Positive,Sports,Online News,2025-12-05,19451,1035
+NEWS_0034,City Opens New Public Park with Free Activities,Positive,Sports,Wire Service,2025-12-26,23991,2879
+NEWS_0035,"Technology Company Announces 1,000 New Jobs",Positive,Environment,Local News,2025-12-01,46049,3983
+NEWS_0036,Unemployment Rate Drops to Lowest Level in Decade,Positive,Health,Online News,2025-12-03,95270,1151
+NEWS_0037,Student Wins International Science Competition,Positive,Environment,Local News,2025-12-05,92526,3108
+NEWS_0038,Local Community Raises $100K for Children's Hospital,Positive,Sports,National News,2025-12-14,50948,4791
+NEWS_0039,Scientists Discover Breakthrough Treatment for Rare Disease,Positive,Entertainment,Wire Service,2025-12-18,68255,4886
+NEWS_0040,Local School Receives Award for Excellence in Education,Positive,Sports,Online News,2025-12-28,24629,739
+NEWS_0041,Student Wins International Science Competition,Positive,Entertainment,Local News,2025-12-22,44169,2818
+NEWS_0042,Medical Research Shows Promising Cancer Treatment Results,Positive,Environment,Wire Service,2025-12-10,96452,3127
+NEWS_0043,Unemployment Rate Drops to Lowest Level in Decade,Positive,Sports,Local News,2025-12-06,5481,3461
+NEWS_0044,Scientists Discover Breakthrough Treatment for Rare Disease,Positive,Entertainment,Local News,2025-12-16,48175,2486
+NEWS_0045,"Technology Company Announces 1,000 New Jobs",Positive,Sports,Online News,2025-12-22,90999,1887
+NEWS_0046,City Opens New Public Park with Free Activities,Positive,Sports,Local News,2025-11-29,41642,1711
+NEWS_0047,"New Renewable Energy Project Powers 50,000 Homes",Positive,Politics,Online News,2025-12-22,10884,2552
+NEWS_0048,"Technology Company Announces 1,000 New Jobs",Positive,Health,National News,2025-12-11,19192,1140
+NEWS_0049,Medical Research Shows Promising Cancer Treatment Results,Positive,Health,Online News,2025-12-19,46677,299
+NEWS_0050,Scientists Discover Breakthrough Treatment for Rare Disease,Positive,Health,Wire Service,2025-11-30,55641,1052
+NEWS_0051,Environmental Initiative Successfully Cleans Up River,Positive,Technology,Online News,2025-11-29,26689,4681
+NEWS_0052,Medical Research Shows Promising Cancer Treatment Results,Positive,Health,National News,2025-12-04,50585,3239
+NEWS_0053,"Technology Company Announces 1,000 New Jobs",Positive,Economy,National News,2025-12-11,43779,1024
+NEWS_0054,Unemployment Rate Drops to Lowest Level in Decade,Positive,Entertainment,Wire Service,2025-11-29,81126,2653
+NEWS_0055,Student Wins International Science Competition,Positive,Environment,Local News,2025-12-15,61620,4096
+NEWS_0056,Local School Receives Award for Excellence in Education,Positive,Health,Local News,2025-12-21,83907,4016
+NEWS_0057,Scientists Discover Breakthrough Treatment for Rare Disease,Positive,Politics,Wire Service,2025-12-08,4785,2694
+NEWS_0058,Local Community Raises $100K for Children's Hospital,Positive,Economy,Online News,2025-11-30,9385,3526
+NEWS_0059,Environmental Initiative Successfully Cleans Up River,Positive,Sports,Local News,2025-12-03,10551,1582
+NEWS_0060,Student Wins International Science Competition,Positive,Health,Online News,2025-12-24,80831,3583
+NEWS_0061,Crime Rate Increases in Downtown Area,Negative,Economy,Local News,2025-12-02,38800,3776
+NEWS_0062,Healthcare System Faces Critical Staff Shortage,Negative,Environment,Online News,2025-11-29,34134,2324
+NEWS_0063,Cyber Attack Targets Government Infrastructure,Negative,Sports,National News,2025-12-04,51061,4302
+NEWS_0064,Housing Crisis Worsens as Prices Continue to Rise,Negative,Entertainment,Online News,2025-12-01,98764,1422
+NEWS_0065,Crime Rate Increases in Downtown Area,Negative,Technology,Wire Service,2025-12-26,46889,4421
+NEWS_0066,Economic Recession Fears Grow as Markets Tumble,Negative,Entertainment,National News,2025-12-25,24422,1286
+NEWS_0067,Crime Rate Increases in Downtown Area,Negative,Politics,Local News,2025-12-12,12943,1814
+NEWS_0068,Major Data Breach Affects Millions of Users,Negative,Sports,National News,2025-12-15,89876,77
+NEWS_0069,Housing Crisis Worsens as Prices Continue to Rise,Negative,Sports,Online News,2025-12-05,97051,2029
+NEWS_0070,Major Data Breach Affects Millions of Users,Negative,Entertainment,Local News,2025-12-14,30467,1219
+NEWS_0071,Natural Disaster Leaves Thousands Without Power,Negative,Sports,Local News,2025-11-30,88923,1019
+NEWS_0072,Housing Crisis Worsens as Prices Continue to Rise,Negative,Environment,National News,2025-12-09,60555,4158
+NEWS_0073,Crime Rate Increases in Downtown Area,Negative,Environment,Online News,2025-12-14,22377,4131
+NEWS_0074,Transportation Strike Disrupts City Services,Negative,Technology,Online News,2025-12-18,67364,1573
+NEWS_0075,Crime Rate Increases in Downtown Area,Negative,Environment,Wire Service,2025-12-19,27824,2673
+NEWS_0076,Environmental Pollution Reaches Dangerous Levels,Negative,Politics,National News,2025-12-08,30698,486
+NEWS_0077,Housing Crisis Worsens as Prices Continue to Rise,Negative,Technology,National News,2025-12-18,72534,4012
+NEWS_0078,Cyber Attack Targets Government Infrastructure,Negative,Sports,Wire Service,2025-12-27,68766,226
+NEWS_0079,Company Announces Massive Layoffs Due to Budget Cuts,Negative,Entertainment,Online News,2025-12-01,24718,3259
+NEWS_0080,Transportation Strike Disrupts City Services,Negative,Sports,Online News,2025-12-07,53300,1654
+NEWS_0081,Healthcare System Faces Critical Staff Shortage,Negative,Sports,Local News,2025-12-01,85344,1982
+NEWS_0082,Economic Recession Fears Grow as Markets Tumble,Negative,Environment,Wire Service,2025-11-30,78814,4748
+NEWS_0083,Economic Recession Fears Grow as Markets Tumble,Negative,Environment,Wire Service,2025-12-04,54167,4536
+NEWS_0084,Economic Recession Fears Grow as Markets Tumble,Negative,Technology,National News,2025-12-14,56370,2344
+NEWS_0085,Housing Crisis Worsens as Prices Continue to Rise,Negative,Sports,Local News,2025-12-02,67303,1297
+NEWS_0086,Company Announces Massive Layoffs Due to Budget Cuts,Negative,Economy,Wire Service,2025-12-02,80587,2630
+NEWS_0087,Crime Rate Increases in Downtown Area,Negative,Economy,Online News,2025-12-08,53355,1878
+NEWS_0088,Natural Disaster Leaves Thousands Without Power,Negative,Politics,Wire Service,2025-12-18,36947,2917
+NEWS_0089,Economic Recession Fears Grow as Markets Tumble,Negative,Economy,Online News,2025-12-05,82029,4419
+NEWS_0090,Company Announces Massive Layoffs Due to Budget Cuts,Negative,Economy,Online News,2025-12-10,92610,603
+NEWS_0091,Crime Rate Increases in Downtown Area,Negative,Entertainment,Local News,2025-12-19,26286,444
+NEWS_0092,Transportation Strike Disrupts City Services,Negative,Health,National News,2025-12-20,59789,1659
+NEWS_0093,Housing Crisis Worsens as Prices Continue to Rise,Negative,Politics,Online News,2025-12-08,53450,4620
+NEWS_0094,Major Data Breach Affects Millions of Users,Negative,Technology,Local News,2025-12-01,16756,4656
+NEWS_0095,Healthcare System Faces Critical Staff Shortage,Negative,Environment,Wire Service,2025-12-03,86068,4115
+NEWS_0096,Company Announces Massive Layoffs Due to Budget Cuts,Negative,Technology,Local News,2025-12-22,33124,3286
+NEWS_0097,Healthcare System Faces Critical Staff Shortage,Negative,Sports,National News,2025-12-14,6344,389
+NEWS_0098,Healthcare System Faces Critical Staff Shortage,Negative,Environment,Online News,2025-12-02,4780,2820
+NEWS_0099,Company Announces Massive Layoffs Due to Budget Cuts,Negative,Politics,Wire Service,2025-12-06,51374,1148
+NEWS_0100,Economic Recession Fears Grow as Markets Tumble,Negative,Sports,Local News,2025-12-28,26459,4209
+NEWS_0101,Cyber Attack Targets Government Infrastructure,Negative,Politics,National News,2025-12-12,41522,1326
+NEWS_0102,Transportation Strike Disrupts City Services,Negative,Technology,Online News,2025-12-12,71872,1155
+NEWS_0103,Company Announces Massive Layoffs Due to Budget Cuts,Negative,Entertainment,National News,2025-12-22,76873,1295
+NEWS_0104,Major Data Breach Affects Millions of Users,Negative,Technology,National News,2025-12-04,6622,4898
+NEWS_0105,Major Data Breach Affects Millions of Users,Negative,Entertainment,Local News,2025-12-24,90941,1667
+NEWS_0106,Community Center Offers New Programming Options,Neutral,Environment,National News,2025-12-03,93298,1191
+NEWS_0107,Community Center Offers New Programming Options,Neutral,Sports,Local News,2025-12-17,66105,1641
+NEWS_0108,Community Center Offers New Programming Options,Neutral,Technology,Online News,2025-12-20,25657,194
+NEWS_0109,Municipal Elections Scheduled for Next Month,Neutral,Health,Wire Service,2025-12-27,81502,1797
+NEWS_0110,New Traffic Light Installed at Busy Intersection,Neutral,Environment,Local News,2025-11-30,73810,4960
+NEWS_0111,Weather Forecast Predicts Average Temperatures This Week,Neutral,Health,Online News,2025-12-21,61278,660
+NEWS_0112,City Council Meets to Discuss Budget Proposals,Neutral,Economy,National News,2025-12-26,32980,2831
+NEWS_0113,Weather Forecast Predicts Average Temperatures This Week,Neutral,Entertainment,Online News,2025-12-25,57674,248
+NEWS_0114,City Council Meets to Discuss Budget Proposals,Neutral,Economy,Wire Service,2025-12-08,15830,2745
+NEWS_0115,Road Construction Project Enters Second Phase,Neutral,Politics,Wire Service,2025-12-21,54805,1986
+NEWS_0116,Weather Forecast Predicts Average Temperatures This Week,Neutral,Sports,National News,2025-12-04,51315,1133
+NEWS_0117,City Council Meets to Discuss Budget Proposals,Neutral,Health,Online News,2025-12-16,73654,2741
+NEWS_0118,Annual Festival Planning Committee Announces Dates,Neutral,Environment,Local News,2025-12-10,81197,4112
+NEWS_0119,Public Transportation Schedule Updates Announced,Neutral,Economy,Local News,2025-11-30,19103,4913
+NEWS_0120,City Council Meets to Discuss Budget Proposals,Neutral,Economy,National News,2025-12-12,28136,2655
+NEWS_0121,Community Center Offers New Programming Options,Neutral,Sports,Local News,2025-12-28,83096,3429
+NEWS_0122,Annual Festival Planning Committee Announces Dates,Neutral,Sports,National News,2025-12-04,15959,4516
+NEWS_0123,Annual Festival Planning Committee Announces Dates,Neutral,Politics,Wire Service,2025-12-27,4950,2909
+NEWS_0124,Municipal Elections Scheduled for Next Month,Neutral,Politics,Local News,2025-12-28,90642,3754
+NEWS_0125,City Council Meets to Discuss Budget Proposals,Neutral,Entertainment,Local News,2025-12-16,33658,2028
+NEWS_0126,Weather Forecast Predicts Average Temperatures This Week,Neutral,Sports,Wire Service,2025-12-24,42809,1900
+NEWS_0127,City Council Meets to Discuss Budget Proposals,Neutral,Politics,Wire Service,2025-12-11,21975,2803
+NEWS_0128,Weather Forecast Predicts Average Temperatures This Week,Neutral,Health,Online News,2025-12-17,36540,3703
+NEWS_0129,School District Reviews Curriculum Changes,Neutral,Health,Local News,2025-12-18,34648,2951
+NEWS_0130,School District Reviews Curriculum Changes,Neutral,Health,Local News,2025-12-08,50910,3456
+NEWS_0131,School District Reviews Curriculum Changes,Neutral,Entertainment,Online News,2025-12-15,37690,2252
+NEWS_0132,Weather Forecast Predicts Average Temperatures This Week,Neutral,Sports,Online News,2025-12-17,90969,2044
+NEWS_0133,New Traffic Light Installed at Busy Intersection,Neutral,Technology,Local News,2025-12-09,93301,4031
+NEWS_0134,Weather Forecast Predicts Average Temperatures This Week,Neutral,Politics,National News,2025-12-26,67205,2900
+NEWS_0135,Weather Forecast Predicts Average Temperatures This Week,Neutral,Sports,National News,2025-12-11,51486,4907
+NEWS_0136,Road Construction Project Enters Second Phase,Neutral,Politics,Online News,2025-11-29,60628,2009
+NEWS_0137,City Council Meets to Discuss Budget Proposals,Neutral,Economy,National News,2025-12-06,37658,102
+NEWS_0138,City Council Meets to Discuss Budget Proposals,Neutral,Environment,Online News,2025-12-20,7375,2848
+NEWS_0139,Weather Forecast Predicts Average Temperatures This Week,Neutral,Economy,Wire Service,2025-12-20,19353,1629
+NEWS_0140,Public Transportation Schedule Updates Announced,Neutral,Entertainment,National News,2025-12-08,62627,325
+NEWS_0141,Road Construction Project Enters Second Phase,Neutral,Entertainment,Wire Service,2025-12-08,24241,3060
+NEWS_0142,Municipal Elections Scheduled for Next Month,Neutral,Entertainment,Online News,2025-12-02,43922,81
+NEWS_0143,Municipal Elections Scheduled for Next Month,Neutral,Entertainment,Local News,2025-12-03,75291,514
+NEWS_0144,Community Center Offers New Programming Options,Neutral,Health,Online News,2025-12-26,50548,1798
+NEWS_0145,Weather Forecast Predicts Average Temperatures This Week,Neutral,Environment,Wire Service,2025-12-17,92614,4444
+NEWS_0146,Community Center Offers New Programming Options,Neutral,Health,Online News,2025-12-02,30991,604
+NEWS_0147,Municipal Elections Scheduled for Next Month,Neutral,Sports,Local News,2025-12-19,89859,1083
+NEWS_0148,Local Library Extends Operating Hours,Neutral,Sports,National News,2025-12-26,38239,3165
+NEWS_0149,Road Construction Project Enters Second Phase,Neutral,Economy,Online News,2025-12-04,84534,3799
+NEWS_0150,Weather Forecast Predicts Average Temperatures This Week,Neutral,Sports,Online News,2025-12-23,45928,2249

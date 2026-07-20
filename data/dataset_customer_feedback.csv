@@ -1,0 +1,201 @@
+ticket_id,text,sentiment,department,satisfaction_rating,resolution_time_hours,priority,date
+TICKET_0001,The representative was patient and explained everything clearly.,Positive,Billing,5,56,Medium,2025-11-10
+TICKET_0002,Quick response time and very knowledgeable staff. Excellent experience!,Positive,General Inquiry,5,27,Low,2025-12-04
+TICKET_0003,Wonderful experience from start to finish. Great team!,Positive,Sales,4,56,Critical,2025-12-07
+TICKET_0004,Outstanding customer service! They went above and beyond to help me.,Positive,Complaints,5,63,Medium,2025-11-21
+TICKET_0005,Quick response time and very knowledgeable staff. Excellent experience!,Positive,Billing,5,33,Low,2025-10-29
+TICKET_0006,Outstanding customer service! They went above and beyond to help me.,Positive,Technical Support,5,41,Low,2025-10-28
+TICKET_0007,Professional and courteous service. Problem solved in minutes!,Positive,General Inquiry,4,66,High,2025-12-26
+TICKET_0008,Wonderful experience from start to finish. Great team!,Positive,Complaints,5,11,Low,2025-10-26
+TICKET_0009,Professional and courteous service. Problem solved in minutes!,Positive,Technical Support,4,26,Low,2025-12-04
+TICKET_0010,The support team was incredibly helpful and resolved my issue quickly.,Positive,Sales,4,44,Medium,2025-11-03
+TICKET_0011,The support team was incredibly helpful and resolved my issue quickly.,Positive,Billing,4,20,Critical,2025-12-20
+TICKET_0012,The representative was patient and explained everything clearly.,Positive,Complaints,4,47,Critical,2025-11-27
+TICKET_0013,"Fast, efficient, and friendly service. Couldn't ask for more!",Positive,Sales,5,42,Critical,2025-12-07
+TICKET_0014,The representative was patient and explained everything clearly.,Positive,General Inquiry,4,43,Medium,2025-11-19
+TICKET_0015,Best customer service I've ever experienced. Truly impressed!,Positive,Sales,5,31,High,2025-12-14
+TICKET_0016,They made a difficult situation easy to resolve. Thank you!,Positive,Billing,4,12,Medium,2025-10-15
+TICKET_0017,Wonderful experience from start to finish. Great team!,Positive,Sales,5,37,Critical,2025-12-07
+TICKET_0018,Exceeded my expectations with their helpfulness and expertise.,Positive,Billing,4,6,High,2025-12-03
+TICKET_0019,"Fast, efficient, and friendly service. Couldn't ask for more!",Positive,Sales,5,2,Critical,2025-12-26
+TICKET_0020,Exceeded my expectations with their helpfulness and expertise.,Positive,General Inquiry,5,4,Medium,2025-12-27
+TICKET_0021,Professional and courteous service. Problem solved in minutes!,Positive,General Inquiry,4,28,High,2025-10-07
+TICKET_0022,The representative was patient and explained everything clearly.,Positive,Technical Support,5,29,Critical,2025-10-02
+TICKET_0023,Outstanding customer service! They went above and beyond to help me.,Positive,Complaints,5,27,Low,2025-11-29
+TICKET_0024,Wonderful experience from start to finish. Great team!,Positive,Billing,5,56,Medium,2025-10-26
+TICKET_0025,Best customer service I've ever experienced. Truly impressed!,Positive,Complaints,4,25,Critical,2025-10-03
+TICKET_0026,Outstanding customer service! They went above and beyond to help me.,Positive,Complaints,4,45,Critical,2025-11-10
+TICKET_0027,Wonderful experience from start to finish. Great team!,Positive,Complaints,4,10,Medium,2025-11-21
+TICKET_0028,The support team was incredibly helpful and resolved my issue quickly.,Positive,Sales,5,39,Medium,2025-10-14
+TICKET_0029,Professional and courteous service. Problem solved in minutes!,Positive,Sales,5,35,Medium,2025-11-02
+TICKET_0030,They made a difficult situation easy to resolve. Thank you!,Positive,Billing,5,6,High,2025-10-01
+TICKET_0031,Exceeded my expectations with their helpfulness and expertise.,Positive,Technical Support,5,6,Low,2025-10-27
+TICKET_0032,The support team was incredibly helpful and resolved my issue quickly.,Positive,Technical Support,5,63,Critical,2025-10-18
+TICKET_0033,Professional and courteous service. Problem solved in minutes!,Positive,Complaints,4,64,Medium,2025-10-25
+TICKET_0034,The support team was incredibly helpful and resolved my issue quickly.,Positive,Sales,5,28,Critical,2025-10-25
+TICKET_0035,The representative was patient and explained everything clearly.,Positive,Complaints,5,39,High,2025-11-15
+TICKET_0036,Professional and courteous service. Problem solved in minutes!,Positive,Billing,4,64,Low,2025-11-13
+TICKET_0037,Quick response time and very knowledgeable staff. Excellent experience!,Positive,Sales,4,60,High,2025-11-05
+TICKET_0038,They made a difficult situation easy to resolve. Thank you!,Positive,General Inquiry,4,64,Low,2025-12-16
+TICKET_0039,Exceeded my expectations with their helpfulness and expertise.,Positive,General Inquiry,5,33,High,2025-11-26
+TICKET_0040,Outstanding customer service! They went above and beyond to help me.,Positive,Technical Support,5,57,Critical,2025-11-24
+TICKET_0041,"Fast, efficient, and friendly service. Couldn't ask for more!",Positive,Technical Support,5,53,High,2025-11-09
+TICKET_0042,Quick response time and very knowledgeable staff. Excellent experience!,Positive,Complaints,4,61,Critical,2025-11-25
+TICKET_0043,"Fast, efficient, and friendly service. Couldn't ask for more!",Positive,General Inquiry,4,53,High,2025-11-26
+TICKET_0044,Wonderful experience from start to finish. Great team!,Positive,General Inquiry,4,30,Medium,2025-10-23
+TICKET_0045,Professional and courteous service. Problem solved in minutes!,Positive,Sales,5,13,Low,2025-11-07
+TICKET_0046,Wonderful experience from start to finish. Great team!,Positive,Sales,4,48,Low,2025-11-18
+TICKET_0047,Wonderful experience from start to finish. Great team!,Positive,Technical Support,4,66,Low,2025-10-18
+TICKET_0048,Outstanding customer service! They went above and beyond to help me.,Positive,Technical Support,5,22,High,2025-10-15
+TICKET_0049,The support team was incredibly helpful and resolved my issue quickly.,Positive,Sales,5,15,Low,2025-11-01
+TICKET_0050,They made a difficult situation easy to resolve. Thank you!,Positive,General Inquiry,4,6,Medium,2025-10-14
+TICKET_0051,They made a difficult situation easy to resolve. Thank you!,Positive,General Inquiry,4,47,Low,2025-11-13
+TICKET_0052,The representative was patient and explained everything clearly.,Positive,Technical Support,4,58,Low,2025-12-11
+TICKET_0053,The support team was incredibly helpful and resolved my issue quickly.,Positive,General Inquiry,5,27,Low,2025-10-29
+TICKET_0054,They made a difficult situation easy to resolve. Thank you!,Positive,Technical Support,4,68,Medium,2025-12-28
+TICKET_0055,Exceeded my expectations with their helpfulness and expertise.,Positive,Technical Support,4,30,Low,2025-10-20
+TICKET_0056,The representative was patient and explained everything clearly.,Positive,General Inquiry,5,23,Low,2025-11-01
+TICKET_0057,Outstanding customer service! They went above and beyond to help me.,Positive,Complaints,4,47,Critical,2025-10-27
+TICKET_0058,Wonderful experience from start to finish. Great team!,Positive,General Inquiry,5,55,Medium,2025-12-23
+TICKET_0059,Outstanding customer service! They went above and beyond to help me.,Positive,Complaints,5,55,Critical,2025-10-06
+TICKET_0060,Professional and courteous service. Problem solved in minutes!,Positive,Complaints,5,28,Low,2025-11-15
+TICKET_0061,Outstanding customer service! They went above and beyond to help me.,Positive,General Inquiry,5,56,Medium,2025-12-17
+TICKET_0062,Quick response time and very knowledgeable staff. Excellent experience!,Positive,Technical Support,4,6,Low,2025-11-07
+TICKET_0063,Wonderful experience from start to finish. Great team!,Positive,Technical Support,4,44,Critical,2025-12-16
+TICKET_0064,Outstanding customer service! They went above and beyond to help me.,Positive,Complaints,4,40,Critical,2025-12-03
+TICKET_0065,Professional and courteous service. Problem solved in minutes!,Positive,Complaints,4,33,Critical,2025-12-17
+TICKET_0066,Outstanding customer service! They went above and beyond to help me.,Positive,Complaints,5,67,Critical,2025-12-23
+TICKET_0067,Best customer service I've ever experienced. Truly impressed!,Positive,Complaints,5,28,Medium,2025-12-12
+TICKET_0068,Professional and courteous service. Problem solved in minutes!,Positive,General Inquiry,4,27,High,2025-10-25
+TICKET_0069,They made a difficult situation easy to resolve. Thank you!,Positive,Complaints,4,32,Medium,2025-10-01
+TICKET_0070,Quick response time and very knowledgeable staff. Excellent experience!,Positive,Complaints,4,59,High,2025-11-23
+TICKET_0071,The representative was patient and explained everything clearly.,Positive,General Inquiry,4,36,High,2025-10-01
+TICKET_0072,Quick response time and very knowledgeable staff. Excellent experience!,Positive,Sales,5,6,Low,2025-10-05
+TICKET_0073,They made a difficult situation easy to resolve. Thank you!,Positive,General Inquiry,5,59,Medium,2025-11-17
+TICKET_0074,The support team was incredibly helpful and resolved my issue quickly.,Positive,Complaints,4,33,High,2025-10-10
+TICKET_0075,They made a difficult situation easy to resolve. Thank you!,Positive,Complaints,5,62,Medium,2025-11-23
+TICKET_0076,Exceeded my expectations with their helpfulness and expertise.,Positive,Technical Support,4,52,Critical,2025-12-25
+TICKET_0077,Wonderful experience from start to finish. Great team!,Positive,Billing,4,42,Medium,2025-11-13
+TICKET_0078,The support team was incredibly helpful and resolved my issue quickly.,Positive,Billing,5,61,High,2025-11-06
+TICKET_0079,Professional and courteous service. Problem solved in minutes!,Positive,General Inquiry,5,48,Low,2025-11-25
+TICKET_0080,Exceeded my expectations with their helpfulness and expertise.,Positive,Sales,5,15,Medium,2025-12-17
+TICKET_0081,Unprofessional behavior and lack of knowledge from support team.,Negative,Billing,2,12,Low,2025-11-16
+TICKET_0082,Completely unsatisfied with the level of service received.,Negative,Complaints,2,57,High,2025-10-05
+TICKET_0083,Worst customer service ever. They made my problem worse!,Negative,Complaints,1,69,Low,2025-12-17
+TICKET_0084,Waited on hold for over an hour just to be transferred again.,Negative,Sales,2,22,Medium,2025-12-07
+TICKET_0085,Completely unsatisfied with the level of service received.,Negative,Sales,2,45,High,2025-10-28
+TICKET_0086,Staff seemed annoyed to help and provided incorrect information.,Negative,Billing,1,38,Medium,2025-10-01
+TICKET_0087,Worst customer service ever. They made my problem worse!,Negative,Billing,2,14,Low,2025-12-04
+TICKET_0088,No one seems to know how to solve basic problems. Very frustrating!,Negative,Sales,1,47,Critical,2025-11-15
+TICKET_0089,Rude and unhelpful staff. Completely disappointed with the service.,Negative,Billing,1,2,Medium,2025-10-09
+TICKET_0090,Terrible experience. Multiple calls with no resolution.,Negative,General Inquiry,1,53,Critical,2025-10-11
+TICKET_0091,Waited on hold for over an hour just to be transferred again.,Negative,Complaints,1,22,Medium,2025-11-27
+TICKET_0092,Terrible experience. Multiple calls with no resolution.,Negative,Sales,2,5,Critical,2025-11-29
+TICKET_0093,No one seems to know how to solve basic problems. Very frustrating!,Negative,Sales,2,62,High,2025-10-16
+TICKET_0094,Multiple transfers and still no resolution to my simple issue.,Negative,General Inquiry,1,50,Low,2025-12-03
+TICKET_0095,Terrible experience. Multiple calls with no resolution.,Negative,General Inquiry,2,59,Critical,2025-11-21
+TICKET_0096,No one seems to know how to solve basic problems. Very frustrating!,Negative,Complaints,1,67,Low,2025-12-17
+TICKET_0097,Worst customer service ever. They made my problem worse!,Negative,Technical Support,2,17,Critical,2025-11-06
+TICKET_0098,Unprofessional behavior and lack of knowledge from support team.,Negative,Complaints,2,29,Low,2025-10-29
+TICKET_0099,Worst customer service ever. They made my problem worse!,Negative,Sales,1,31,Critical,2025-12-06
+TICKET_0100,Completely unsatisfied with the level of service received.,Negative,Billing,1,16,High,2025-12-06
+TICKET_0101,Unprofessional behavior and lack of knowledge from support team.,Negative,Billing,2,61,High,2025-11-24
+TICKET_0102,Waited on hold for over an hour just to be transferred again.,Negative,Billing,1,72,Medium,2025-12-16
+TICKET_0103,No one seems to know how to solve basic problems. Very frustrating!,Negative,Technical Support,1,71,Low,2025-10-19
+TICKET_0104,No one seems to know how to solve basic problems. Very frustrating!,Negative,Complaints,2,23,Medium,2025-10-20
+TICKET_0105,Unprofessional behavior and lack of knowledge from support team.,Negative,Billing,2,33,High,2025-12-25
+TICKET_0106,Rude and unhelpful staff. Completely disappointed with the service.,Negative,Billing,1,48,Medium,2025-10-04
+TICKET_0107,No one seems to know how to solve basic problems. Very frustrating!,Negative,Sales,1,23,Critical,2025-11-04
+TICKET_0108,Completely unsatisfied with the level of service received.,Negative,Sales,2,5,High,2025-10-30
+TICKET_0109,Waited on hold for over an hour just to be transferred again.,Negative,Billing,1,24,Critical,2025-11-10
+TICKET_0110,Long wait times and no helpful solutions provided.,Negative,General Inquiry,2,11,High,2025-12-20
+TICKET_0111,Waited on hold for over an hour just to be transferred again.,Negative,Technical Support,2,46,Medium,2025-11-08
+TICKET_0112,Multiple transfers and still no resolution to my simple issue.,Negative,General Inquiry,2,13,Critical,2025-10-27
+TICKET_0113,Waited on hold for over an hour just to be transferred again.,Negative,Billing,1,45,Critical,2025-10-19
+TICKET_0114,Long wait times and no helpful solutions provided.,Negative,Billing,1,28,Medium,2025-10-23
+TICKET_0115,Terrible experience. Multiple calls with no resolution.,Negative,Sales,1,12,Medium,2025-10-11
+TICKET_0116,Rude and unhelpful staff. Completely disappointed with the service.,Negative,Complaints,2,25,Critical,2025-12-09
+TICKET_0117,Unprofessional behavior and lack of knowledge from support team.,Negative,Sales,2,36,Medium,2025-12-25
+TICKET_0118,Terrible experience. Multiple calls with no resolution.,Negative,Complaints,2,12,High,2025-12-13
+TICKET_0119,Worst customer service ever. They made my problem worse!,Negative,Technical Support,1,47,Low,2025-10-02
+TICKET_0120,Long wait times and no helpful solutions provided.,Negative,Complaints,2,9,Medium,2025-12-02
+TICKET_0121,Terrible experience. Multiple calls with no resolution.,Negative,General Inquiry,1,41,High,2025-12-23
+TICKET_0122,Worst customer service ever. They made my problem worse!,Negative,Sales,1,32,Low,2025-10-03
+TICKET_0123,Rude and unhelpful staff. Completely disappointed with the service.,Negative,Billing,2,36,Medium,2025-12-01
+TICKET_0124,Rude and unhelpful staff. Completely disappointed with the service.,Negative,Complaints,1,50,Critical,2025-12-16
+TICKET_0125,Terrible experience. Multiple calls with no resolution.,Negative,General Inquiry,1,26,Low,2025-11-02
+TICKET_0126,Multiple transfers and still no resolution to my simple issue.,Negative,Technical Support,1,40,Medium,2025-11-06
+TICKET_0127,Terrible experience. Multiple calls with no resolution.,Negative,Sales,1,6,Low,2025-11-18
+TICKET_0128,Completely unsatisfied with the level of service received.,Negative,Billing,2,49,Medium,2025-11-07
+TICKET_0129,Completely unsatisfied with the level of service received.,Negative,General Inquiry,2,27,Critical,2025-11-09
+TICKET_0130,Multiple transfers and still no resolution to my simple issue.,Negative,Billing,2,56,Low,2025-11-16
+TICKET_0131,Worst customer service ever. They made my problem worse!,Negative,Billing,2,61,Medium,2025-12-11
+TICKET_0132,Staff seemed annoyed to help and provided incorrect information.,Negative,Complaints,2,8,Medium,2025-10-02
+TICKET_0133,Worst customer service ever. They made my problem worse!,Negative,Sales,2,41,Medium,2025-11-24
+TICKET_0134,Staff seemed annoyed to help and provided incorrect information.,Negative,Technical Support,1,13,High,2025-11-04
+TICKET_0135,Multiple transfers and still no resolution to my simple issue.,Negative,Complaints,2,39,High,2025-10-19
+TICKET_0136,Completely unsatisfied with the level of service received.,Negative,Technical Support,2,43,Medium,2025-10-18
+TICKET_0137,Completely unsatisfied with the level of service received.,Negative,Sales,1,22,High,2025-11-24
+TICKET_0138,Worst customer service ever. They made my problem worse!,Negative,Billing,1,9,Critical,2025-10-26
+TICKET_0139,Waited on hold for over an hour just to be transferred again.,Negative,Sales,1,17,High,2025-11-20
+TICKET_0140,No one seems to know how to solve basic problems. Very frustrating!,Negative,Complaints,2,65,Medium,2025-10-07
+TICKET_0141,"It was alright, nothing to complain about but nothing special either.",Neutral,Sales,3,49,Medium,2025-10-05
+TICKET_0142,Standard customer service experience. Got my issue resolved eventually.,Neutral,Technical Support,3,46,High,2025-10-17
+TICKET_0143,Average experience. The representative was polite but not very helpful.,Neutral,Sales,3,3,High,2025-11-02
+TICKET_0144,Average experience. The representative was polite but not very helpful.,Neutral,Billing,3,48,Low,2025-12-23
+TICKET_0145,"The service was adequate, though nothing particularly impressive.",Neutral,Technical Support,3,66,High,2025-10-17
+TICKET_0146,"The service was adequate, though nothing particularly impressive.",Neutral,Sales,3,25,Medium,2025-11-03
+TICKET_0147,They resolved my issue but it took longer than expected.,Neutral,Sales,3,70,High,2025-12-01
+TICKET_0148,"Okay service, though I've had better experiences elsewhere.",Neutral,Billing,3,37,High,2025-10-24
+TICKET_0149,"It was fine, took a while but they did help in the end.",Neutral,Sales,3,60,Critical,2025-12-18
+TICKET_0150,Average experience. The representative was polite but not very helpful.,Neutral,General Inquiry,3,10,Low,2025-11-21
+TICKET_0151,Standard service level. Met basic expectations.,Neutral,General Inquiry,3,4,Medium,2025-12-14
+TICKET_0152,"Okay service, though I've had better experiences elsewhere.",Neutral,Sales,3,25,Medium,2025-10-01
+TICKET_0153,"Decent service overall, though room for improvement.",Neutral,Complaints,3,17,High,2025-11-30
+TICKET_0154,"It was alright, nothing to complain about but nothing special either.",Neutral,Billing,3,11,Low,2025-12-13
+TICKET_0155,They resolved my issue but it took longer than expected.,Neutral,General Inquiry,3,66,Critical,2025-11-19
+TICKET_0156,"Okay service, though I've had better experiences elsewhere.",Neutral,General Inquiry,3,61,Low,2025-11-06
+TICKET_0157,"Decent service overall, though room for improvement.",Neutral,Technical Support,3,61,Medium,2025-11-26
+TICKET_0158,They resolved my issue but it took longer than expected.,Neutral,Billing,3,43,Medium,2025-10-17
+TICKET_0159,Fair experience. The process could be more streamlined.,Neutral,Complaints,3,42,High,2025-12-12
+TICKET_0160,Standard service level. Met basic expectations.,Neutral,Technical Support,3,64,Medium,2025-11-15
+TICKET_0161,"It was fine, took a while but they did help in the end.",Neutral,Complaints,3,63,High,2025-12-01
+TICKET_0162,"It was alright, nothing to complain about but nothing special either.",Neutral,Billing,3,25,Critical,2025-12-20
+TICKET_0163,"It was alright, nothing to complain about but nothing special either.",Neutral,General Inquiry,3,57,Critical,2025-11-19
+TICKET_0164,They resolved my issue but it took longer than expected.,Neutral,General Inquiry,3,64,Low,2025-12-13
+TICKET_0165,"It was alright, nothing to complain about but nothing special either.",Neutral,Technical Support,3,61,Critical,2025-10-06
+TICKET_0166,"It was fine, took a while but they did help in the end.",Neutral,Technical Support,3,40,High,2025-12-07
+TICKET_0167,"It was fine, took a while but they did help in the end.",Neutral,Complaints,3,72,Low,2025-12-15
+TICKET_0168,"It was alright, nothing to complain about but nothing special either.",Neutral,Sales,3,12,Medium,2025-12-08
+TICKET_0169,They resolved my issue but it took longer than expected.,Neutral,Billing,3,34,Low,2025-10-19
+TICKET_0170,Standard service level. Met basic expectations.,Neutral,Technical Support,3,40,Critical,2025-09-30
+TICKET_0171,Fair experience. The process could be more streamlined.,Neutral,Sales,3,67,Medium,2025-10-22
+TICKET_0172,"It was alright, nothing to complain about but nothing special either.",Neutral,Complaints,3,6,Low,2025-11-13
+TICKET_0173,Standard customer service experience. Got my issue resolved eventually.,Neutral,Complaints,3,6,High,2025-10-27
+TICKET_0174,"The service was adequate, though nothing particularly impressive.",Neutral,Complaints,3,5,High,2025-11-09
+TICKET_0175,"It was fine, took a while but they did help in the end.",Neutral,Technical Support,3,8,Low,2025-11-10
+TICKET_0176,Average experience. The representative was polite but not very helpful.,Neutral,Technical Support,3,36,Critical,2025-11-23
+TICKET_0177,"The service was adequate, though nothing particularly impressive.",Neutral,Sales,3,71,High,2025-11-27
+TICKET_0178,Standard customer service experience. Got my issue resolved eventually.,Neutral,Sales,3,29,Medium,2025-12-19
+TICKET_0179,They resolved my issue but it took longer than expected.,Neutral,Complaints,3,58,High,2025-10-04
+TICKET_0180,Standard customer service experience. Got my issue resolved eventually.,Neutral,Sales,3,13,Low,2025-11-10
+TICKET_0181,"It was fine, took a while but they did help in the end.",Neutral,Billing,3,39,Low,2025-12-22
+TICKET_0182,Standard customer service experience. Got my issue resolved eventually.,Neutral,Complaints,3,39,Low,2025-12-05
+TICKET_0183,"The service was adequate, though nothing particularly impressive.",Neutral,Billing,3,31,Low,2025-11-08
+TICKET_0184,Average experience. The representative was polite but not very helpful.,Neutral,Billing,3,11,Low,2025-11-26
+TICKET_0185,Fair experience. The process could be more streamlined.,Neutral,Billing,3,14,High,2025-12-16
+TICKET_0186,Standard customer service experience. Got my issue resolved eventually.,Neutral,Sales,3,7,Medium,2025-12-14
+TICKET_0187,"Decent service overall, though room for improvement.",Neutral,Sales,3,61,Medium,2025-11-14
+TICKET_0188,"Okay service, though I've had better experiences elsewhere.",Neutral,Technical Support,3,48,Low,2025-10-17
+TICKET_0189,Fair experience. The process could be more streamlined.,Neutral,General Inquiry,3,53,Low,2025-10-20
+TICKET_0190,"Decent service overall, though room for improvement.",Neutral,Technical Support,3,35,Medium,2025-12-14
+TICKET_0191,"The service was adequate, though nothing particularly impressive.",Neutral,Complaints,3,45,Medium,2025-12-11
+TICKET_0192,Average experience. The representative was polite but not very helpful.,Neutral,Sales,3,49,Low,2025-12-09
+TICKET_0193,Average experience. The representative was polite but not very helpful.,Neutral,Complaints,3,25,Medium,2025-12-07
+TICKET_0194,"The service was adequate, though nothing particularly impressive.",Neutral,General Inquiry,3,37,Critical,2025-12-01
+TICKET_0195,"It was fine, took a while but they did help in the end.",Neutral,Complaints,3,45,Low,2025-11-12
+TICKET_0196,"The service was adequate, though nothing particularly impressive.",Neutral,General Inquiry,3,10,High,2025-11-18
+TICKET_0197,Average experience. The representative was polite but not very helpful.,Neutral,Complaints,3,9,High,2025-12-26
+TICKET_0198,Standard customer service experience. Got my issue resolved eventually.,Neutral,Technical Support,3,38,Medium,2025-10-05
+TICKET_0199,Standard service level. Met basic expectations.,Neutral,Complaints,3,37,High,2025-11-15
+TICKET_0200,"It was alright, nothing to complain about but nothing special either.",Neutral,Complaints,3,38,Medium,2025-10-15

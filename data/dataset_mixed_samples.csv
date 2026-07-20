@@ -1,0 +1,251 @@
+text,sentiment,source,category
+Fantastic product with amazing build quality. Arrived quickly!,Positive,Ecommerce,Sports
+Worst purchase ever! Nothing like the description. Requesting refund immediately!,Negative,Ecommerce,Home & Kitchen
+Mediocre quality but functional. Not amazing but not awful either.,Neutral,Ecommerce,Home & Kitchen
+Perfect! Works flawlessly and looks fantastic. Highly recommend!,Positive,Ecommerce,Electronics
+Perfect! Works flawlessly and looks fantastic. Highly recommend!,Positive,Ecommerce,Books
+Overpriced junk! Product arrived damaged and customer service is unhelpful!,Negative,Ecommerce,Sports
+Outstanding quality for the price. Customer service was excellent too!,Positive,Ecommerce,Electronics
+Fair product that meets basic expectations without exceeding them.,Neutral,Ecommerce,Beauty
+Amazing product! Exceeded my expectations in every way. Fast shipping too!,Positive,Ecommerce,Sports
+Cheap quality that falls apart immediately. Not worth any price!,Negative,Ecommerce,Books
+Best purchase I've made this year! Absolutely love everything about it!,Positive,Ecommerce,Books
+Outstanding quality for the price. Customer service was excellent too!,Positive,Ecommerce,Sports
+Love this! Great quality and exactly as described. Will buy again!,Positive,Ecommerce,Toys
+Average quality and performance. Could be better but not terrible.,Neutral,Ecommerce,Books
+Cheap quality that falls apart immediately. Not worth any price!,Negative,Ecommerce,Books
+Outstanding quality for the price. Customer service was excellent too!,Positive,Ecommerce,Electronics
+Excellent product that works perfectly. Great customer support!,Positive,Ecommerce,Electronics
+Perfect! Works flawlessly and looks fantastic. Highly recommend!,Positive,Ecommerce,Books
+Superb quality and great design. Worth every penny and more!,Positive,Ecommerce,Home & Kitchen
+Excellent product that works perfectly. Great customer support!,Positive,Ecommerce,Sports
+Perfect! Works flawlessly and looks fantastic. Highly recommend!,Positive,Ecommerce,Electronics
+"It's okay, does the job but nothing special. Average quality for the price.",Neutral,Ecommerce,Books
+"It's alright, serves its purpose but lacks wow factor. Standard product.",Neutral,Ecommerce,Beauty
+Works as expected though not particularly impressive. It's fine.,Neutral,Ecommerce,Sports
+Complete garbage! Doesn't work as advertised. Save your money!,Negative,Ecommerce,Electronics
+"It's okay, does the job but nothing special. Average quality for the price.",Neutral,Ecommerce,Clothing
+Fantastic product with amazing build quality. Arrived quickly!,Positive,Ecommerce,Home & Kitchen
+Amazing product! Exceeded my expectations in every way. Fast shipping too!,Positive,Ecommerce,Clothing
+"It's okay, does the job but nothing special. Average quality for the price.",Neutral,Ecommerce,Beauty
+It works but there are probably better options available elsewhere.,Neutral,Ecommerce,Home & Kitchen
+"It's alright, serves its purpose but lacks wow factor. Standard product.",Neutral,Ecommerce,Beauty
+Fantastic product with amazing build quality. Arrived quickly!,Positive,Ecommerce,Toys
+Amazing! This product is even better than I hoped it would be!,Positive,Ecommerce,Beauty
+Cheap quality that falls apart immediately. Not worth any price!,Negative,Ecommerce,Home & Kitchen
+Fantastic product with amazing build quality. Arrived quickly!,Positive,Ecommerce,Beauty
+Works as expected though not particularly impressive. It's fine.,Neutral,Ecommerce,Toys
+Incredible value! This has made my life so much easier. 5 stars!,Positive,Ecommerce,Beauty
+Mediocre quality but functional. Not amazing but not awful either.,Neutral,Ecommerce,Sports
+Average quality and performance. Could be better but not terrible.,Neutral,Ecommerce,Home & Kitchen
+Completely useless! Product doesn't do what it claims to do!,Negative,Ecommerce,Electronics
+Worst purchase ever! Nothing like the description. Requesting refund immediately!,Negative,Ecommerce,Toys
+Perfect! Works flawlessly and looks fantastic. Highly recommend!,Positive,Ecommerce,Sports
+Works as expected though not particularly impressive. It's fine.,Neutral,Ecommerce,Clothing
+"It's okay, does the job but nothing special. Average quality for the price.",Neutral,Ecommerce,Beauty
+Fantastic product with amazing build quality. Arrived quickly!,Positive,Ecommerce,Home & Kitchen
+Perfect! Works flawlessly and looks fantastic. Highly recommend!,Positive,Ecommerce,Books
+"It's okay, does the job but nothing special. Average quality for the price.",Neutral,Ecommerce,Sports
+Perfect! Works flawlessly and looks fantastic. Highly recommend!,Positive,Ecommerce,Beauty
+Incredible value! This has made my life so much easier. 5 stars!,Positive,Ecommerce,Clothing
+Decent product with some good points and some bad ones. Fair overall.,Neutral,Ecommerce,Sports
+Stuck in traffic for 3 hours because of construction! So frustrated! 😤 #traffic,Negative,Social Media,General
+Team meeting went as expected. Covered the usual topics 💼 #work #meeting,Neutral,Social Media,General
+Finished my first 5K run today! Feeling so accomplished! 🏃‍♀️ #fitness #goals,Positive,Social Media,General
+My car broke down in the middle of nowhere. Having the worst luck! 🚗 #stranded,Negative,Social Media,General
+Beautiful sunset tonight! Nature never fails to amaze me 🌅 #grateful #photography,Positive,Social Media,General
+This new coffee shop has the best latte I've ever tasted! ☕ #coffeelover,Positive,Social Media,General
+Watching Netflix after work. Nothing exciting planned tonight 📺 #relaxing,Neutral,Social Media,General
+Perfect weather for a picnic in the park with friends! 🌞 #friendship #outdoors,Positive,Social Media,General
+Rain completely ruined our outdoor wedding plans. Heartbroken! 😢 #wedding #disaster,Negative,Social Media,General
+Loving this new book series! Can't put it down! 📚 #reading #bookworm,Positive,Social Media,General
+This new coffee shop has the best latte I've ever tasted! ☕ #coffeelover,Positive,Social Media,General
+Commute was normal today. No delays or major issues 🚌 #commute #work,Neutral,Social Media,General
+Perfect weather for a picnic in the park with friends! 🌞 #friendship #outdoors,Positive,Social Media,General
+Just had the most amazing day at the beach! Life is beautiful! 🌊☀️ #blessed,Positive,Social Media,General
+Best vacation ever! The mountains here are breathtaking! 🏔️ #travel #adventure,Positive,Social Media,General
+Beautiful sunset tonight! Nature never fails to amaze me 🌅 #grateful #photography,Positive,Social Media,General
+Customer service hung up on me three times today! Absolutely ridiculous! 📞 #angry,Negative,Social Media,General
+Made pasta for dinner tonight. Simple and satisfying 🍝 #cooking #dinner,Neutral,Social Media,General
+This movie was a complete waste of 3 hours of my life! 🎬 #terrible #regret,Negative,Social Media,General
+Watching Netflix after work. Nothing exciting planned tonight 📺 #relaxing,Neutral,Social Media,General
+Amazing concert last night! The energy was incredible! 🎵 #music #liveshow,Positive,Social Media,General
+Finished my first 5K run today! Feeling so accomplished! 🏃‍♀️ #fitness #goals,Positive,Social Media,General
+Commute was normal today. No delays or major issues 🚌 #commute #work,Neutral,Social Media,General
+Rain completely ruined our outdoor wedding plans. Heartbroken! 😢 #wedding #disaster,Negative,Social Media,General
+Finished my first 5K run today! Feeling so accomplished! 🏃‍♀️ #fitness #goals,Positive,Social Media,General
+"Finished that book I was reading. It was okay, nothing special 📖 #reading",Neutral,Social Media,General
+Beautiful sunset tonight! Nature never fails to amaze me 🌅 #grateful #photography,Positive,Social Media,General
+Rain completely ruined our outdoor wedding plans. Heartbroken! 😢 #wedding #disaster,Negative,Social Media,General
+This movie was a complete waste of 3 hours of my life! 🎬 #terrible #regret,Negative,Social Media,General
+Best vacation ever! The mountains here are breathtaking! 🏔️ #travel #adventure,Positive,Social Media,General
+Made pasta for dinner tonight. Simple and satisfying 🍝 #cooking #dinner,Neutral,Social Media,General
+Lost my keys and locked out of my apartment. Could this day get worse? 🔑 #badday,Negative,Social Media,General
+Food poisoning from that new restaurant. Never eating there again! 🤢 #sick,Negative,Social Media,General
+Beautiful sunset tonight! Nature never fails to amaze me 🌅 #grateful #photography,Positive,Social Media,General
+Phone died right before important meeting. Technology fails when you need it most! 📱 #frustrated,Negative,Social Media,General
+Got the job I interviewed for! Dreams do come true! 🎉 #career #success,Positive,Social Media,General
+Loving this new book series! Can't put it down! 📚 #reading #bookworm,Positive,Social Media,General
+Team meeting went as expected. Covered the usual topics 💼 #work #meeting,Neutral,Social Media,General
+Loving this new book series! Can't put it down! 📚 #reading #bookworm,Positive,Social Media,General
+Just had the most amazing day at the beach! Life is beautiful! 🌊☀️ #blessed,Positive,Social Media,General
+Had lunch at the usual spot downtown. Same as always 🍽️ #lunch #routine,Neutral,Social Media,General
+Got the job I interviewed for! Dreams do come true! 🎉 #career #success,Positive,Social Media,General
+Got the job I interviewed for! Dreams do come true! 🎉 #career #success,Positive,Social Media,General
+This new coffee shop has the best latte I've ever tasted! ☕ #coffeelover,Positive,Social Media,General
+Perfect weather for a picnic in the park with friends! 🌞 #friendship #outdoors,Positive,Social Media,General
+Made pasta for dinner tonight. Simple and satisfying 🍝 #cooking #dinner,Neutral,Social Media,General
+Perfect weather for a picnic in the park with friends! 🌞 #friendship #outdoors,Positive,Social Media,General
+Phone died right before important meeting. Technology fails when you need it most! 📱 #frustrated,Negative,Social Media,General
+Got the job I interviewed for! Dreams do come true! 🎉 #career #success,Positive,Social Media,General
+This movie was a complete waste of 3 hours of my life! 🎬 #terrible #regret,Negative,Social Media,General
+Terrible service! Long wait times and staff who seem annoyed to help.,Negative,Customer Service,Technical Support
+Average support quality. The representative was polite but not particularly helpful.,Neutral,Customer Service,Returns
+Horrible customer support! Unprofessional and clearly don't know their products.,Negative,Customer Service,Sales
+Quick response and professional service. Couldn't be happier with the experience!,Positive,Customer Service,General Inquiry
+Average support quality. The representative was polite but not particularly helpful.,Neutral,Customer Service,Returns
+Fair customer service experience. Met basic expectations without exceeding them.,Neutral,Customer Service,Returns
+Awful experience! Multiple calls with different representatives and still no solution.,Negative,Customer Service,General Inquiry
+Best support experience I've ever had! The team was incredibly helpful and friendly.,Positive,Customer Service,Technical Support
+Fantastic service! They made a complicated issue seem simple to resolve.,Positive,Customer Service,Technical Support
+Worst support experience ever! Rude staff and no resolution to my problem.,Negative,Customer Service,Billing
+Average customer service quality. Nothing to complain about but nothing special.,Neutral,Customer Service,Returns
+Outstanding customer service! The representative was knowledgeable and solved my issue in minutes.,Positive,Customer Service,Technical Support
+Okay customer support. Not great but not terrible either. Got what I needed.,Neutral,Customer Service,Technical Support
+Outstanding help from the support team! They exceeded all my expectations.,Positive,Customer Service,Sales
+Worst customer service department! Transferred me 5 times with no resolution.,Negative,Customer Service,General Inquiry
+Fair service experience. Process was a bit slow but they did help in the end.,Neutral,Customer Service,General Inquiry
+Fair customer service experience. Met basic expectations without exceeding them.,Neutral,Customer Service,Returns
+Okay service overall. They solved my problem but the process could be better.,Neutral,Customer Service,Returns
+Horrible customer support! Unprofessional and clearly don't know their products.,Negative,Customer Service,Technical Support
+Terrible customer service! Waited 2 hours on hold just to be transferred again.,Negative,Customer Service,Technical Support
+Quick response and professional service. Couldn't be happier with the experience!,Positive,Customer Service,General Inquiry
+Excellent support team! They went above and beyond to help me with my problem.,Positive,Customer Service,Sales
+Standard customer service experience. Got my issue resolved but took a while.,Neutral,Customer Service,Sales
+Fair customer service experience. Met basic expectations without exceeding them.,Neutral,Customer Service,Sales
+Excellent support team! They went above and beyond to help me with my problem.,Positive,Customer Service,Sales
+Outstanding customer service! The representative was knowledgeable and solved my issue in minutes.,Positive,Customer Service,Billing
+Fair service experience. Process was a bit slow but they did help in the end.,Neutral,Customer Service,Billing
+Standard service level. The representative was adequate and resolved the issue.,Neutral,Customer Service,Returns
+Horrible customer support! Unprofessional and clearly don't know their products.,Negative,Customer Service,Sales
+Decent support but nothing exceptional. Issue was resolved eventually.,Neutral,Customer Service,Billing
+Best support experience I've ever had! The team was incredibly helpful and friendly.,Positive,Customer Service,Sales
+Terrible service! Long wait times and staff who seem annoyed to help.,Negative,Customer Service,Technical Support
+Fantastic service! They made a complicated issue seem simple to resolve.,Positive,Customer Service,Sales
+Outstanding help from the support team! They exceeded all my expectations.,Positive,Customer Service,Sales
+Average customer service quality. Nothing to complain about but nothing special.,Neutral,Customer Service,Sales
+Outstanding customer service! The representative was knowledgeable and solved my issue in minutes.,Positive,Customer Service,Billing
+Fantastic service! They made a complicated issue seem simple to resolve.,Positive,Customer Service,Sales
+Quick response and professional service. Couldn't be happier with the experience!,Positive,Customer Service,Returns
+"Amazing customer service! Patient, helpful, and resolved everything perfectly.",Positive,Customer Service,Returns
+Fantastic service! They made a complicated issue seem simple to resolve.,Positive,Customer Service,Billing
+Fantastic service! They made a complicated issue seem simple to resolve.,Positive,Customer Service,Technical Support
+Excellent support team! They went above and beyond to help me with my problem.,Positive,Customer Service,Sales
+Standard customer service experience. Got my issue resolved but took a while.,Neutral,Customer Service,Sales
+Fantastic service! They made a complicated issue seem simple to resolve.,Positive,Customer Service,Returns
+"Perfect customer service experience! Quick, professional, and very effective.",Positive,Customer Service,Sales
+"Wonderful customer support! Professional, courteous, and very efficient.",Positive,Customer Service,Returns
+Fair service experience. Process was a bit slow but they did help in the end.,Neutral,Customer Service,Returns
+Decent support but nothing exceptional. Issue was resolved eventually.,Neutral,Customer Service,Sales
+"Amazing customer service! Patient, helpful, and resolved everything perfectly.",Positive,Customer Service,Billing
+Fair customer service experience. Met basic expectations without exceeding them.,Neutral,Customer Service,Returns
+Housing Market Crash Leaves Many Families Facing Foreclosure,Negative,News Media,Economy
+Young Entrepreneur's Innovation Helps Solve Global Water Crisis,Positive,News Media,Politics
+"Technology Startup Creates 2,000 High-Paying Jobs in Local Area",Positive,News Media,Politics
+Road Construction Project Moves into Final Phase of Completion,Neutral,News Media,Education
+Healthcare Crisis Deepens as Hospital Staff Shortages Reach Critical Level,Negative,News Media,Technology
+Economic Downturn Forces Closure of Historic Local Businesses,Negative,News Media,Education
+New Medical Research Shows 90% Success Rate in Cancer Treatment,Positive,News Media,Politics
+Public Library Announces Extended Hours and New Digital Services,Neutral,News Media,Health
+Municipal Elections Set for November with Several Contested Races,Neutral,News Media,Technology
+"Technology Startup Creates 2,000 High-Paying Jobs in Local Area",Positive,News Media,Politics
+Environmental Cleanup Project Successfully Restores Polluted Lake,Positive,News Media,Politics
+Local Government Offices Transition to New Digital Filing System,Neutral,News Media,Politics
+Municipal Elections Set for November with Several Contested Races,Neutral,News Media,Economy
+Local Community Raises Record $500K for Children's Hospital,Positive,News Media,Technology
+New Traffic Management System Installed at Major Intersection,Neutral,News Media,Environment
+New Traffic Management System Installed at Major Intersection,Neutral,News Media,Health
+Local Community Raises Record $500K for Children's Hospital,Positive,News Media,Education
+Community Center Expands Programming to Include Senior Activities,Neutral,News Media,Technology
+Economic Downturn Forces Closure of Historic Local Businesses,Negative,News Media,Politics
+Scientists Discover Revolutionary Treatment for Alzheimer's Disease,Positive,News Media,Health
+Severe Weather System Causes Widespread Power Outages and Damage,Negative,News Media,Politics
+Environmental Cleanup Project Successfully Restores Polluted Lake,Positive,News Media,Environment
+Local Government Offices Transition to New Digital Filing System,Neutral,News Media,Local
+Transportation Strike Leaves Thousands Stranded During Rush Hour,Negative,News Media,Economy
+Scientists Discover Revolutionary Treatment for Alzheimer's Disease,Positive,News Media,Politics
+Local Community Raises Record $500K for Children's Hospital,Positive,News Media,Education
+Healthcare Crisis Deepens as Hospital Staff Shortages Reach Critical Level,Negative,News Media,Environment
+New Medical Research Shows 90% Success Rate in Cancer Treatment,Positive,News Media,Politics
+Major Cyber Attack Compromises Personal Data of 10 Million Users,Negative,News Media,Technology
+Budget Cuts Force School District to Eliminate Essential Programs,Negative,News Media,Technology
+Environmental Cleanup Project Successfully Restores Polluted Lake,Positive,News Media,Technology
+Scientists Discover Revolutionary Treatment for Alzheimer's Disease,Positive,News Media,Politics
+Young Entrepreneur's Innovation Helps Solve Global Water Crisis,Positive,News Media,Politics
+New Medical Research Shows 90% Success Rate in Cancer Treatment,Positive,News Media,Politics
+School Board Reviews Updated Curriculum Standards for Next Year,Neutral,News Media,Technology
+Rising Crime Rates Prompt Increased Security Measures Downtown,Negative,News Media,Technology
+Housing Market Crash Leaves Many Families Facing Foreclosure,Negative,News Media,Politics
+Severe Weather System Causes Widespread Power Outages and Damage,Negative,News Media,Environment
+Weather Service Predicts Average Temperatures for Upcoming Season,Neutral,News Media,Politics
+Breakthrough in Renewable Energy Could Power Entire Cities Cleanly,Positive,News Media,Politics
+City Opens Largest Public Park in Decades with Free Family Activities,Positive,News Media,Economy
+Road Construction Project Moves into Final Phase of Completion,Neutral,News Media,Politics
+Unemployment Drops to Historic Low as Economy Continues Strong Growth,Positive,News Media,Education
+Local Community Raises Record $500K for Children's Hospital,Positive,News Media,Politics
+Major Cyber Attack Compromises Personal Data of 10 Million Users,Negative,News Media,Politics
+Municipal Elections Set for November with Several Contested Races,Neutral,News Media,Politics
+Scientists Discover Revolutionary Treatment for Alzheimer's Disease,Positive,News Media,Local
+Unemployment Drops to Historic Low as Economy Continues Strong Growth,Positive,News Media,Economy
+Municipal Elections Set for November with Several Contested Races,Neutral,News Media,Education
+Environmental Disaster Threatens Local Wildlife and Water Supply,Negative,News Media,Politics
+Horrible user experience! Confusing interface and full of bugs!,Negative,App Reviews,Health
+It works fine but the interface could be more user-friendly.,Neutral,App Reviews,Health
+It works fine but the interface could be more user-friendly.,Neutral,App Reviews,Games
+Terrible experience! App is full of bugs and completely unreliable!,Negative,App Reviews,Games
+Worst app I've ever used! Nothing works and support doesn't respond!,Negative,App Reviews,Entertainment
+Average app that meets basic needs but lacks advanced features.,Neutral,App Reviews,Health
+It works fine but the interface could be more user-friendly.,Neutral,App Reviews,Entertainment
+"Complete waste of money! App is slow, buggy, and completely unreliable!",Negative,App Reviews,Social
+Fair app with standard features. Gets the job done adequately.,Neutral,App Reviews,Productivity
+Worst app I've ever used! Nothing works and support doesn't respond!,Negative,App Reviews,Health
+Incredible app that exceeds expectations! Simple yet powerful interface!,Positive,App Reviews,Health
+Brilliant app with incredible attention to detail! Worth every penny!,Positive,App Reviews,Health
+Completely broken app! Loses progress and crashes during important tasks!,Negative,App Reviews,Entertainment
+Amazing functionality and beautiful design! This app is a game changer!,Positive,App Reviews,Health
+Awful app that never works properly! Constant crashes and data loss!,Negative,App Reviews,Health
+Excellent app that works flawlessly! Great customer support too!,Positive,App Reviews,Utilities
+Standard functionality with average performance. It's acceptable.,Neutral,App Reviews,Health
+Amazing functionality and beautiful design! This app is a game changer!,Positive,App Reviews,Productivity
+Incredible app that exceeds expectations! Simple yet powerful interface!,Positive,App Reviews,Education
+Excellent app that works flawlessly! Great customer support too!,Positive,App Reviews,Education
+Worst app I've ever used! Nothing works and support doesn't respond!,Negative,App Reviews,Social
+Excellent app that works flawlessly! Great customer support too!,Positive,App Reviews,Education
+"Complete waste of money! App is slow, buggy, and completely unreliable!",Negative,App Reviews,Health
+Fair app with standard features. Gets the job done adequately.,Neutral,App Reviews,Education
+Outstanding app that does exactly what it promises! Highly recommend!,Positive,App Reviews,Utilities
+Amazing functionality and beautiful design! This app is a game changer!,Positive,App Reviews,Social
+"Complete waste of money! App is slow, buggy, and completely unreliable!",Negative,App Reviews,Education
+Brilliant app with incredible attention to detail! Worth every penny!,Positive,App Reviews,Education
+Outstanding app that does exactly what it promises! Highly recommend!,Positive,App Reviews,Utilities
+Completely broken app! Loses progress and crashes during important tasks!,Negative,App Reviews,Health
+Fair quality app with room for improvement in several areas.,Neutral,App Reviews,Education
+Terrible design and even worse functionality! Avoid this app completely!,Negative,App Reviews,Games
+"Perfect app! Clean design, fast performance, and excellent functionality!",Positive,App Reviews,Education
+Excellent app that works flawlessly! Great customer support too!,Positive,App Reviews,Health
+Decent app that does the basics but could use some improvements.,Neutral,App Reviews,Social
+Amazing functionality and beautiful design! This app is a game changer!,Positive,App Reviews,Games
+"Perfect app! Clean design, fast performance, and excellent functionality!",Positive,App Reviews,Social
+Love this app! Super intuitive interface and works perfectly every time!,Positive,App Reviews,Productivity
+Terrible experience! App is full of bugs and completely unreliable!,Negative,App Reviews,Utilities
+Fair quality app with room for improvement in several areas.,Neutral,App Reviews,Games
+Incredible app that exceeds expectations! Simple yet powerful interface!,Positive,App Reviews,Productivity
+Fantastic user experience! This app has become essential to my routine!,Positive,App Reviews,Games
+Fair app with standard features. Gets the job done adequately.,Neutral,App Reviews,Productivity
+"Perfect app! Clean design, fast performance, and excellent functionality!",Positive,App Reviews,Games
+Fair app with standard features. Gets the job done adequately.,Neutral,App Reviews,Games
+Horrible user experience! Confusing interface and full of bugs!,Negative,App Reviews,Health
+Outstanding app that does exactly what it promises! Highly recommend!,Positive,App Reviews,Games
+Decent app overall but there are better alternatives available.,Neutral,App Reviews,Games
+Perfect execution and great features! Best app I've downloaded this year!,Positive,App Reviews,Productivity
+It works fine but the interface could be more user-friendly.,Neutral,App Reviews,Social

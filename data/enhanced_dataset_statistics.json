@@ -1,0 +1,33 @@
+{
+  "generation_info": {
+    "total_datasets": 7,
+    "total_samples": 1850,
+    "generated_at": "2025-12-29T12:25:10.716592",
+    "generator_version": "2.0"
+  },
+  "dataset_breakdown": {
+    "ecommerce_reviews": 600,
+    "social_media_posts": 400,
+    "customer_service_feedback": 300,
+    "news_media_headlines": 200,
+    "app_store_reviews": 350,
+    "url_test_cases": 8,
+    "mixed_samples": 250
+  },
+  "sentiment_distribution": {
+    "positive": 740,
+    "negative": 555,
+    "neutral": 555,
+    "positive_percentage": 40.0,
+    "negative_percentage": 30.0,
+    "neutral_percentage": 30.0
+  },
+  "quality_metrics": {
+    "average_text_length": 7.7,
+    "text_length_range": {
+      "min": 64,
+      "max": 77
+    },
+    "balanced_distribution": false
+  }
+}

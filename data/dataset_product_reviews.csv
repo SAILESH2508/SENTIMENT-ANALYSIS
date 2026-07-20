@@ -1,0 +1,501 @@
+review_id,text,sentiment,rating,category,verified_purchase,helpful_votes,date
+REV_0001,Outstanding quality and excellent customer service. Highly recommend!,Positive,5,Beauty,True,24,2025-01-08
+REV_0002,Fantastic quality and arrived quickly. Very satisfied with this buy.,Positive,5,Sports,False,41,2025-12-22
+REV_0003,Top-notch quality and great price. Couldn't be happier!,Positive,5,Home & Garden,True,26,2025-07-16
+REV_0004,Excellent product! Works perfectly and looks great too.,Positive,4,Beauty,False,43,2025-05-26
+REV_0005,"Perfect product, exactly as described. Will definitely buy again!",Positive,5,Home & Garden,True,10,2025-02-21
+REV_0006,Superb product with excellent build quality. Highly recommended!,Positive,4,Home & Garden,True,7,2025-12-19
+REV_0007,Incredible value for money. Best purchase I've made this year!,Positive,5,Sports,False,41,2025-03-12
+REV_0008,This is exactly what I was looking for. Perfect in every way!,Positive,5,Home & Garden,True,29,2025-04-12
+REV_0009,Impressive quality and attention to detail. Very satisfied!,Positive,4,Books,True,2,2025-08-09
+REV_0010,Amazing! This has made my life so much easier. Love it!,Positive,4,Electronics,False,47,2025-10-16
+REV_0011,Absolutely love this purchase! Worth every penny and more.,Positive,5,Books,True,29,2025-02-25
+REV_0012,Brilliant product! Exceeded my expectations in every aspect.,Positive,5,Books,True,39,2025-04-29
+REV_0013,This is exactly what I was looking for. Perfect in every way!,Positive,4,Automotive,False,6,2025-01-28
+REV_0014,Great product at an unbeatable price. Highly recommend to everyone!,Positive,4,Clothing,True,5,2025-05-29
+REV_0015,Love this product! It's become an essential part of my daily routine.,Positive,4,Books,True,3,2025-08-14
+REV_0016,Outstanding performance and great design. Very impressed!,Positive,4,Beauty,True,16,2025-08-02
+REV_0017,This is exactly what I was looking for. Perfect in every way!,Positive,5,Books,True,31,2025-02-26
+REV_0018,Exceptional value and quality. This company knows what they're doing!,Positive,5,Home & Garden,False,39,2025-07-20
+REV_0019,Excellent product! Works perfectly and looks great too.,Positive,5,Beauty,True,33,2025-12-02
+REV_0020,Love this product! It's become an essential part of my daily routine.,Positive,4,Books,True,48,2025-09-01
+REV_0021,Incredible value for money. Best purchase I've made this year!,Positive,4,Clothing,False,32,2025-05-13
+REV_0022,"Perfect product, exactly as described. Will definitely buy again!",Positive,4,Clothing,True,39,2025-12-18
+REV_0023,Incredible value for money. Best purchase I've made this year!,Positive,4,Sports,True,28,2025-06-03
+REV_0024,This is exactly what I was looking for. Perfect in every way!,Positive,4,Automotive,False,43,2025-05-26
+REV_0025,Incredible value for money. Best purchase I've made this year!,Positive,4,Clothing,True,37,2025-08-21
+REV_0026,Absolutely love this purchase! Worth every penny and more.,Positive,4,Electronics,False,40,2025-06-09
+REV_0027,Brilliant product! Exceeded my expectations in every aspect.,Positive,5,Beauty,True,35,2025-07-11
+REV_0028,Outstanding performance and great design. Very impressed!,Positive,5,Books,False,34,2025-01-20
+REV_0029,Great product at an unbeatable price. Highly recommend to everyone!,Positive,5,Automotive,True,28,2025-04-18
+REV_0030,Outstanding performance and great design. Very impressed!,Positive,5,Automotive,True,33,2025-04-08
+REV_0031,Impressive quality and attention to detail. Very satisfied!,Positive,4,Beauty,True,23,2025-11-05
+REV_0032,Superb product with excellent build quality. Highly recommended!,Positive,5,Books,True,15,2025-03-16
+REV_0033,Amazing! This has made my life so much easier. Love it!,Positive,4,Electronics,True,28,2025-06-25
+REV_0034,Absolutely love this purchase! Worth every penny and more.,Positive,4,Beauty,True,41,2025-07-20
+REV_0035,Outstanding quality and excellent customer service. Highly recommend!,Positive,4,Beauty,True,20,2025-03-22
+REV_0036,Amazing customer service and even better product quality!,Positive,4,Electronics,False,1,2025-09-23
+REV_0037,Impressive quality and attention to detail. Very satisfied!,Positive,4,Books,True,13,2025-03-05
+REV_0038,Exceptional value and quality. This company knows what they're doing!,Positive,5,Beauty,False,27,2025-10-20
+REV_0039,Brilliant product! Exceeded my expectations in every aspect.,Positive,5,Electronics,True,48,2025-01-16
+REV_0040,Exceptional value and quality. This company knows what they're doing!,Positive,5,Electronics,False,47,2025-05-18
+REV_0041,Superb product with excellent build quality. Highly recommended!,Positive,4,Home & Garden,True,3,2025-09-26
+REV_0042,Fantastic quality and arrived quickly. Very satisfied with this buy.,Positive,4,Sports,False,5,2025-10-15
+REV_0043,Impressive quality and attention to detail. Very satisfied!,Positive,5,Home & Garden,False,23,2025-10-15
+REV_0044,Brilliant product! Exceeded my expectations in every aspect.,Positive,4,Electronics,True,4,2025-11-16
+REV_0045,Amazing! This has made my life so much easier. Love it!,Positive,5,Beauty,True,25,2025-05-18
+REV_0046,This is exactly what I was looking for. Perfect in every way!,Positive,5,Beauty,True,19,2025-07-23
+REV_0047,Superb product with excellent build quality. Highly recommended!,Positive,4,Electronics,True,42,2025-01-18
+REV_0048,Incredible value for money. Best purchase I've made this year!,Positive,5,Home & Garden,True,18,2025-03-14
+REV_0049,Impressive quality and attention to detail. Very satisfied!,Positive,4,Electronics,True,35,2025-01-12
+REV_0050,Outstanding performance and great design. Very impressed!,Positive,5,Clothing,True,29,2025-12-14
+REV_0051,Impressive quality and attention to detail. Very satisfied!,Positive,5,Books,False,38,2025-01-25
+REV_0052,Fantastic quality and arrived quickly. Very satisfied with this buy.,Positive,4,Books,False,9,2025-02-28
+REV_0053,Incredible value for money. Best purchase I've made this year!,Positive,5,Electronics,True,46,2025-07-03
+REV_0054,Impressive quality and attention to detail. Very satisfied!,Positive,5,Sports,False,13,2025-10-28
+REV_0055,This product exceeded all my expectations! Amazing quality and fast shipping.,Positive,4,Automotive,True,49,2025-10-21
+REV_0056,Amazing customer service and even better product quality!,Positive,5,Home & Garden,False,37,2025-11-24
+REV_0057,Amazing! This has made my life so much easier. Love it!,Positive,4,Sports,False,41,2025-07-20
+REV_0058,Incredible value for money. Best purchase I've made this year!,Positive,5,Beauty,False,19,2025-01-07
+REV_0059,Impressive quality and attention to detail. Very satisfied!,Positive,5,Books,True,30,2025-12-20
+REV_0060,Amazing customer service and even better product quality!,Positive,4,Sports,True,49,2025-09-02
+REV_0061,Impressive quality and attention to detail. Very satisfied!,Positive,5,Sports,False,44,2025-12-15
+REV_0062,Fantastic quality and arrived quickly. Very satisfied with this buy.,Positive,5,Home & Garden,False,3,2025-11-10
+REV_0063,Wonderful quality and fast delivery. Will shop here again!,Positive,4,Electronics,False,44,2025-12-12
+REV_0064,Amazing customer service and even better product quality!,Positive,4,Beauty,False,27,2024-12-29
+REV_0065,Love this product! It's become an essential part of my daily routine.,Positive,5,Books,True,4,2025-08-17
+REV_0066,Incredible value for money. Best purchase I've made this year!,Positive,5,Sports,False,40,2025-08-29
+REV_0067,This product exceeded all my expectations! Amazing quality and fast shipping.,Positive,4,Automotive,False,10,2025-04-07
+REV_0068,Brilliant product! Exceeded my expectations in every aspect.,Positive,5,Automotive,True,12,2025-08-26
+REV_0069,This product exceeded all my expectations! Amazing quality and fast shipping.,Positive,5,Electronics,True,9,2025-05-22
+REV_0070,Superb product with excellent build quality. Highly recommended!,Positive,5,Automotive,True,16,2025-05-13
+REV_0071,Excellent product! Works perfectly and looks great too.,Positive,4,Books,True,39,2025-07-09
+REV_0072,Outstanding quality and excellent customer service. Highly recommend!,Positive,4,Beauty,False,31,2025-12-21
+REV_0073,Incredible value for money. Best purchase I've made this year!,Positive,4,Automotive,True,12,2025-06-18
+REV_0074,Amazing! This has made my life so much easier. Love it!,Positive,5,Home & Garden,True,46,2025-08-23
+REV_0075,Great product at an unbeatable price. Highly recommend to everyone!,Positive,4,Beauty,False,41,2025-03-13
+REV_0076,Wonderful quality and fast delivery. Will shop here again!,Positive,5,Automotive,False,11,2025-12-26
+REV_0077,Brilliant product! Exceeded my expectations in every aspect.,Positive,4,Sports,True,34,2025-12-28
+REV_0078,Perfect! Works exactly as advertised and looks fantastic.,Positive,4,Clothing,False,48,2025-04-13
+REV_0079,Top-notch quality and great price. Couldn't be happier!,Positive,4,Home & Garden,True,39,2025-08-29
+REV_0080,Outstanding quality and excellent customer service. Highly recommend!,Positive,5,Automotive,True,49,2025-12-17
+REV_0081,Absolutely love this purchase! Worth every penny and more.,Positive,5,Sports,False,9,2025-06-21
+REV_0082,This is exactly what I was looking for. Perfect in every way!,Positive,4,Automotive,True,42,2025-05-22
+REV_0083,Amazing customer service and even better product quality!,Positive,4,Electronics,False,2,2025-10-13
+REV_0084,Excellent product! Works perfectly and looks great too.,Positive,4,Automotive,False,33,2025-04-06
+REV_0085,Wonderful quality and fast delivery. Will shop here again!,Positive,4,Clothing,False,4,2025-05-21
+REV_0086,Great product at an unbeatable price. Highly recommend to everyone!,Positive,4,Electronics,False,24,2025-09-15
+REV_0087,"Perfect product, exactly as described. Will definitely buy again!",Positive,4,Beauty,False,41,2025-08-01
+REV_0088,Love this product! It's become an essential part of my daily routine.,Positive,5,Beauty,False,23,2025-06-12
+REV_0089,Exceptional value and quality. This company knows what they're doing!,Positive,5,Sports,True,11,2025-04-26
+REV_0090,Great product at an unbeatable price. Highly recommend to everyone!,Positive,5,Sports,False,50,2025-03-23
+REV_0091,Impressive quality and attention to detail. Very satisfied!,Positive,5,Sports,True,10,2025-12-23
+REV_0092,Amazing customer service and even better product quality!,Positive,4,Sports,False,17,2025-07-30
+REV_0093,"Perfect product, exactly as described. Will definitely buy again!",Positive,5,Sports,False,17,2025-11-24
+REV_0094,Exceptional value and quality. This company knows what they're doing!,Positive,5,Beauty,True,29,2025-05-08
+REV_0095,Fantastic quality and arrived quickly. Very satisfied with this buy.,Positive,5,Home & Garden,False,15,2025-07-08
+REV_0096,Brilliant product! Exceeded my expectations in every aspect.,Positive,4,Clothing,False,20,2025-01-27
+REV_0097,This product exceeded all my expectations! Amazing quality and fast shipping.,Positive,5,Books,False,2,2025-07-30
+REV_0098,Incredible value for money. Best purchase I've made this year!,Positive,4,Sports,True,38,2025-02-12
+REV_0099,Brilliant product! Exceeded my expectations in every aspect.,Positive,5,Automotive,True,42,2025-08-03
+REV_0100,Brilliant product! Exceeded my expectations in every aspect.,Positive,5,Sports,True,22,2025-06-26
+REV_0101,Incredible value for money. Best purchase I've made this year!,Positive,4,Clothing,False,27,2025-10-10
+REV_0102,Amazing! This has made my life so much easier. Love it!,Positive,4,Home & Garden,False,10,2025-06-02
+REV_0103,Love this product! It's become an essential part of my daily routine.,Positive,4,Electronics,True,28,2025-01-03
+REV_0104,Absolutely love this purchase! Worth every penny and more.,Positive,5,Electronics,False,3,2025-07-27
+REV_0105,Amazing customer service and even better product quality!,Positive,4,Electronics,False,43,2025-09-28
+REV_0106,Amazing! This has made my life so much easier. Love it!,Positive,5,Electronics,True,32,2025-12-13
+REV_0107,Perfect! Works exactly as advertised and looks fantastic.,Positive,4,Beauty,False,25,2025-06-12
+REV_0108,Great product at an unbeatable price. Highly recommend to everyone!,Positive,5,Beauty,False,22,2025-12-07
+REV_0109,Great product at an unbeatable price. Highly recommend to everyone!,Positive,4,Sports,False,16,2025-04-15
+REV_0110,This product exceeded all my expectations! Amazing quality and fast shipping.,Positive,5,Books,False,6,2025-12-01
+REV_0111,Impressive quality and attention to detail. Very satisfied!,Positive,4,Clothing,True,32,2025-02-11
+REV_0112,Love this product! It's become an essential part of my daily routine.,Positive,4,Electronics,True,37,2025-04-26
+REV_0113,Great product at an unbeatable price. Highly recommend to everyone!,Positive,5,Automotive,True,19,2025-06-16
+REV_0114,Outstanding quality and excellent customer service. Highly recommend!,Positive,4,Electronics,True,49,2025-10-09
+REV_0115,Absolutely love this purchase! Worth every penny and more.,Positive,4,Beauty,True,41,2025-06-12
+REV_0116,"Perfect product, exactly as described. Will definitely buy again!",Positive,4,Home & Garden,False,30,2025-10-12
+REV_0117,Wonderful quality and fast delivery. Will shop here again!,Positive,4,Clothing,False,11,2025-12-28
+REV_0118,Absolutely love this purchase! Worth every penny and more.,Positive,4,Clothing,True,31,2025-06-17
+REV_0119,This is exactly what I was looking for. Perfect in every way!,Positive,5,Home & Garden,True,4,2025-02-12
+REV_0120,"Perfect product, exactly as described. Will definitely buy again!",Positive,5,Home & Garden,False,15,2025-11-07
+REV_0121,Wonderful quality and fast delivery. Will shop here again!,Positive,4,Home & Garden,True,9,2025-10-22
+REV_0122,Outstanding quality and excellent customer service. Highly recommend!,Positive,4,Sports,True,44,2025-11-07
+REV_0123,Outstanding performance and great design. Very impressed!,Positive,4,Electronics,True,3,2025-04-19
+REV_0124,Exceptional value and quality. This company knows what they're doing!,Positive,5,Sports,True,25,2025-10-31
+REV_0125,Top-notch quality and great price. Couldn't be happier!,Positive,5,Books,True,24,2024-12-29
+REV_0126,Incredible value for money. Best purchase I've made this year!,Positive,4,Books,True,2,2025-08-05
+REV_0127,Superb product with excellent build quality. Highly recommended!,Positive,5,Books,False,37,2025-08-31
+REV_0128,Excellent product! Works perfectly and looks great too.,Positive,5,Sports,True,36,2025-06-16
+REV_0129,Outstanding quality and excellent customer service. Highly recommend!,Positive,5,Clothing,False,27,2025-03-05
+REV_0130,Great product at an unbeatable price. Highly recommend to everyone!,Positive,5,Electronics,True,50,2025-10-31
+REV_0131,Perfect! Works exactly as advertised and looks fantastic.,Positive,4,Electronics,True,15,2025-10-27
+REV_0132,Incredible value for money. Best purchase I've made this year!,Positive,5,Home & Garden,False,6,2025-04-13
+REV_0133,This is exactly what I was looking for. Perfect in every way!,Positive,4,Books,True,47,2025-05-07
+REV_0134,Amazing customer service and even better product quality!,Positive,5,Sports,False,43,2025-01-03
+REV_0135,Incredible value for money. Best purchase I've made this year!,Positive,5,Books,False,4,2025-09-27
+REV_0136,Wonderful quality and fast delivery. Will shop here again!,Positive,4,Automotive,False,29,2025-07-25
+REV_0137,Impressive quality and attention to detail. Very satisfied!,Positive,5,Automotive,False,48,2025-05-08
+REV_0138,Superb product with excellent build quality. Highly recommended!,Positive,5,Books,False,27,2025-12-20
+REV_0139,Wonderful quality and fast delivery. Will shop here again!,Positive,4,Electronics,False,4,2025-02-25
+REV_0140,Outstanding performance and great design. Very impressed!,Positive,4,Electronics,True,15,2025-01-10
+REV_0141,Wonderful quality and fast delivery. Will shop here again!,Positive,4,Beauty,True,23,2025-12-17
+REV_0142,Fantastic quality and arrived quickly. Very satisfied with this buy.,Positive,4,Beauty,False,50,2025-02-21
+REV_0143,Amazing! This has made my life so much easier. Love it!,Positive,5,Beauty,False,11,2025-12-20
+REV_0144,Fantastic quality and arrived quickly. Very satisfied with this buy.,Positive,4,Books,True,23,2025-05-16
+REV_0145,Superb product with excellent build quality. Highly recommended!,Positive,5,Books,False,48,2025-01-22
+REV_0146,Incredible value for money. Best purchase I've made this year!,Positive,5,Books,True,1,2025-03-12
+REV_0147,Love this product! It's become an essential part of my daily routine.,Positive,5,Clothing,True,29,2025-10-15
+REV_0148,Outstanding performance and great design. Very impressed!,Positive,5,Home & Garden,True,39,2025-10-24
+REV_0149,Impressive quality and attention to detail. Very satisfied!,Positive,4,Sports,False,21,2025-02-19
+REV_0150,Amazing! This has made my life so much easier. Love it!,Positive,5,Automotive,True,13,2025-04-26
+REV_0151,Outstanding quality and excellent customer service. Highly recommend!,Positive,5,Clothing,True,3,2025-04-18
+REV_0152,Exceptional value and quality. This company knows what they're doing!,Positive,4,Automotive,True,37,2025-07-16
+REV_0153,Outstanding quality and excellent customer service. Highly recommend!,Positive,4,Electronics,False,46,2025-07-05
+REV_0154,Amazing! This has made my life so much easier. Love it!,Positive,5,Home & Garden,True,18,2025-05-18
+REV_0155,Love this product! It's become an essential part of my daily routine.,Positive,5,Clothing,False,27,2025-10-21
+REV_0156,Amazing! This has made my life so much easier. Love it!,Positive,5,Home & Garden,False,17,2025-02-23
+REV_0157,Brilliant product! Exceeded my expectations in every aspect.,Positive,5,Home & Garden,False,14,2025-06-13
+REV_0158,Fantastic quality and arrived quickly. Very satisfied with this buy.,Positive,5,Electronics,False,5,2025-08-31
+REV_0159,Brilliant product! Exceeded my expectations in every aspect.,Positive,4,Beauty,False,25,2025-03-11
+REV_0160,Perfect! Works exactly as advertised and looks fantastic.,Positive,5,Electronics,True,36,2025-05-28
+REV_0161,Top-notch quality and great price. Couldn't be happier!,Positive,5,Electronics,True,12,2025-08-01
+REV_0162,Love this product! It's become an essential part of my daily routine.,Positive,5,Beauty,False,20,2025-04-09
+REV_0163,Love this product! It's become an essential part of my daily routine.,Positive,4,Automotive,True,32,2025-02-26
+REV_0164,Brilliant product! Exceeded my expectations in every aspect.,Positive,5,Beauty,True,41,2025-11-12
+REV_0165,Fantastic quality and arrived quickly. Very satisfied with this buy.,Positive,4,Clothing,True,18,2025-05-17
+REV_0166,Superb product with excellent build quality. Highly recommended!,Positive,4,Sports,True,46,2025-04-19
+REV_0167,Great product at an unbeatable price. Highly recommend to everyone!,Positive,5,Books,False,8,2025-09-17
+REV_0168,Brilliant product! Exceeded my expectations in every aspect.,Positive,4,Beauty,True,29,2025-11-08
+REV_0169,Outstanding quality and excellent customer service. Highly recommend!,Positive,4,Sports,True,28,2025-01-28
+REV_0170,Love this product! It's become an essential part of my daily routine.,Positive,5,Sports,True,7,2025-02-05
+REV_0171,Superb product with excellent build quality. Highly recommended!,Positive,5,Automotive,False,33,2025-12-08
+REV_0172,Top-notch quality and great price. Couldn't be happier!,Positive,5,Home & Garden,False,21,2025-08-18
+REV_0173,Incredible value for money. Best purchase I've made this year!,Positive,5,Beauty,True,16,2025-07-30
+REV_0174,Exceptional value and quality. This company knows what they're doing!,Positive,4,Home & Garden,False,16,2025-05-27
+REV_0175,Brilliant product! Exceeded my expectations in every aspect.,Positive,4,Automotive,True,49,2025-02-16
+REV_0176,Incredible value for money. Best purchase I've made this year!,Positive,4,Automotive,False,44,2025-12-18
+REV_0177,Love this product! It's become an essential part of my daily routine.,Positive,5,Beauty,True,30,2025-12-08
+REV_0178,Wonderful quality and fast delivery. Will shop here again!,Positive,5,Home & Garden,False,15,2025-06-17
+REV_0179,Brilliant product! Exceeded my expectations in every aspect.,Positive,5,Sports,False,15,2025-04-17
+REV_0180,Outstanding performance and great design. Very impressed!,Positive,4,Electronics,False,4,2025-09-30
+REV_0181,Top-notch quality and great price. Couldn't be happier!,Positive,5,Sports,True,36,2025-05-17
+REV_0182,Love this product! It's become an essential part of my daily routine.,Positive,4,Books,True,0,2025-01-26
+REV_0183,Outstanding quality and excellent customer service. Highly recommend!,Positive,5,Clothing,True,25,2025-12-01
+REV_0184,Amazing customer service and even better product quality!,Positive,5,Books,False,39,2025-03-16
+REV_0185,Superb product with excellent build quality. Highly recommended!,Positive,5,Beauty,True,11,2025-05-25
+REV_0186,Absolutely love this purchase! Worth every penny and more.,Positive,5,Sports,True,39,2025-06-05
+REV_0187,Incredible value for money. Best purchase I've made this year!,Positive,4,Clothing,True,36,2025-10-11
+REV_0188,This product exceeded all my expectations! Amazing quality and fast shipping.,Positive,4,Automotive,False,34,2025-07-10
+REV_0189,Wonderful quality and fast delivery. Will shop here again!,Positive,4,Home & Garden,False,16,2025-09-08
+REV_0190,Impressive quality and attention to detail. Very satisfied!,Positive,5,Sports,False,8,2025-01-16
+REV_0191,Amazing customer service and even better product quality!,Positive,4,Home & Garden,False,31,2025-09-21
+REV_0192,Absolutely love this purchase! Worth every penny and more.,Positive,5,Automotive,False,18,2025-07-13
+REV_0193,Outstanding performance and great design. Very impressed!,Positive,5,Sports,True,4,2025-05-07
+REV_0194,Amazing! This has made my life so much easier. Love it!,Positive,4,Electronics,True,43,2025-05-09
+REV_0195,Amazing customer service and even better product quality!,Positive,5,Automotive,False,8,2025-10-15
+REV_0196,Amazing customer service and even better product quality!,Positive,4,Electronics,True,30,2025-11-23
+REV_0197,This is exactly what I was looking for. Perfect in every way!,Positive,5,Automotive,True,9,2025-07-28
+REV_0198,Perfect! Works exactly as advertised and looks fantastic.,Positive,5,Sports,True,12,2025-04-21
+REV_0199,Fantastic quality and arrived quickly. Very satisfied with this buy.,Positive,4,Beauty,True,37,2025-06-08
+REV_0200,Impressive quality and attention to detail. Very satisfied!,Positive,5,Books,False,27,2025-03-10
+REV_0201,Worst customer service experience ever. Product is also terrible.,Negative,1,Home & Garden,True,42,2025-04-23
+REV_0202,Disappointing purchase. Nothing like the description or photos.,Negative,1,Electronics,False,47,2025-09-29
+REV_0203,Defective product and unhelpful customer service. Very frustrated.,Negative,2,Automotive,False,10,2025-04-15
+REV_0204,Disappointing purchase. Nothing like the description or photos.,Negative,1,Clothing,False,10,2025-03-23
+REV_0205,Misleading description and poor quality. Requesting a refund.,Negative,2,Electronics,True,37,2025-01-13
+REV_0206,Misleading description and poor quality. Requesting a refund.,Negative,2,Beauty,True,50,2025-07-05
+REV_0207,Terrible build quality and arrived late. Very disappointed.,Negative,1,Clothing,True,22,2025-10-24
+REV_0208,Complete waste of money. Product broke after just one use.,Negative,2,Beauty,False,32,2025-06-22
+REV_0209,Overpriced and underdelivered. Very disappointed with this buy.,Negative,1,Beauty,False,12,2025-11-30
+REV_0210,Worst purchase ever! Product arrived damaged and unusable.,Negative,1,Books,False,27,2025-07-28
+REV_0211,Terrible quality and poor customer service. Would not recommend.,Negative,2,Clothing,True,19,2025-09-18
+REV_0212,Complete waste of money. Product broke after just one use.,Negative,2,Clothing,True,48,2025-07-22
+REV_0213,Terrible quality and poor customer service. Would not recommend.,Negative,1,Sports,True,47,2025-04-04
+REV_0214,Overpriced junk! Product fell apart within days of use.,Negative,2,Books,False,13,2025-12-10
+REV_0215,Poor quality materials and shoddy construction. Avoid this product.,Negative,2,Automotive,False,22,2025-09-30
+REV_0216,Overpriced and underdelivered. Very disappointed with this buy.,Negative,2,Electronics,False,28,2025-07-19
+REV_0217,Poor quality materials and shoddy construction. Avoid this product.,Negative,2,Sports,False,49,2025-05-09
+REV_0218,Cheap materials and poor workmanship. Not recommended.,Negative,2,Clothing,False,43,2025-07-26
+REV_0219,Awful product with terrible customer support. Avoid at all costs!,Negative,2,Beauty,True,3,2025-05-16
+REV_0220,Cheap materials and poor workmanship. Not recommended.,Negative,1,Electronics,False,27,2025-07-04
+REV_0221,Disappointing purchase. Nothing like the description or photos.,Negative,2,Home & Garden,True,38,2025-09-28
+REV_0222,Disappointing purchase. Nothing like the description or photos.,Negative,2,Home & Garden,False,28,2025-05-09
+REV_0223,Not worth the money at all. Quality is much worse than expected.,Negative,1,Books,True,46,2025-09-11
+REV_0224,Worst purchase ever! Product arrived damaged and unusable.,Negative,1,Automotive,False,35,2025-03-02
+REV_0225,Overpriced and underdelivered. Very disappointed with this buy.,Negative,1,Home & Garden,True,44,2025-10-26
+REV_0226,Worst customer service experience ever. Product is also terrible.,Negative,1,Automotive,False,32,2025-01-12
+REV_0227,Defective product and unhelpful customer service. Very frustrated.,Negative,2,Automotive,False,35,2025-03-20
+REV_0228,Misleading description and poor quality. Requesting a refund.,Negative,2,Beauty,False,18,2025-11-11
+REV_0229,Not worth the money at all. Quality is much worse than expected.,Negative,2,Clothing,False,12,2025-08-16
+REV_0230,Defective product and unhelpful customer service. Very frustrated.,Negative,1,Books,False,17,2025-06-21
+REV_0231,Defective product and unhelpful customer service. Very frustrated.,Negative,1,Electronics,True,39,2025-08-22
+REV_0232,Terrible quality and poor customer service. Would not recommend.,Negative,2,Electronics,True,24,2025-12-14
+REV_0233,Complete waste of money. Product broke after just one use.,Negative,2,Clothing,True,12,2025-05-03
+REV_0234,Terrible build quality and arrived late. Very disappointed.,Negative,2,Home & Garden,True,31,2025-10-17
+REV_0235,Worst purchase ever! Product arrived damaged and unusable.,Negative,2,Electronics,True,35,2025-11-03
+REV_0236,Not worth the money at all. Quality is much worse than expected.,Negative,1,Electronics,True,6,2025-04-22
+REV_0237,Misleading description and poor quality. Requesting a refund.,Negative,1,Electronics,False,6,2025-06-22
+REV_0238,Worst customer service experience ever. Product is also terrible.,Negative,1,Automotive,True,27,2025-07-04
+REV_0239,Not worth the money at all. Quality is much worse than expected.,Negative,2,Automotive,True,28,2025-07-08
+REV_0240,Disappointing purchase. Nothing like the description or photos.,Negative,2,Automotive,True,14,2025-03-07
+REV_0241,Misleading description and poor quality. Requesting a refund.,Negative,2,Books,False,16,2025-07-22
+REV_0242,Not worth the money at all. Quality is much worse than expected.,Negative,2,Electronics,True,37,2025-04-05
+REV_0243,Broke immediately upon use. Clearly poor quality control.,Negative,1,Books,True,25,2025-09-16
+REV_0244,Worst customer service experience ever. Product is also terrible.,Negative,1,Automotive,False,23,2025-07-18
+REV_0245,Defective product and unhelpful customer service. Very frustrated.,Negative,2,Sports,False,19,2025-07-05
+REV_0246,Defective product and unhelpful customer service. Very frustrated.,Negative,2,Automotive,True,14,2025-11-15
+REV_0247,Broke immediately upon use. Clearly poor quality control.,Negative,1,Beauty,False,30,2025-05-10
+REV_0248,Overpriced and underdelivered. Very disappointed with this buy.,Negative,1,Beauty,False,1,2025-03-23
+REV_0249,Worst purchase ever! Product arrived damaged and unusable.,Negative,1,Books,True,15,2025-01-13
+REV_0250,Misleading description and poor quality. Requesting a refund.,Negative,1,Clothing,True,3,2025-04-16
+REV_0251,Overpriced junk! Product fell apart within days of use.,Negative,1,Home & Garden,False,15,2025-01-08
+REV_0252,Poor quality materials and shoddy construction. Avoid this product.,Negative,1,Beauty,False,32,2025-11-08
+REV_0253,Poor quality materials and shoddy construction. Avoid this product.,Negative,2,Automotive,False,23,2025-10-15
+REV_0254,Misleading description and poor quality. Requesting a refund.,Negative,1,Books,True,50,2025-05-28
+REV_0255,Completely useless product. Doesn't do what it claims to do.,Negative,1,Clothing,False,15,2025-05-31
+REV_0256,Terrible quality and poor customer service. Would not recommend.,Negative,1,Sports,True,12,2025-05-15
+REV_0257,Disappointing purchase. Nothing like the description or photos.,Negative,2,Home & Garden,False,37,2025-11-25
+REV_0258,Overpriced junk! Product fell apart within days of use.,Negative,1,Home & Garden,False,12,2025-09-01
+REV_0259,Poor quality materials and shoddy construction. Avoid this product.,Negative,1,Sports,True,30,2025-03-07
+REV_0260,Worst purchase ever! Product arrived damaged and unusable.,Negative,2,Automotive,True,22,2025-11-08
+REV_0261,Cheap materials and poor workmanship. Not recommended.,Negative,2,Automotive,True,1,2025-06-18
+REV_0262,Terrible build quality and arrived late. Very disappointed.,Negative,1,Electronics,True,43,2025-12-28
+REV_0263,Broke immediately upon use. Clearly poor quality control.,Negative,2,Sports,True,30,2025-11-25
+REV_0264,Disappointing purchase. Nothing like the description or photos.,Negative,1,Home & Garden,False,50,2024-12-31
+REV_0265,Disappointing purchase. Nothing like the description or photos.,Negative,2,Home & Garden,False,37,2025-01-15
+REV_0266,Not worth the money at all. Quality is much worse than expected.,Negative,2,Home & Garden,False,29,2025-08-04
+REV_0267,Worst customer service experience ever. Product is also terrible.,Negative,1,Beauty,True,48,2025-01-24
+REV_0268,Product doesn't match description at all. Very misleading.,Negative,2,Home & Garden,False,25,2025-08-03
+REV_0269,Cheap quality and doesn't work as advertised. Save your money.,Negative,1,Electronics,False,10,2025-04-03
+REV_0270,Awful product with terrible customer support. Avoid at all costs!,Negative,1,Electronics,False,10,2025-03-10
+REV_0271,Worst customer service experience ever. Product is also terrible.,Negative,2,Automotive,False,12,2025-04-12
+REV_0272,Disappointing purchase. Nothing like the description or photos.,Negative,2,Electronics,False,25,2025-02-20
+REV_0273,Poor design and even worse execution. Regret this purchase.,Negative,1,Automotive,False,23,2025-12-04
+REV_0274,Disappointing purchase. Nothing like the description or photos.,Negative,1,Automotive,True,50,2025-10-13
+REV_0275,Not worth the money at all. Quality is much worse than expected.,Negative,2,Automotive,True,0,2025-01-11
+REV_0276,Horrible experience from start to finish. Poor quality product.,Negative,1,Clothing,False,40,2025-11-10
+REV_0277,Worst customer service experience ever. Product is also terrible.,Negative,1,Home & Garden,True,40,2025-06-28
+REV_0278,Cheap materials and poor workmanship. Not recommended.,Negative,2,Beauty,True,40,2025-02-09
+REV_0279,Cheap materials and poor workmanship. Not recommended.,Negative,1,Clothing,True,34,2025-09-19
+REV_0280,Completely useless product. Doesn't do what it claims to do.,Negative,2,Beauty,False,23,2025-06-05
+REV_0281,Poor design and even worse execution. Regret this purchase.,Negative,1,Sports,True,30,2025-03-14
+REV_0282,Worst customer service experience ever. Product is also terrible.,Negative,2,Sports,True,44,2025-07-02
+REV_0283,Not worth the money at all. Quality is much worse than expected.,Negative,1,Beauty,True,11,2025-07-03
+REV_0284,Completely useless product. Doesn't do what it claims to do.,Negative,1,Electronics,False,27,2025-09-03
+REV_0285,Disappointing purchase. Nothing like the description or photos.,Negative,1,Electronics,True,36,2025-08-29
+REV_0286,Overpriced junk! Product fell apart within days of use.,Negative,1,Sports,False,15,2025-05-31
+REV_0287,Overpriced junk! Product fell apart within days of use.,Negative,1,Books,False,45,2025-03-09
+REV_0288,Poor quality materials and shoddy construction. Avoid this product.,Negative,2,Home & Garden,False,8,2025-09-22
+REV_0289,Poor quality materials and shoddy construction. Avoid this product.,Negative,2,Beauty,True,15,2025-08-10
+REV_0290,Not worth the money at all. Quality is much worse than expected.,Negative,2,Clothing,False,26,2025-06-18
+REV_0291,Broke immediately upon use. Clearly poor quality control.,Negative,2,Home & Garden,False,47,2025-11-08
+REV_0292,Poor design and even worse execution. Regret this purchase.,Negative,2,Sports,False,36,2025-11-10
+REV_0293,Defective product and unhelpful customer service. Very frustrated.,Negative,1,Electronics,True,20,2025-05-28
+REV_0294,Broke immediately upon use. Clearly poor quality control.,Negative,1,Books,True,44,2025-02-04
+REV_0295,Disappointing purchase. Nothing like the description or photos.,Negative,2,Automotive,True,43,2025-06-15
+REV_0296,Disappointing purchase. Nothing like the description or photos.,Negative,2,Beauty,True,0,2025-10-16
+REV_0297,Terrible quality and poor customer service. Would not recommend.,Negative,2,Automotive,True,6,2025-05-03
+REV_0298,Product doesn't match description at all. Very misleading.,Negative,2,Beauty,True,25,2025-07-21
+REV_0299,Cheap materials and poor workmanship. Not recommended.,Negative,2,Sports,True,35,2025-12-28
+REV_0300,Worst purchase ever! Product arrived damaged and unusable.,Negative,2,Electronics,False,19,2025-09-13
+REV_0301,Product doesn't match description at all. Very misleading.,Negative,2,Home & Garden,False,40,2025-10-11
+REV_0302,Poor quality materials and shoddy construction. Avoid this product.,Negative,1,Automotive,True,33,2025-02-02
+REV_0303,Cheap materials and poor workmanship. Not recommended.,Negative,1,Home & Garden,False,37,2025-11-02
+REV_0304,Broke immediately upon use. Clearly poor quality control.,Negative,1,Books,True,23,2025-04-20
+REV_0305,Complete waste of money. Product broke after just one use.,Negative,2,Clothing,False,40,2025-06-24
+REV_0306,Cheap quality and doesn't work as advertised. Save your money.,Negative,2,Sports,False,22,2025-06-26
+REV_0307,Complete waste of money. Product broke after just one use.,Negative,1,Books,False,11,2025-10-31
+REV_0308,Cheap materials and poor workmanship. Not recommended.,Negative,1,Books,False,10,2025-05-12
+REV_0309,Worst purchase ever! Product arrived damaged and unusable.,Negative,1,Beauty,False,1,2025-07-02
+REV_0310,Complete waste of money. Product broke after just one use.,Negative,1,Clothing,False,44,2025-11-19
+REV_0311,Complete waste of money. Product broke after just one use.,Negative,1,Clothing,False,34,2025-06-23
+REV_0312,Overpriced junk! Product fell apart within days of use.,Negative,1,Clothing,False,37,2025-01-18
+REV_0313,Terrible build quality and arrived late. Very disappointed.,Negative,1,Home & Garden,False,6,2025-11-24
+REV_0314,Terrible build quality and arrived late. Very disappointed.,Negative,1,Home & Garden,True,42,2025-10-30
+REV_0315,Awful product with terrible customer support. Avoid at all costs!,Negative,2,Beauty,False,21,2025-11-30
+REV_0316,Completely useless product. Doesn't do what it claims to do.,Negative,2,Clothing,True,13,2025-04-18
+REV_0317,Defective product and unhelpful customer service. Very frustrated.,Negative,2,Clothing,False,46,2025-10-29
+REV_0318,Completely useless product. Doesn't do what it claims to do.,Negative,2,Automotive,False,36,2025-08-06
+REV_0319,Overpriced and underdelivered. Very disappointed with this buy.,Negative,2,Books,True,49,2025-01-31
+REV_0320,Overpriced junk! Product fell apart within days of use.,Negative,2,Clothing,False,20,2025-04-16
+REV_0321,Worst customer service experience ever. Product is also terrible.,Negative,2,Books,False,26,2025-05-20
+REV_0322,Completely useless product. Doesn't do what it claims to do.,Negative,2,Electronics,True,46,2025-04-24
+REV_0323,Cheap materials and poor workmanship. Not recommended.,Negative,1,Clothing,False,9,2025-03-21
+REV_0324,Overpriced junk! Product fell apart within days of use.,Negative,2,Automotive,False,48,2025-04-04
+REV_0325,Overpriced junk! Product fell apart within days of use.,Negative,2,Electronics,False,20,2025-10-02
+REV_0326,Completely useless product. Doesn't do what it claims to do.,Negative,2,Electronics,False,33,2025-11-17
+REV_0327,Overpriced junk! Product fell apart within days of use.,Negative,2,Beauty,True,8,2025-06-20
+REV_0328,Complete waste of money. Product broke after just one use.,Negative,2,Beauty,True,42,2025-09-03
+REV_0329,Awful product with terrible customer support. Avoid at all costs!,Negative,1,Home & Garden,False,49,2025-02-15
+REV_0330,Product doesn't match description at all. Very misleading.,Negative,1,Home & Garden,True,47,2025-07-11
+REV_0331,Overpriced and underdelivered. Very disappointed with this buy.,Negative,1,Sports,True,31,2025-07-13
+REV_0332,Terrible build quality and arrived late. Very disappointed.,Negative,2,Home & Garden,True,20,2025-03-25
+REV_0333,Not worth the money at all. Quality is much worse than expected.,Negative,1,Beauty,False,38,2025-08-12
+REV_0334,Awful product with terrible customer support. Avoid at all costs!,Negative,2,Home & Garden,False,44,2025-02-15
+REV_0335,Worst customer service experience ever. Product is also terrible.,Negative,2,Books,False,17,2025-03-20
+REV_0336,Product doesn't match description at all. Very misleading.,Negative,2,Electronics,True,13,2025-09-04
+REV_0337,Misleading description and poor quality. Requesting a refund.,Negative,1,Beauty,True,42,2025-11-20
+REV_0338,Horrible experience from start to finish. Poor quality product.,Negative,2,Home & Garden,True,40,2025-05-03
+REV_0339,Not worth the money at all. Quality is much worse than expected.,Negative,2,Beauty,True,37,2025-06-20
+REV_0340,Not worth the money at all. Quality is much worse than expected.,Negative,1,Sports,False,9,2025-12-12
+REV_0341,Disappointing purchase. Nothing like the description or photos.,Negative,2,Beauty,True,22,2025-03-24
+REV_0342,Cheap quality and doesn't work as advertised. Save your money.,Negative,2,Sports,True,50,2025-05-18
+REV_0343,Terrible build quality and arrived late. Very disappointed.,Negative,2,Electronics,True,24,2025-11-19
+REV_0344,Product doesn't match description at all. Very misleading.,Negative,1,Home & Garden,False,43,2025-04-17
+REV_0345,Defective product and unhelpful customer service. Very frustrated.,Negative,1,Electronics,False,24,2025-07-18
+REV_0346,Poor design and even worse execution. Regret this purchase.,Negative,2,Clothing,True,50,2025-07-31
+REV_0347,Overpriced junk! Product fell apart within days of use.,Negative,1,Books,True,16,2025-07-20
+REV_0348,Defective product and unhelpful customer service. Very frustrated.,Negative,1,Books,True,24,2025-01-14
+REV_0349,Product doesn't match description at all. Very misleading.,Negative,2,Electronics,True,16,2025-02-23
+REV_0350,Completely useless product. Doesn't do what it claims to do.,Negative,1,Clothing,False,40,2025-01-04
+REV_0351,"Acceptable quality for the price point. Nothing more, nothing less.",Neutral,3,Books,True,24,2025-05-03
+REV_0352,Average product with some good points and some bad ones.,Neutral,3,Home & Garden,True,27,2025-02-25
+REV_0353,"It works, but there are probably better options available.",Neutral,3,Sports,False,4,2025-02-10
+REV_0354,Works as advertised but doesn't exceed expectations.,Neutral,3,Books,True,0,2025-12-12
+REV_0355,Average product with some good points and some bad ones.,Neutral,3,Automotive,False,3,2025-09-09
+REV_0356,"Fair product, meets basic expectations but nothing more.",Neutral,3,Clothing,True,25,2025-05-18
+REV_0357,"Decent quality for the price, though not outstanding.",Neutral,3,Home & Garden,True,10,2025-05-10
+REV_0358,Satisfactory purchase. Not amazing but not terrible either.,Neutral,3,Clothing,True,10,2025-10-21
+REV_0359,"It's fine, does what it's supposed to do without any issues.",Neutral,3,Home & Garden,False,12,2025-08-15
+REV_0360,"It works as expected, though nothing to write home about.",Neutral,3,Electronics,True,18,2025-04-02
+REV_0361,"It's alright, serves its purpose but lacks wow factor.",Neutral,3,Beauty,True,9,2025-12-26
+REV_0362,"Okay quality, though I've seen better for similar prices.",Neutral,3,Books,False,24,2025-04-05
+REV_0363,It's functional but not particularly impressive or exciting.,Neutral,3,Books,False,38,2025-11-25
+REV_0364,"It's okay, though I might look for alternatives next time.",Neutral,3,Electronics,False,21,2025-08-02
+REV_0365,"It works, but there are probably better options available.",Neutral,3,Electronics,False,35,2025-01-13
+REV_0366,"Decent quality for the price, though not outstanding.",Neutral,3,Automotive,False,19,2025-12-25
+REV_0367,"It's okay, though I might look for alternatives next time.",Neutral,3,Home & Garden,True,6,2025-03-23
+REV_0368,"Decent product overall, though some minor issues to note.",Neutral,3,Home & Garden,False,35,2025-03-23
+REV_0369,"It works, but there are probably better options available.",Neutral,3,Home & Garden,False,48,2025-12-16
+REV_0370,"It works as expected, though nothing to write home about.",Neutral,3,Books,False,49,2025-06-24
+REV_0371,"It works as expected, though nothing to write home about.",Neutral,3,Sports,True,7,2025-05-15
+REV_0372,"It works, but there are probably better options available.",Neutral,3,Automotive,True,20,2025-11-28
+REV_0373,Average product with some good points and some bad ones.,Neutral,3,Home & Garden,True,36,2025-10-30
+REV_0374,"Fair product, meets basic expectations but nothing more.",Neutral,3,Books,True,45,2025-03-10
+REV_0375,"Fair product, meets basic expectations but nothing more.",Neutral,3,Beauty,True,25,2025-03-12
+REV_0376,"It's okay, though I might look for alternatives next time.",Neutral,3,Books,False,42,2025-04-27
+REV_0377,"Acceptable quality for the price point. Nothing more, nothing less.",Neutral,3,Automotive,False,38,2025-08-06
+REV_0378,Standard quality product. Does what it says on the tin.,Neutral,3,Automotive,True,33,2025-01-09
+REV_0379,"Fair product, meets basic expectations but nothing more.",Neutral,3,Beauty,False,39,2025-07-20
+REV_0380,"Fair product, meets basic expectations but nothing more.",Neutral,3,Clothing,False,10,2025-11-04
+REV_0381,Works as advertised but doesn't exceed expectations.,Neutral,3,Clothing,False,3,2025-12-06
+REV_0382,Works as advertised but doesn't exceed expectations.,Neutral,3,Home & Garden,False,30,2025-07-19
+REV_0383,Mediocre product with average performance and quality.,Neutral,3,Home & Garden,False,34,2025-09-08
+REV_0384,Works as advertised but doesn't exceed expectations.,Neutral,3,Electronics,False,14,2025-02-11
+REV_0385,"Okay quality, though I've seen better for similar prices.",Neutral,3,Clothing,False,9,2025-08-07
+REV_0386,"It's okay, nothing special but does the job adequately.",Neutral,3,Clothing,True,48,2025-07-12
+REV_0387,"Okay quality, though I've seen better for similar prices.",Neutral,3,Clothing,False,39,2025-06-23
+REV_0388,"Decent quality for the price, though not outstanding.",Neutral,3,Electronics,True,33,2025-11-16
+REV_0389,Mediocre product with average performance and quality.,Neutral,3,Home & Garden,False,17,2025-11-12
+REV_0390,Mediocre product with average performance and quality.,Neutral,3,Books,False,22,2025-01-15
+REV_0391,Fair product that does the basics well enough.,Neutral,3,Electronics,True,22,2025-06-29
+REV_0392,"It works as expected, though nothing to write home about.",Neutral,3,Automotive,False,12,2025-03-02
+REV_0393,Average product that gets the job done. Nothing exceptional.,Neutral,3,Home & Garden,True,24,2025-11-17
+REV_0394,"It works as expected, though nothing to write home about.",Neutral,3,Home & Garden,False,7,2025-12-21
+REV_0395,"It's okay, nothing special but does the job adequately.",Neutral,3,Electronics,True,20,2025-04-24
+REV_0396,"It's alright, serves its purpose but lacks wow factor.",Neutral,3,Beauty,False,26,2025-12-13
+REV_0397,"Decent product overall, though some minor issues to note.",Neutral,3,Automotive,False,50,2025-05-30
+REV_0398,Mediocre product with average performance and quality.,Neutral,3,Home & Garden,True,8,2025-04-25
+REV_0399,"Fair product, meets basic expectations but nothing more.",Neutral,3,Books,True,23,2025-10-25
+REV_0400,"Reasonable quality and price. Could be better, could be worse.",Neutral,3,Clothing,True,45,2025-09-03
+REV_0401,"It's alright, serves its purpose but lacks wow factor.",Neutral,3,Books,False,46,2025-01-30
+REV_0402,"It's okay, though I might look for alternatives next time.",Neutral,3,Home & Garden,False,24,2025-10-29
+REV_0403,"It works, but there are probably better options available.",Neutral,3,Clothing,False,38,2025-11-29
+REV_0404,"Decent quality for the price, though not outstanding.",Neutral,3,Automotive,False,1,2025-09-12
+REV_0405,"Acceptable quality for the price point. Nothing more, nothing less.",Neutral,3,Books,True,26,2025-03-17
+REV_0406,"It's okay, nothing special but does the job adequately.",Neutral,3,Books,False,0,2025-03-10
+REV_0407,"It's okay, nothing special but does the job adequately.",Neutral,3,Sports,True,21,2025-04-25
+REV_0408,"It works as expected, though nothing to write home about.",Neutral,3,Automotive,True,47,2025-08-19
+REV_0409,It's functional but not particularly impressive or exciting.,Neutral,3,Electronics,True,9,2025-02-21
+REV_0410,"Acceptable quality for the price point. Nothing more, nothing less.",Neutral,3,Home & Garden,False,41,2025-06-13
+REV_0411,"It's alright, serves its purpose but lacks wow factor.",Neutral,3,Home & Garden,False,19,2025-10-24
+REV_0412,"It's alright, serves its purpose but lacks wow factor.",Neutral,3,Automotive,True,34,2025-03-09
+REV_0413,"Okay quality, though I've seen better for similar prices.",Neutral,3,Home & Garden,False,23,2025-02-21
+REV_0414,"It's okay, though I might look for alternatives next time.",Neutral,3,Clothing,True,4,2025-06-21
+REV_0415,Standard quality product. Does what it says on the tin.,Neutral,3,Books,True,36,2025-05-13
+REV_0416,Standard quality product. Does what it says on the tin.,Neutral,3,Electronics,False,5,2025-02-02
+REV_0417,"It works, but there are probably better options available.",Neutral,3,Electronics,True,44,2025-06-05
+REV_0418,"It's okay, though I might look for alternatives next time.",Neutral,3,Sports,True,38,2025-06-28
+REV_0419,Works as advertised but doesn't exceed expectations.,Neutral,3,Home & Garden,False,23,2025-06-04
+REV_0420,"Reasonable quality and price. Could be better, could be worse.",Neutral,3,Beauty,True,37,2025-07-09
+REV_0421,"Reasonable quality and price. Could be better, could be worse.",Neutral,3,Home & Garden,True,31,2025-01-13
+REV_0422,"It's okay, though I might look for alternatives next time.",Neutral,3,Clothing,True,8,2025-08-19
+REV_0423,"Fair product, meets basic expectations but nothing more.",Neutral,3,Beauty,True,2,2025-02-18
+REV_0424,Mediocre product with average performance and quality.,Neutral,3,Automotive,False,11,2025-08-18
+REV_0425,"It works as expected, though nothing to write home about.",Neutral,3,Electronics,False,21,2025-08-09
+REV_0426,Works as advertised but doesn't exceed expectations.,Neutral,3,Sports,False,26,2025-06-25
+REV_0427,"Fair product, meets basic expectations but nothing more.",Neutral,3,Sports,False,19,2025-01-04
+REV_0428,"It's alright, serves its purpose but lacks wow factor.",Neutral,3,Electronics,True,15,2025-07-02
+REV_0429,"It's okay, though I might look for alternatives next time.",Neutral,3,Home & Garden,True,0,2025-07-12
+REV_0430,Fair product that does the basics well enough.,Neutral,3,Automotive,True,31,2025-08-06
+REV_0431,"Decent product overall, though some minor issues to note.",Neutral,3,Automotive,False,9,2025-11-04
+REV_0432,"Decent quality for the price, though not outstanding.",Neutral,3,Books,False,10,2025-05-07
+REV_0433,"It works, but there are probably better options available.",Neutral,3,Automotive,False,26,2025-05-03
+REV_0434,Average product with some good points and some bad ones.,Neutral,3,Beauty,True,14,2025-10-22
+REV_0435,"It's okay, though I might look for alternatives next time.",Neutral,3,Automotive,False,19,2025-05-20
+REV_0436,"Okay quality, though I've seen better for similar prices.",Neutral,3,Automotive,False,38,2025-06-09
+REV_0437,"It's fine, does what it's supposed to do without any issues.",Neutral,3,Home & Garden,True,2,2025-09-11
+REV_0438,"Acceptable quality for the price point. Nothing more, nothing less.",Neutral,3,Books,False,15,2025-05-05
+REV_0439,"Reasonable quality and price. Could be better, could be worse.",Neutral,3,Clothing,False,1,2025-02-15
+REV_0440,"It's fine, does what it's supposed to do without any issues.",Neutral,3,Clothing,False,27,2025-10-01
+REV_0441,"Decent product overall, though some minor issues to note.",Neutral,3,Beauty,True,3,2025-01-10
+REV_0442,"It's fine, does what it's supposed to do without any issues.",Neutral,3,Automotive,False,36,2025-11-16
+REV_0443,"Reasonable quality and price. Could be better, could be worse.",Neutral,3,Sports,True,35,2025-08-22
+REV_0444,"It works as expected, though nothing to write home about.",Neutral,3,Clothing,True,26,2025-06-15
+REV_0445,"It's okay, nothing special but does the job adequately.",Neutral,3,Home & Garden,False,23,2025-01-07
+REV_0446,"It works, but there are probably better options available.",Neutral,3,Clothing,False,44,2025-01-09
+REV_0447,Fair product that does the basics well enough.,Neutral,3,Sports,True,26,2025-04-12
+REV_0448,Average product with some good points and some bad ones.,Neutral,3,Books,False,36,2025-11-06
+REV_0449,"Acceptable quality for the price point. Nothing more, nothing less.",Neutral,3,Clothing,True,13,2025-10-02
+REV_0450,Satisfactory purchase. Not amazing but not terrible either.,Neutral,3,Clothing,False,50,2025-07-06
+REV_0451,Fair product that does the basics well enough.,Neutral,3,Books,True,6,2025-08-30
+REV_0452,It's functional but not particularly impressive or exciting.,Neutral,3,Clothing,True,32,2025-05-18
+REV_0453,"Okay quality, though I've seen better for similar prices.",Neutral,3,Books,True,0,2024-12-29
+REV_0454,Works as advertised but doesn't exceed expectations.,Neutral,3,Automotive,False,9,2025-01-27
+REV_0455,"Decent product overall, though some minor issues to note.",Neutral,3,Home & Garden,False,8,2025-06-18
+REV_0456,"Reasonable quality and price. Could be better, could be worse.",Neutral,3,Home & Garden,False,18,2025-08-09
+REV_0457,"Reasonable quality and price. Could be better, could be worse.",Neutral,3,Clothing,False,5,2025-04-27
+REV_0458,Average product that gets the job done. Nothing exceptional.,Neutral,3,Electronics,True,12,2025-07-16
+REV_0459,Satisfactory purchase. Not amazing but not terrible either.,Neutral,3,Home & Garden,True,3,2025-01-28
+REV_0460,Average product that gets the job done. Nothing exceptional.,Neutral,3,Beauty,False,0,2025-03-08
+REV_0461,Mediocre product with average performance and quality.,Neutral,3,Clothing,False,33,2025-04-16
+REV_0462,"It's alright, serves its purpose but lacks wow factor.",Neutral,3,Clothing,False,31,2025-10-03
+REV_0463,Fair product that does the basics well enough.,Neutral,3,Automotive,False,14,2025-10-09
+REV_0464,Mediocre product with average performance and quality.,Neutral,3,Sports,False,27,2025-10-13
+REV_0465,"Decent product overall, though some minor issues to note.",Neutral,3,Home & Garden,True,25,2025-09-20
+REV_0466,Satisfactory purchase. Not amazing but not terrible either.,Neutral,3,Automotive,True,50,2025-04-23
+REV_0467,Average product with some good points and some bad ones.,Neutral,3,Beauty,True,13,2025-10-29
+REV_0468,"It's alright, serves its purpose but lacks wow factor.",Neutral,3,Home & Garden,False,8,2025-08-26
+REV_0469,It's functional but not particularly impressive or exciting.,Neutral,3,Books,False,36,2025-01-27
+REV_0470,Standard quality product. Does what it says on the tin.,Neutral,3,Books,True,33,2025-02-16
+REV_0471,Mediocre product with average performance and quality.,Neutral,3,Automotive,True,25,2025-01-04
+REV_0472,Mediocre product with average performance and quality.,Neutral,3,Books,True,29,2025-01-29
+REV_0473,Works as advertised but doesn't exceed expectations.,Neutral,3,Home & Garden,False,2,2025-05-17
+REV_0474,"It's alright, serves its purpose but lacks wow factor.",Neutral,3,Beauty,False,43,2025-09-19
+REV_0475,Satisfactory purchase. Not amazing but not terrible either.,Neutral,3,Electronics,False,8,2025-01-28
+REV_0476,"It's alright, serves its purpose but lacks wow factor.",Neutral,3,Sports,False,17,2025-10-29
+REV_0477,"Acceptable quality for the price point. Nothing more, nothing less.",Neutral,3,Books,False,39,2025-11-13
+REV_0478,"Decent quality for the price, though not outstanding.",Neutral,3,Books,True,34,2025-02-10
+REV_0479,"Decent product overall, though some minor issues to note.",Neutral,3,Sports,False,11,2025-09-23
+REV_0480,"It's okay, nothing special but does the job adequately.",Neutral,3,Automotive,False,17,2025-08-10
+REV_0481,"Fair product, meets basic expectations but nothing more.",Neutral,3,Beauty,False,4,2025-08-05
+REV_0482,"It's okay, though I might look for alternatives next time.",Neutral,3,Automotive,False,25,2025-02-27
+REV_0483,Mediocre product with average performance and quality.,Neutral,3,Beauty,False,32,2025-05-27
+REV_0484,Standard quality product. Does what it says on the tin.,Neutral,3,Sports,False,36,2025-11-03
+REV_0485,Average product that gets the job done. Nothing exceptional.,Neutral,3,Clothing,True,41,2025-06-07
+REV_0486,Satisfactory purchase. Not amazing but not terrible either.,Neutral,3,Sports,False,5,2025-04-20
+REV_0487,"It works, but there are probably better options available.",Neutral,3,Automotive,False,21,2025-05-16
+REV_0488,Average product with some good points and some bad ones.,Neutral,3,Clothing,True,22,2025-01-31
+REV_0489,"Reasonable quality and price. Could be better, could be worse.",Neutral,3,Beauty,False,7,2025-04-03
+REV_0490,"It works as expected, though nothing to write home about.",Neutral,3,Books,True,1,2025-04-04
+REV_0491,Fair product that does the basics well enough.,Neutral,3,Books,False,27,2025-08-01
+REV_0492,Standard quality product. Does what it says on the tin.,Neutral,3,Automotive,False,9,2025-08-20
+REV_0493,"It's alright, serves its purpose but lacks wow factor.",Neutral,3,Sports,False,45,2025-07-05
+REV_0494,Fair product that does the basics well enough.,Neutral,3,Clothing,True,9,2025-04-21
+REV_0495,"Acceptable quality for the price point. Nothing more, nothing less.",Neutral,3,Books,True,3,2025-08-01
+REV_0496,"It's alright, serves its purpose but lacks wow factor.",Neutral,3,Books,True,7,2025-04-01
+REV_0497,Mediocre product with average performance and quality.,Neutral,3,Automotive,True,33,2025-06-21
+REV_0498,"Okay quality, though I've seen better for similar prices.",Neutral,3,Home & Garden,True,17,2025-08-10
+REV_0499,Satisfactory purchase. Not amazing but not terrible either.,Neutral,3,Sports,True,43,2025-01-12
+REV_0500,"Reasonable quality and price. Could be better, could be worse.",Neutral,3,Home & Garden,False,37,2025-04-07

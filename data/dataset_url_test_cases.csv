@@ -1,0 +1,9 @@
+url,title,expected_sentiment,content_type,domain
+https://techcrunch.com/positive-startup-news,Local Startup Raises $50M to Revolutionize Clean Energy,Positive,News Article,Technology News
+https://yelp.com/restaurant-negative-review,Terrible Experience at Downtown Restaurant,Negative,Review,Restaurant Review
+https://wikipedia.org/neutral-topic-article,History of Municipal Government Structure,Neutral,Encyclopedia,Educational
+https://amazon.com/product-amazing-review,Best Product Purchase of the Year!,Positive,Product Review,E-commerce
+https://reddit.com/complaints-thread,Worst Customer Service Experience Thread,Negative,Forum Discussion,Social Media
+https://cnn.com/breaking-news-update,City Council Approves New Budget Proposal,Neutral,News Report,News Media
+https://medium.com/success-story-blog,How I Built My Dream Business from Scratch,Positive,Blog Post,Business
+https://glassdoor.com/company-terrible-review,Toxic Work Environment and Poor Management,Negative,Company Review,Employment
