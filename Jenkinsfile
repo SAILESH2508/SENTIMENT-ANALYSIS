@@ -5,6 +5,7 @@ pipeline {
         DOCKER_REGISTRY = 'docker.io'
         IMAGE_NAME = 'sailesh2508/sentiment-analyzer'
         IMAGE_TAG = 'latest'
+        PYTHON_EXE = 'C:\\Users\\saile\\AppData\\Local\\Programs\\Python\\Python311\\python.exe'
     }
 
     stages {
@@ -17,7 +18,7 @@ pipeline {
         stage('Set up venv & dependencies') {
             steps {
                 echo '🔄 Creating virtual environment...'
-                bat 'python -m venv venv'
+                bat "\"${PYTHON_EXE}\" -m venv venv"
                 bat 'venv\\Scripts\\pip install --upgrade pip'
                 bat 'venv\\Scripts\\pip install -r requirements.txt'
             }
