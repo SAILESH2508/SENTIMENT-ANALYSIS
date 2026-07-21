@@ -21,9 +21,9 @@ def render_sidebar():
                 st.markdown(f"""
                 <div class="history-item">
                     <span class="{lbl_cls}">{item['label']}</span> 
-                    <span style="color:#aaa; font-size:0.8em">({item['conf']:.0%})</span><br>
-                    <i style="color:#888; font-size:0.8em">{item['time']}</i><br>
-                    <span style="color:#ddd">{item['text']}</span>
+                    <span style="color:#4B5563; font-size:0.8em">({item['conf']:.0%})</span><br>
+                    <i style="color:#6B7280; font-size:0.8em">{item['time']}</i><br>
+                    <span style="color:#1F2937">{item['text']}</span>
                 </div>
                 """, unsafe_allow_html=True)
                 
@@ -49,8 +49,8 @@ def render_result_card(label, confidence, text):
     <div class="result-card {cls}">
         <h2>{icon} {label}</h2>
         <p style="opacity: 0.9">{msg}</p>
-        <div style="margin-top: 15px; background: rgba(0,0,0,0.2); padding: 10px; border-radius: 8px;">
-            <small style="opacity: 0.7">CONFIDENCE SCORE</small><br>
+        <div style="margin-top: 15px; background: rgba(0,0,0,0.05); padding: 10px; border-radius: 8px;">
+            <small style="opacity: 0.8">CONFIDENCE SCORE</small><br>
             <strong style="font-size: 1.5em">{confidence:.1%}</strong>
         </div>
     </div>
