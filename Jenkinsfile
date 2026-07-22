@@ -9,12 +9,6 @@ pipeline {
     }
 
     stages {
-        stage('Checkout') {
-            steps {
-                checkout scm
-            }
-        }
-
         stage('Set up venv & dependencies') {
             steps {
                 echo '🔄 Creating virtual environment...'
