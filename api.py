@@ -3,9 +3,13 @@ FastAPI backend for the Universal Sentiment Analyzer.
 Provides REST API endpoints for sentiment analysis.
 """
 
-from fastapi import FastAPI, HTTPException, BackgroundTasks, UploadFile, File
-from fastapi.middleware.cors import CORSMiddleware
-from pydantic import BaseModel, Field
+try:
+    from fastapi import FastAPI, HTTPException, BackgroundTasks, UploadFile, File
+    from fastapi.middleware.cors import CORSMiddleware
+    from pydantic import BaseModel, Field
+except ImportError:
+    FastAPI = None
+
 from typing import List, Optional, Dict, Any
 import pandas as pd
 import io
@@ -18,21 +22,24 @@ from datetime import datetime
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-# Initialize FastAPI app
-app = FastAPI(
-    title="Universal Sentiment Analyzer API",
-    description="REST API for sentiment analysis with caching and monitoring",
-    version="2.0.0",
-)
+if FastAPI is not None:
+    # Initialize FastAPI app
+    app = FastAPI(
+        title="Universal Sentiment Analyzer API",
+        description="REST API for sentiment analysis with caching and monitoring",
+        version="2.0.0",
+    )
 
-# Add CORS middleware
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],  # Configure appropriately for production
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
+    # Add CORS middleware
+    app.add_middleware(
+        CORSMiddleware,
+        allow_origins=["*"],  # Configure appropriately for production
+        allow_credentials=True,
+        allow_methods=["*"],
+        allow_headers=["*"],
+    )
+else:
+    app = None
 
 
 # Pydantic models

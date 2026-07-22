@@ -3,9 +3,24 @@ Enhanced inference service with caching, better error handling, and monitoring.
 """
 
 import joblib
-import yaml
+
+try:
+    import yaml
+except ImportError:
+    yaml = None
 from typing import Dict, Any, Optional
-from cachetools import TTLCache
+
+try:
+    from cachetools import TTLCache
+except ImportError:
+
+    class TTLCache(dict):
+        def __init__(self, maxsize=1000, ttl=3600):
+            super().__init__()
+            self.maxsize = maxsize
+            self.ttl = ttl
+
+
 import hashlib
 from utils import (
     preprocess_text,
@@ -36,13 +51,15 @@ class SentimentAnalyzer:
 
     def _load_config(self, config_path: str) -> Dict[str, Any]:
         """Load configuration from YAML file."""
+        if yaml is None:
+            return {}
         try:
             with open(config_path, "r") as file:
-                return yaml.safe_load(file)
+                return yaml.safe_load(file) or {}
         except FileNotFoundError:
             logger.warning(f"Config file {config_path} not found, using defaults")
             return {}
-        except yaml.YAMLError as e:
+        except Exception as e:
             logger.error(f"Error parsing config file: {e}")
             return {}
 

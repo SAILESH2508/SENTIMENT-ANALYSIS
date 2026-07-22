@@ -7,8 +7,6 @@ from datetime import datetime
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud
 import requests
-from bs4 import BeautifulSoup
-from deep_translator import GoogleTranslator
 
 # Custom Modules
 import styles
