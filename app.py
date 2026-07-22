@@ -66,11 +66,17 @@ with col1:
     st.markdown("Or try one of these quick examples:")
     c1, c2, c3 = st.columns(3)
     if c1.button("📱 Great Product", key="ex1"):
-        set_text("I absolutely love this new phone! The camera and battery life are stunning.")
+        set_text(
+            "I absolutely love this new phone! The camera and battery life are stunning."
+        )
     if c2.button("😡 Bad Service", key="ex2"):
-        set_text("Terrible customer support. I waited on hold for an hour and got no help.")
+        set_text(
+            "Terrible customer support. I waited on hold for an hour and got no help."
+        )
     if c3.button("💼 Professional", key="ex3"):
-        set_text("The quarterly project review went as expected with reasonable progress.")
+        set_text(
+            "The quarterly project review went as expected with reasonable progress."
+        )
 
     text_input = st.text_area(
         "Input Text",

@@ -209,11 +209,13 @@ class SentimentAnalyzer:
             return {
                 "model_type": type(self.pipeline.named_steps["clf"]).__name__,
                 "vectorizer_type": type(self.pipeline.named_steps["tfidf"]).__name__,
-                "feature_count": len(
-                    self.pipeline.named_steps["tfidf"].get_feature_names_out()
-                )
-                if hasattr(self.pipeline.named_steps["tfidf"], "get_feature_names_out")
-                else "Unknown",
+                "feature_count": (
+                    len(self.pipeline.named_steps["tfidf"].get_feature_names_out())
+                    if hasattr(
+                        self.pipeline.named_steps["tfidf"], "get_feature_names_out"
+                    )
+                    else "Unknown"
+                ),
                 "cache_size": len(self.prediction_cache),
                 "metrics": metrics,
             }

@@ -80,12 +80,8 @@ class TestSentimentAnalyzer:
     @pytest.fixture
     def analyzer_with_mock_pipeline(self, mock_pipeline):
         """Create analyzer with mocked pipeline."""
-        with patch(
-            "inference_service.joblib.load", return_value=mock_pipeline
-        ):
-            with patch(
-                "inference_service.ensure_model_exists", return_value=True
-            ):
+        with patch("inference_service.joblib.load", return_value=mock_pipeline):
+            with patch("inference_service.ensure_model_exists", return_value=True):
                 analyzer = SentimentAnalyzer()
                 analyzer.pipeline = mock_pipeline
                 return analyzer

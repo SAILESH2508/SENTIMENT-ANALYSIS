@@ -46,7 +46,9 @@ def trigger_job(jenkins_url, job_name, username, token):
                 print(f"📍 Queue location: {queue_url}")
             return True
         elif response.status_code == 403:
-            print("❌ Authentication failed (403 Forbidden). Check user credentials and API token.")
+            print(
+                "❌ Authentication failed (403 Forbidden). Check user credentials and API token."
+            )
             return False
         else:
             print(f"❌ Failed to trigger build. Status Code: {response.status_code}")
@@ -83,10 +85,14 @@ def check_build_status(jenkins_url, job_name, username, token):
             print(f"⚠️ Job '{job_name}' found, but no builds have executed yet.")
             return None, None, False
         elif response.status_code == 403:
-            print(f"❌ Access denied (403 Forbidden). Jenkins requires authentication (`--user` and `--token`).")
+            print(
+                f"❌ Access denied (403 Forbidden). Jenkins requires authentication (`--user` and `--token`)."
+            )
             return None, None, False
         else:
-            print(f"❌ Failed to query build status. Status Code: {response.status_code}")
+            print(
+                f"❌ Failed to query build status. Status Code: {response.status_code}"
+            )
             return None, None, False
 
     except requests.exceptions.RequestException as e:
@@ -181,7 +187,9 @@ def main():
                         args.url, args.job, build_num, args.user, args.token
                     )
                     break
-                print("⏳ Pipeline running in Jenkins. Checking status again in 10 seconds...")
+                print(
+                    "⏳ Pipeline running in Jenkins. Checking status again in 10 seconds..."
+                )
                 time.sleep(10)
 
 
