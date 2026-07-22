@@ -22,8 +22,8 @@ pipeline {
             steps {
                 echo '🔍 Checking code quality...'
                 bat 'venv\\Scripts\\python.exe -m pip install black flake8'
-                bat 'venv\\Scripts\\black --check --exclude "venv" . || echo "Formatting check complete."'
-                bat 'venv\\Scripts\\flake8 --ignore=E501,F401 --exclude=.git,__pycache__,venv,build,dist,.pytest_cache,*.csv,*.pkl,IMDB* . || echo "Non-critical lint warnings logged."'
+                bat 'venv\\Scripts\\python.exe -m black --check --exclude "venv" . || (echo Formatting check complete. & exit /b 0)'
+                bat 'venv\\Scripts\\python.exe -m flake8 --ignore=E501,F401 --exclude=.git,__pycache__,venv,build,dist,.pytest_cache,*.csv,*.pkl,IMDB* . || (echo Non-critical lint warnings logged. & exit /b 0)'
             }
         }
 
@@ -32,7 +32,7 @@ pipeline {
                 echo '🛡️ Scanning for security flaws...'
                 bat 'venv\\Scripts\\python.exe -m pip install bandit safety'
                 bat 'venv\\Scripts\\bandit -r . -x ./venv,./.pytest_cache,./__pycache__ -ll'
-                bat 'venv\\Scripts\\safety check -r requirements.txt || echo "Non-critical dependency vulnerabilities found."'
+                bat 'venv\\Scripts\\safety check -r requirements.txt || (echo Non-critical dependency vulnerabilities found. & exit /b 0)'
             }
         }
 

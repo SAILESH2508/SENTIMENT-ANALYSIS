@@ -8,12 +8,13 @@ import json
 from datetime import datetime, timedelta
 import random
 
+
 def create_realistic_datasets():
     """Create realistic datasets for all sentiment analyzer features"""
-    
+
     # 1. E-commerce Product Reviews (Most Common Use Case)
     ecommerce_data = []
-    
+
     # Positive reviews (40%)
     positive_reviews = [
         "Amazing product! Exceeded my expectations in every way. Fast shipping too!",
@@ -25,9 +26,9 @@ def create_realistic_datasets():
         "Best purchase I've made this year! Absolutely love everything about it!",
         "Superb quality and great design. Worth every penny and more!",
         "Excellent product that works perfectly. Great customer support!",
-        "Amazing! This product is even better than I hoped it would be!"
+        "Amazing! This product is even better than I hoped it would be!",
     ]
-    
+
     # Negative reviews (30%)
     negative_reviews = [
         "Terrible quality! Broke after just one day of use. Complete waste of money!",
@@ -39,9 +40,9 @@ def create_realistic_datasets():
         "Cheap quality that falls apart immediately. Not worth any price!",
         "Misleading description and terrible quality. Avoid this seller!",
         "Awful product with zero quality control. Very frustrated with purchase!",
-        "Completely useless! Product doesn't do what it claims to do!"
+        "Completely useless! Product doesn't do what it claims to do!",
     ]
-    
+
     # Neutral reviews (30%)
     neutral_reviews = [
         "It's okay, does the job but nothing special. Average quality for the price.",
@@ -53,38 +54,48 @@ def create_realistic_datasets():
         "Reasonable quality for the price point. Nothing more, nothing less.",
         "It works but there are probably better options available elsewhere.",
         "Acceptable product with average performance. Does what it says.",
-        "Mediocre quality but functional. Not amazing but not awful either."
+        "Mediocre quality but functional. Not amazing but not awful either.",
     ]
-    
-    categories = ['Electronics', 'Clothing', 'Home & Kitchen', 'Books', 'Sports', 'Beauty', 'Toys']
-    
+
+    categories = [
+        "Electronics",
+        "Clothing",
+        "Home & Kitchen",
+        "Books",
+        "Sports",
+        "Beauty",
+        "Toys",
+    ]
+
     for i in range(600):
         if i < 240:  # 40% positive
             text = random.choice(positive_reviews)
-            sentiment = 'Positive'
+            sentiment = "Positive"
             rating = random.randint(4, 5)
         elif i < 420:  # 30% negative
             text = random.choice(negative_reviews)
-            sentiment = 'Negative'
+            sentiment = "Negative"
             rating = random.randint(1, 2)
         else:  # 30% neutral
             text = random.choice(neutral_reviews)
-            sentiment = 'Neutral'
+            sentiment = "Neutral"
             rating = 3
-        
-        ecommerce_data.append({
-            'text': text,
-            'sentiment': sentiment,
-            'rating': rating,
-            'category': random.choice(categories),
-            'verified_purchase': random.choice([True, False]),
-            'helpful_votes': random.randint(0, 100),
-            'price_range': random.choice(['$0-25', '$25-50', '$50-100', '$100+'])
-        })
-    
+
+        ecommerce_data.append(
+            {
+                "text": text,
+                "sentiment": sentiment,
+                "rating": rating,
+                "category": random.choice(categories),
+                "verified_purchase": random.choice([True, False]),
+                "helpful_votes": random.randint(0, 100),
+                "price_range": random.choice(["$0-25", "$25-50", "$50-100", "$100+"]),
+            }
+        )
+
     # 2. Social Media Posts Dataset
     social_data = []
-    
+
     # Social media positive posts
     social_positive = [
         "Just had the most amazing day at the beach! Life is beautiful! 🌊☀️ #blessed",
@@ -96,9 +107,9 @@ def create_realistic_datasets():
         "Perfect weather for a picnic in the park with friends! 🌞 #friendship #outdoors",
         "Just adopted the sweetest rescue dog! My heart is so full ❤️ 🐶 #rescue #love",
         "Loving this new book series! Can't put it down! 📚 #reading #bookworm",
-        "Best vacation ever! The mountains here are breathtaking! 🏔️ #travel #adventure"
+        "Best vacation ever! The mountains here are breathtaking! 🏔️ #travel #adventure",
     ]
-    
+
     # Social media negative posts
     social_negative = [
         "Stuck in traffic for 3 hours because of construction! So frustrated! 😤 #traffic",
@@ -110,9 +121,9 @@ def create_realistic_datasets():
         "This movie was a complete waste of 3 hours of my life! 🎬 #terrible #regret",
         "Customer service hung up on me three times today! Absolutely ridiculous! 📞 #angry",
         "My car broke down in the middle of nowhere. Having the worst luck! 🚗 #stranded",
-        "Food poisoning from that new restaurant. Never eating there again! 🤢 #sick"
+        "Food poisoning from that new restaurant. Never eating there again! 🤢 #sick",
     ]
-    
+
     # Social media neutral posts
     social_neutral = [
         "Just finished grocery shopping for the week. Standard Sunday routine 🛒 #weekend",
@@ -124,39 +135,43 @@ def create_realistic_datasets():
         "Went for my regular evening walk around the neighborhood 🚶‍♀️ #exercise",
         "Standard workout at the gym today. Keeping up with routine 💪 #fitness",
         "Team meeting went as expected. Covered the usual topics 💼 #work #meeting",
-        "Made pasta for dinner tonight. Simple and satisfying 🍝 #cooking #dinner"
+        "Made pasta for dinner tonight. Simple and satisfying 🍝 #cooking #dinner",
     ]
-    
-    platforms = ['Twitter', 'Facebook', 'Instagram', 'LinkedIn', 'TikTok', 'Reddit']
-    
+
+    platforms = ["Twitter", "Facebook", "Instagram", "LinkedIn", "TikTok", "Reddit"]
+
     for i in range(400):
         if i < 160:  # 40% positive
             text = random.choice(social_positive)
-            sentiment = 'Positive'
+            sentiment = "Positive"
             engagement = random.randint(50, 1000)
         elif i < 280:  # 30% negative
             text = random.choice(social_negative)
-            sentiment = 'Negative'
+            sentiment = "Negative"
             engagement = random.randint(20, 500)
         else:  # 30% neutral
             text = random.choice(social_neutral)
-            sentiment = 'Neutral'
+            sentiment = "Neutral"
             engagement = random.randint(5, 200)
-        
-        social_data.append({
-            'text': text,
-            'sentiment': sentiment,
-            'platform': random.choice(platforms),
-            'likes': random.randint(0, engagement),
-            'shares': random.randint(0, engagement//5),
-            'comments': random.randint(0, engagement//10),
-            'hashtags': random.randint(0, 5),
-            'time_of_day': random.choice(['Morning', 'Afternoon', 'Evening', 'Night'])
-        })
-    
+
+        social_data.append(
+            {
+                "text": text,
+                "sentiment": sentiment,
+                "platform": random.choice(platforms),
+                "likes": random.randint(0, engagement),
+                "shares": random.randint(0, engagement // 5),
+                "comments": random.randint(0, engagement // 10),
+                "hashtags": random.randint(0, 5),
+                "time_of_day": random.choice(
+                    ["Morning", "Afternoon", "Evening", "Night"]
+                ),
+            }
+        )
+
     # 3. Customer Service Feedback
     service_data = []
-    
+
     service_positive = [
         "Outstanding customer service! The representative was knowledgeable and solved my issue in minutes.",
         "Excellent support team! They went above and beyond to help me with my problem.",
@@ -167,9 +182,9 @@ def create_realistic_datasets():
         "Wonderful customer support! Professional, courteous, and very efficient.",
         "Exceptional service quality! The representative was expert and very patient.",
         "Outstanding help from the support team! They exceeded all my expectations.",
-        "Perfect customer service experience! Quick, professional, and very effective."
+        "Perfect customer service experience! Quick, professional, and very effective.",
     ]
-    
+
     service_negative = [
         "Terrible customer service! Waited 2 hours on hold just to be transferred again.",
         "Worst support experience ever! Rude staff and no resolution to my problem.",
@@ -180,9 +195,9 @@ def create_realistic_datasets():
         "Worst customer service department! Transferred me 5 times with no resolution.",
         "Completely disappointed! Rude representatives and incorrect information provided.",
         "Awful support experience! They hung up on me twice during the call.",
-        "Terrible customer service! No one seems to know how to solve basic problems."
+        "Terrible customer service! No one seems to know how to solve basic problems.",
     ]
-    
+
     service_neutral = [
         "Standard customer service experience. Got my issue resolved but took a while.",
         "Average support quality. The representative was polite but not particularly helpful.",
@@ -193,38 +208,48 @@ def create_realistic_datasets():
         "Standard service level. The representative was adequate and resolved the issue.",
         "Okay customer support. Not great but not terrible either. Got what I needed.",
         "Fair service experience. Process was a bit slow but they did help in the end.",
-        "Average customer service quality. Nothing to complain about but nothing special."
+        "Average customer service quality. Nothing to complain about but nothing special.",
     ]
-    
-    departments = ['Technical Support', 'Billing', 'Sales', 'Returns', 'General Inquiry']
-    
+
+    departments = [
+        "Technical Support",
+        "Billing",
+        "Sales",
+        "Returns",
+        "General Inquiry",
+    ]
+
     for i in range(300):
         if i < 120:  # 40% positive
             text = random.choice(service_positive)
-            sentiment = 'Positive'
+            sentiment = "Positive"
             satisfaction = random.randint(4, 5)
         elif i < 210:  # 30% negative
             text = random.choice(service_negative)
-            sentiment = 'Negative'
+            sentiment = "Negative"
             satisfaction = random.randint(1, 2)
         else:  # 30% neutral
             text = random.choice(service_neutral)
-            sentiment = 'Neutral'
+            sentiment = "Neutral"
             satisfaction = 3
-        
-        service_data.append({
-            'text': text,
-            'sentiment': sentiment,
-            'department': random.choice(departments),
-            'satisfaction_rating': satisfaction,
-            'resolution_time_minutes': random.randint(5, 180),
-            'call_transfers': random.randint(0, 5),
-            'issue_type': random.choice(['Technical', 'Billing', 'Product', 'Account', 'Other'])
-        })
-    
+
+        service_data.append(
+            {
+                "text": text,
+                "sentiment": sentiment,
+                "department": random.choice(departments),
+                "satisfaction_rating": satisfaction,
+                "resolution_time_minutes": random.randint(5, 180),
+                "call_transfers": random.randint(0, 5),
+                "issue_type": random.choice(
+                    ["Technical", "Billing", "Product", "Account", "Other"]
+                ),
+            }
+        )
+
     # 4. News and Media Headlines
     news_data = []
-    
+
     news_positive = [
         "Scientists Discover Revolutionary Treatment for Alzheimer's Disease",
         "Local Community Raises Record $500K for Children's Hospital",
@@ -235,9 +260,9 @@ def create_realistic_datasets():
         "City Opens Largest Public Park in Decades with Free Family Activities",
         "Technology Startup Creates 2,000 High-Paying Jobs in Local Area",
         "Environmental Cleanup Project Successfully Restores Polluted Lake",
-        "Education Initiative Dramatically Improves Student Performance Rates"
+        "Education Initiative Dramatically Improves Student Performance Rates",
     ]
-    
+
     news_negative = [
         "Major Cyber Attack Compromises Personal Data of 10 Million Users",
         "Economic Downturn Forces Closure of Historic Local Businesses",
@@ -248,9 +273,9 @@ def create_realistic_datasets():
         "Transportation Strike Leaves Thousands Stranded During Rush Hour",
         "Housing Market Crash Leaves Many Families Facing Foreclosure",
         "Factory Explosion Injures Dozens and Raises Safety Concerns",
-        "Budget Cuts Force School District to Eliminate Essential Programs"
+        "Budget Cuts Force School District to Eliminate Essential Programs",
     ]
-    
+
     news_neutral = [
         "City Council Schedules Public Hearing on Proposed Budget Changes",
         "Weather Service Predicts Average Temperatures for Upcoming Season",
@@ -261,35 +286,49 @@ def create_realistic_datasets():
         "Municipal Elections Set for November with Several Contested Races",
         "Road Construction Project Moves into Final Phase of Completion",
         "Local Government Offices Transition to New Digital Filing System",
-        "Community Center Expands Programming to Include Senior Activities"
+        "Community Center Expands Programming to Include Senior Activities",
     ]
-    
-    categories = ['Politics', 'Technology', 'Health', 'Environment', 'Economy', 'Education', 'Local']
-    
+
+    categories = [
+        "Politics",
+        "Technology",
+        "Health",
+        "Environment",
+        "Economy",
+        "Education",
+        "Local",
+    ]
+
     for i in range(200):
         if i < 80:  # 40% positive
             text = random.choice(news_positive)
-            sentiment = 'Positive'
+            sentiment = "Positive"
         elif i < 140:  # 30% negative
             text = random.choice(news_negative)
-            sentiment = 'Negative'
+            sentiment = "Negative"
         else:  # 30% neutral
             text = random.choice(news_neutral)
-            sentiment = 'Neutral'
-        
-        news_data.append({
-            'text': text,
-            'sentiment': sentiment,
-            'category': random.choice(categories),
-            'source': random.choice(['Local News', 'National News', 'Online Media', 'Wire Service']),
-            'word_count': random.randint(50, 500),
-            'shares': random.randint(10, 10000),
-            'publication_date': (datetime.now() - timedelta(days=random.randint(1, 30))).strftime('%Y-%m-%d')
-        })
-    
+            sentiment = "Neutral"
+
+        news_data.append(
+            {
+                "text": text,
+                "sentiment": sentiment,
+                "category": random.choice(categories),
+                "source": random.choice(
+                    ["Local News", "National News", "Online Media", "Wire Service"]
+                ),
+                "word_count": random.randint(50, 500),
+                "shares": random.randint(10, 10000),
+                "publication_date": (
+                    datetime.now() - timedelta(days=random.randint(1, 30))
+                ).strftime("%Y-%m-%d"),
+            }
+        )
+
     # 5. App Store Reviews
     app_data = []
-    
+
     app_positive = [
         "Love this app! Super intuitive interface and works perfectly every time!",
         "Amazing app with great features! Makes my daily tasks so much easier!",
@@ -300,9 +339,9 @@ def create_realistic_datasets():
         "Excellent app that works flawlessly! Great customer support too!",
         "Amazing functionality and beautiful design! This app is a game changer!",
         "Perfect execution and great features! Best app I've downloaded this year!",
-        "Incredible app that exceeds expectations! Simple yet powerful interface!"
+        "Incredible app that exceeds expectations! Simple yet powerful interface!",
     ]
-    
+
     app_negative = [
         "Terrible app! Crashes constantly and loses all my data every time!",
         "Worst app ever! Doesn't work as advertised and customer support is useless!",
@@ -313,9 +352,9 @@ def create_realistic_datasets():
         "Horrible performance and crashes every few minutes! Very frustrating!",
         "Worst app I've ever used! Nothing works and support doesn't respond!",
         "Completely broken app! Loses progress and crashes during important tasks!",
-        "Terrible experience! App is full of bugs and completely unreliable!"
+        "Terrible experience! App is full of bugs and completely unreliable!",
     ]
-    
+
     app_neutral = [
         "Decent app that does the basics but could use some improvements.",
         "It's okay, works as expected but nothing particularly impressive.",
@@ -326,253 +365,293 @@ def create_realistic_datasets():
         "Standard functionality with average performance. It's acceptable.",
         "Okay app that serves its purpose but could be more polished.",
         "Fair quality app with room for improvement in several areas.",
-        "Decent app overall but there are better alternatives available."
+        "Decent app overall but there are better alternatives available.",
     ]
-    
-    app_categories = ['Productivity', 'Games', 'Social', 'Utilities', 'Entertainment', 'Education', 'Health']
-    
+
+    app_categories = [
+        "Productivity",
+        "Games",
+        "Social",
+        "Utilities",
+        "Entertainment",
+        "Education",
+        "Health",
+    ]
+
     for i in range(350):
         if i < 140:  # 40% positive
             text = random.choice(app_positive)
-            sentiment = 'Positive'
+            sentiment = "Positive"
             rating = random.randint(4, 5)
         elif i < 245:  # 30% negative
             text = random.choice(app_negative)
-            sentiment = 'Negative'
+            sentiment = "Negative"
             rating = random.randint(1, 2)
         else:  # 30% neutral
             text = random.choice(app_neutral)
-            sentiment = 'Neutral'
+            sentiment = "Neutral"
             rating = 3
-        
-        app_data.append({
-            'text': text,
-            'sentiment': sentiment,
-            'app_category': random.choice(app_categories),
-            'rating': rating,
-            'app_version': f"{random.randint(1,5)}.{random.randint(0,9)}.{random.randint(0,9)}",
-            'device_type': random.choice(['iPhone', 'Android', 'iPad', 'Tablet']),
-            'review_length': len(text),
-            'helpful_votes': random.randint(0, 50)
-        })
-    
+
+        app_data.append(
+            {
+                "text": text,
+                "sentiment": sentiment,
+                "app_category": random.choice(app_categories),
+                "rating": rating,
+                "app_version": f"{random.randint(1,5)}.{random.randint(0,9)}.{random.randint(0,9)}",
+                "device_type": random.choice(["iPhone", "Android", "iPad", "Tablet"]),
+                "review_length": len(text),
+                "helpful_votes": random.randint(0, 50),
+            }
+        )
+
     return {
-        'ecommerce': pd.DataFrame(ecommerce_data),
-        'social_media': pd.DataFrame(social_data),
-        'customer_service': pd.DataFrame(service_data),
-        'news_media': pd.DataFrame(news_data),
-        'app_reviews': pd.DataFrame(app_data)
+        "ecommerce": pd.DataFrame(ecommerce_data),
+        "social_media": pd.DataFrame(social_data),
+        "customer_service": pd.DataFrame(service_data),
+        "news_media": pd.DataFrame(news_data),
+        "app_reviews": pd.DataFrame(app_data),
     }
+
 
 def create_test_urls_dataset():
     """Create realistic URLs for testing URL analysis feature"""
-    
+
     test_urls = [
         {
-            'url': 'https://techcrunch.com/positive-startup-news',
-            'title': 'Local Startup Raises $50M to Revolutionize Clean Energy',
-            'expected_sentiment': 'Positive',
-            'content_type': 'News Article',
-            'domain': 'Technology News'
+            "url": "https://techcrunch.com/positive-startup-news",
+            "title": "Local Startup Raises $50M to Revolutionize Clean Energy",
+            "expected_sentiment": "Positive",
+            "content_type": "News Article",
+            "domain": "Technology News",
         },
         {
-            'url': 'https://yelp.com/restaurant-negative-review',
-            'title': 'Terrible Experience at Downtown Restaurant',
-            'expected_sentiment': 'Negative',
-            'content_type': 'Review',
-            'domain': 'Restaurant Review'
+            "url": "https://yelp.com/restaurant-negative-review",
+            "title": "Terrible Experience at Downtown Restaurant",
+            "expected_sentiment": "Negative",
+            "content_type": "Review",
+            "domain": "Restaurant Review",
         },
         {
-            'url': 'https://wikipedia.org/neutral-topic-article',
-            'title': 'History of Municipal Government Structure',
-            'expected_sentiment': 'Neutral',
-            'content_type': 'Encyclopedia',
-            'domain': 'Educational'
+            "url": "https://wikipedia.org/neutral-topic-article",
+            "title": "History of Municipal Government Structure",
+            "expected_sentiment": "Neutral",
+            "content_type": "Encyclopedia",
+            "domain": "Educational",
         },
         {
-            'url': 'https://amazon.com/product-amazing-review',
-            'title': 'Best Product Purchase of the Year!',
-            'expected_sentiment': 'Positive',
-            'content_type': 'Product Review',
-            'domain': 'E-commerce'
+            "url": "https://amazon.com/product-amazing-review",
+            "title": "Best Product Purchase of the Year!",
+            "expected_sentiment": "Positive",
+            "content_type": "Product Review",
+            "domain": "E-commerce",
         },
         {
-            'url': 'https://reddit.com/complaints-thread',
-            'title': 'Worst Customer Service Experience Thread',
-            'expected_sentiment': 'Negative',
-            'content_type': 'Forum Discussion',
-            'domain': 'Social Media'
+            "url": "https://reddit.com/complaints-thread",
+            "title": "Worst Customer Service Experience Thread",
+            "expected_sentiment": "Negative",
+            "content_type": "Forum Discussion",
+            "domain": "Social Media",
         },
         {
-            'url': 'https://cnn.com/breaking-news-update',
-            'title': 'City Council Approves New Budget Proposal',
-            'expected_sentiment': 'Neutral',
-            'content_type': 'News Report',
-            'domain': 'News Media'
+            "url": "https://cnn.com/breaking-news-update",
+            "title": "City Council Approves New Budget Proposal",
+            "expected_sentiment": "Neutral",
+            "content_type": "News Report",
+            "domain": "News Media",
         },
         {
-            'url': 'https://medium.com/success-story-blog',
-            'title': 'How I Built My Dream Business from Scratch',
-            'expected_sentiment': 'Positive',
-            'content_type': 'Blog Post',
-            'domain': 'Business'
+            "url": "https://medium.com/success-story-blog",
+            "title": "How I Built My Dream Business from Scratch",
+            "expected_sentiment": "Positive",
+            "content_type": "Blog Post",
+            "domain": "Business",
         },
         {
-            'url': 'https://glassdoor.com/company-terrible-review',
-            'title': 'Toxic Work Environment and Poor Management',
-            'expected_sentiment': 'Negative',
-            'content_type': 'Company Review',
-            'domain': 'Employment'
-        }
+            "url": "https://glassdoor.com/company-terrible-review",
+            "title": "Toxic Work Environment and Poor Management",
+            "expected_sentiment": "Negative",
+            "content_type": "Company Review",
+            "domain": "Employment",
+        },
     ]
-    
+
     return pd.DataFrame(test_urls)
+
 
 def main():
     """Generate all enhanced datasets"""
     print("🚀 Generating Enhanced Datasets for Universal Sentiment Analyzer Pro")
-    print("="*70)
-    
+    print("=" * 70)
+
     # Generate main datasets
     print("📊 Creating realistic datasets...")
     datasets = create_realistic_datasets()
-    
+
     # Save individual datasets
     print("💾 Saving datasets to files...")
-    
-    datasets['ecommerce'].to_csv('data/dataset_ecommerce_reviews.csv', index=False)
+
+    datasets["ecommerce"].to_csv("data/dataset_ecommerce_reviews.csv", index=False)
     print(f"  ✅ E-commerce Reviews: {len(datasets['ecommerce'])} samples")
-    
-    datasets['social_media'].to_csv('data/dataset_social_media_posts.csv', index=False)
+
+    datasets["social_media"].to_csv("data/dataset_social_media_posts.csv", index=False)
     print(f"  ✅ Social Media Posts: {len(datasets['social_media'])} samples")
-    
-    datasets['customer_service'].to_csv('data/dataset_customer_service.csv', index=False)
+
+    datasets["customer_service"].to_csv(
+        "data/dataset_customer_service.csv", index=False
+    )
     print(f"  ✅ Customer Service: {len(datasets['customer_service'])} samples")
-    
-    datasets['news_media'].to_csv('data/dataset_news_media.csv', index=False)
+
+    datasets["news_media"].to_csv("data/dataset_news_media.csv", index=False)
     print(f"  ✅ News & Media: {len(datasets['news_media'])} samples")
-    
-    datasets['app_reviews'].to_csv('data/dataset_app_reviews.csv', index=False)
+
+    datasets["app_reviews"].to_csv("data/dataset_app_reviews.csv", index=False)
     print(f"  ✅ App Reviews: {len(datasets['app_reviews'])} samples")
 
-    
     # Create URL test dataset
     url_tests = create_test_urls_dataset()
-    url_tests.to_csv('data/dataset_url_test_cases.csv', index=False)
+    url_tests.to_csv("data/dataset_url_test_cases.csv", index=False)
     print(f"  ✅ URL Test Cases: {len(url_tests)} samples")
 
-    
     # Create combined sample dataset for quick testing
     print("🔗 Creating combined sample dataset...")
     combined_samples = []
-    
+
     # Take samples from each dataset
     for name, df in datasets.items():
         sample_size = min(50, len(df))
         sample = df.sample(n=sample_size, random_state=42)
         for _, row in sample.iterrows():
-            combined_samples.append({
-                'text': row['text'],
-                'sentiment': row['sentiment'],
-                'source': name.replace('_', ' ').title(),
-                'category': row.get('category', row.get('app_category', row.get('department', 'General')))
-            })
-    
+            combined_samples.append(
+                {
+                    "text": row["text"],
+                    "sentiment": row["sentiment"],
+                    "source": name.replace("_", " ").title(),
+                    "category": row.get(
+                        "category",
+                        row.get("app_category", row.get("department", "General")),
+                    ),
+                }
+            )
+
     combined_df = pd.DataFrame(combined_samples)
-    combined_df.to_csv('data/dataset_mixed_samples.csv', index=False)
+    combined_df.to_csv("data/dataset_mixed_samples.csv", index=False)
     print(f"  ✅ Mixed Samples: {len(combined_df)} samples")
 
-    
     # Generate comprehensive statistics
     print("📈 Generating statistics...")
-    
+
     total_samples = sum(len(df) for df in datasets.values())
-    
+
     # Calculate sentiment distribution across all datasets
     all_sentiments = []
     for df in datasets.values():
-        all_sentiments.extend(df['sentiment'].tolist())
-    
+        all_sentiments.extend(df["sentiment"].tolist())
+
     sentiment_counts = pd.Series(all_sentiments).value_counts()
-    
+
     stats = {
-        'generation_info': {
-            'total_datasets': len(datasets) + 2,  # +2 for URL tests and combined
-            'total_samples': total_samples,
-            'generated_at': datetime.now().isoformat(),
-            'generator_version': '2.0'
+        "generation_info": {
+            "total_datasets": len(datasets) + 2,  # +2 for URL tests and combined
+            "total_samples": total_samples,
+            "generated_at": datetime.now().isoformat(),
+            "generator_version": "2.0",
         },
-        'dataset_breakdown': {
-            'ecommerce_reviews': len(datasets['ecommerce']),
-            'social_media_posts': len(datasets['social_media']),
-            'customer_service_feedback': len(datasets['customer_service']),
-            'news_media_headlines': len(datasets['news_media']),
-            'app_store_reviews': len(datasets['app_reviews']),
-            'url_test_cases': len(url_tests),
-            'mixed_samples': len(combined_df)
+        "dataset_breakdown": {
+            "ecommerce_reviews": len(datasets["ecommerce"]),
+            "social_media_posts": len(datasets["social_media"]),
+            "customer_service_feedback": len(datasets["customer_service"]),
+            "news_media_headlines": len(datasets["news_media"]),
+            "app_store_reviews": len(datasets["app_reviews"]),
+            "url_test_cases": len(url_tests),
+            "mixed_samples": len(combined_df),
         },
-        'sentiment_distribution': {
-            'positive': int(sentiment_counts.get('Positive', 0)),
-            'negative': int(sentiment_counts.get('Negative', 0)),
-            'neutral': int(sentiment_counts.get('Neutral', 0)),
-            'positive_percentage': round((sentiment_counts.get('Positive', 0) / len(all_sentiments)) * 100, 1),
-            'negative_percentage': round((sentiment_counts.get('Negative', 0) / len(all_sentiments)) * 100, 1),
-            'neutral_percentage': round((sentiment_counts.get('Neutral', 0) / len(all_sentiments)) * 100, 1)
+        "sentiment_distribution": {
+            "positive": int(sentiment_counts.get("Positive", 0)),
+            "negative": int(sentiment_counts.get("Negative", 0)),
+            "neutral": int(sentiment_counts.get("Neutral", 0)),
+            "positive_percentage": round(
+                (sentiment_counts.get("Positive", 0) / len(all_sentiments)) * 100, 1
+            ),
+            "negative_percentage": round(
+                (sentiment_counts.get("Negative", 0) / len(all_sentiments)) * 100, 1
+            ),
+            "neutral_percentage": round(
+                (sentiment_counts.get("Neutral", 0) / len(all_sentiments)) * 100, 1
+            ),
         },
-        'quality_metrics': {
-            'average_text_length': round(np.mean([len(text) for text in all_sentiments]), 1),
-            'text_length_range': {
-                'min': min(len(text) for text in [df['text'].iloc[0] for df in datasets.values()]),
-                'max': max(len(text) for text in [df['text'].iloc[0] for df in datasets.values()])
+        "quality_metrics": {
+            "average_text_length": round(
+                np.mean([len(text) for text in all_sentiments]), 1
+            ),
+            "text_length_range": {
+                "min": min(
+                    len(text)
+                    for text in [df["text"].iloc[0] for df in datasets.values()]
+                ),
+                "max": max(
+                    len(text)
+                    for text in [df["text"].iloc[0] for df in datasets.values()]
+                ),
             },
-            'balanced_distribution': bool(abs(sentiment_counts.get('Positive', 0) - sentiment_counts.get('Negative', 0)) < (len(all_sentiments) * 0.1))
-        }
+            "balanced_distribution": bool(
+                abs(
+                    sentiment_counts.get("Positive", 0)
+                    - sentiment_counts.get("Negative", 0)
+                )
+                < (len(all_sentiments) * 0.1)
+            ),
+        },
     }
-    
+
     # Save statistics
-    with open('data/enhanced_dataset_statistics.json', 'w') as f:
+    with open("data/enhanced_dataset_statistics.json", "w") as f:
         json.dump(stats, f, indent=2)
 
-    
     # Print summary
-    print("\n" + "="*70)
+    print("\n" + "=" * 70)
     print("🎉 ENHANCED DATASET GENERATION COMPLETE!")
-    print("="*70)
-    
+    print("=" * 70)
+
     print(f"\n📊 SUMMARY:")
     print(f"  • Total Datasets: {stats['generation_info']['total_datasets']}")
     print(f"  • Total Samples: {stats['generation_info']['total_samples']:,}")
     print(f"  • Generation Time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-    
+
     print(f"\n📁 DATASET FILES CREATED:")
-    for name, count in stats['dataset_breakdown'].items():
+    for name, count in stats["dataset_breakdown"].items():
         filename = f"dataset_{name}.csv"
         print(f"  • {filename:<35} {count:>6} samples")
-    
+
     print(f"\n🎯 SENTIMENT DISTRIBUTION:")
-    dist = stats['sentiment_distribution']
+    dist = stats["sentiment_distribution"]
     print(f"  • Positive: {dist['positive']:>6} ({dist['positive_percentage']:>5.1f}%)")
     print(f"  • Negative: {dist['negative']:>6} ({dist['negative_percentage']:>5.1f}%)")
     print(f"  • Neutral:  {dist['neutral']:>6} ({dist['neutral_percentage']:>5.1f}%)")
-    
+
     print(f"\n✨ QUALITY METRICS:")
-    print(f"  • Balanced Distribution: {'✅ Yes' if stats['quality_metrics']['balanced_distribution'] else '❌ No'}")
-    print(f"  • Average Text Length: {stats['quality_metrics']['average_text_length']} characters")
-    
+    print(
+        f"  • Balanced Distribution: {'✅ Yes' if stats['quality_metrics']['balanced_distribution'] else '❌ No'}"
+    )
+    print(
+        f"  • Average Text Length: {stats['quality_metrics']['average_text_length']} characters"
+    )
+
     print(f"\n🚀 READY FOR TESTING:")
     print("  • Single Text Analysis: Use any individual samples")
     print("  • Batch Analysis: Upload any CSV file")
     print("  • URL Analysis: Use dataset_url_test_cases.csv")
     print("  • Analytics Dashboard: Perform multiple analyses")
     print("  • Mixed Testing: Use dataset_mixed_samples.csv")
-    
+
     print(f"\n💡 USAGE TIPS:")
     print("  • Start with dataset_mixed_samples.csv for quick testing")
     print("  • Use specific datasets for domain-focused analysis")
     print("  • URL test cases include expected sentiment for validation")
     print("  • All datasets have realistic, diverse content")
-    
+
     print("\n🎊 Your sentiment analyzer now has comprehensive test data!")
+
 
 if __name__ == "__main__":
     main()
