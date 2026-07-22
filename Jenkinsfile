@@ -19,15 +19,15 @@ pipeline {
             steps {
                 echo '🔄 Creating virtual environment...'
                 bat "\"${PYTHON_EXE}\" -m venv venv"
-                bat 'venv\\Scripts\\pip install --upgrade pip'
-                bat 'venv\\Scripts\\pip install -r requirements.txt'
+                bat 'venv\\Scripts\\python.exe -m pip install --upgrade pip'
+                bat 'venv\\Scripts\\python.exe -m pip install -r requirements.txt'
             }
         }
 
         stage('Static Code Analysis (Lint & Format)') {
             steps {
                 echo '🔍 Checking code quality...'
-                bat 'venv\\Scripts\\pip install black flake8'
+                bat 'venv\\Scripts\\python.exe -m pip install black flake8'
                 bat 'venv\\Scripts\\black --check --exclude "(\\.git|venv|\\..*)" .'
                 bat 'venv\\Scripts\\flake8 --ignore=E501,F401 --exclude=.git,__pycache__,venv,build,dist,.pytest_cache,*.csv,*.pkl,IMDB* .'
             }
@@ -36,7 +36,7 @@ pipeline {
         stage('Security Vulnerability Scan') {
             steps {
                 echo '🛡️ Scanning for security flaws...'
-                bat 'venv\\Scripts\\pip install bandit safety'
+                bat 'venv\\Scripts\\python.exe -m pip install bandit safety'
                 bat 'venv\\Scripts\\bandit -r . -x ./venv,./.pytest_cache,./__pycache__ -ll'
                 bat 'venv\\Scripts\\safety check -r requirements.txt || echo "Non-critical dependency vulnerabilities found."'
             }
