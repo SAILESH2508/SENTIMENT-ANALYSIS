@@ -5,9 +5,13 @@ Allows triggering builds, checking build status, and streaming console logs.
 """
 
 import argparse
+import sys
 import time
 import requests
 from requests.auth import HTTPBasicAuth
+
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
 
 
 def trigger_job(jenkins_url, job_name, username, token):
