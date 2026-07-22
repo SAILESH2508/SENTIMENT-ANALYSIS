@@ -53,11 +53,13 @@ pipeline {
             steps {
                 echo '🐳 Compiling production Docker image...'
                 bat '''
+                    @echo off
+                    set "PATH=C:\\Program Files\\Docker\\Docker\\resources\\bin;%PATH%"
                     where docker >nul 2>nul
                     if %ERRORLEVEL% equ 0 (
                         docker build -t sailesh2508/sentiment-analyzer:latest .
                     ) else (
-                        echo ⚠️ Docker executable not found in Jenkins PATH. Skipping Docker build stage non-blockingly.
+                        echo ⚠️ Docker is not installed or running. Skipping Docker build stage non-blockingly.
                     )
                 '''
             }
