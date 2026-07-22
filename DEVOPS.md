@@ -6,31 +6,30 @@ This document details the DevOps automation setup utilizing **Docker** for produ
 
 ## 🏗️ Architecture Overview
 
-The system is configured as a production-ready application orchestrating multiple DevOps tools:
-1. **Frontend UI**: Streamlit web dashboard (Port `8501`).
-2. **Backend API**: FastAPI REST endpoints with model caching and health checks (Port `8000`).
-3. **Containerization**: Optimized multi-stage Docker build packaging frontend, backend, dependencies, and startup routing logic.
-4. **Pipeline Orchestration**: Jenkins Declarative Pipeline (`Jenkinsfile`) automating dependency builds, lint formatting checks, security auditing, testing, and Docker compilation.
+The system is configured as a production-ready application orchestrating modern DevOps practices:
+1. **Frontend Web UI**: Single-page Streamlit dashboard (Port `8501`).
+2. **Backend REST API**: FastAPI backend with caching and prediction endpoints (Port `8000`).
+3. **Containerization**: Optimized multi-stage Docker build packaging application code, dependencies, and startup routing logic.
+4. **Pipeline Orchestration**: Jenkins Declarative Pipeline (`Jenkinsfile`) automating virtual environment creation, linting, security scans, unit tests, and Docker compilation.
 
 ```mermaid
 graph TD
-    Developer[Developer push code] -->|Triggers webhook| Jenkins_Server[Jenkins Build Server]
-    
+    Developer[Developer Push Code] -->|Triggers Webhook| Jenkins_Server[Jenkins CI/CD Build Server]
+
     subgraph Jenkins Pipeline
-        Stage_Checkout[1. Git Checkout] --> Stage_Venv[2. Setup Virtual Env]
-        Stage_Venv --> Stage_Lint[3. Quality Linting]
-        Stage_Lint --> Stage_Security[4. SAST Security Scan]
-        Stage_Security --> Stage_Tests[5. Pytest Unit Testing]
-        Stage_Tests --> Stage_Docker[6. Docker Build Image]
+        Stage_Venv[1. Setup Virtual Env & Dependencies] --> Stage_Lint[2. Static Code Quality & Formatting]
+        Stage_Lint --> Stage_Security[3. SAST Security Vulnerability Audit]
+        Stage_Security --> Stage_Tests[4. Automated Unit Testing & Reports]
+        Stage_Tests --> Stage_Docker[5. Docker Container Image Compilation]
     end
-    
-    Jenkins_Server --> Stage_Checkout
-    Stage_Docker -->|Publishes image| Docker_Hub[(Docker Registry / Hub)]
-    
-    subgraph Target Host Container
-        Container[Docker Container running app]
-        Container -->|Exposes UI| Port_8501[Streamlit Port 8501]
-        Container -->|Exposes API| Port_8000[FastAPI Port 8000]
+
+    Jenkins_Server --> Stage_Venv
+    Stage_Docker -->|Publishes Image| Docker_Hub[(Docker Registry / Hub)]
+
+    subgraph Production Runtime Container
+        Container[Docker Container]
+        Container -->|Serves Web Interface| Port_8501[Streamlit Port 8501]
+        Container -->|Serves REST API| Port_8000[FastAPI Port 8000]
     end
 ```
 
@@ -38,79 +37,80 @@ graph TD
 
 ## 🐳 Docker Deployment Guide
 
-The application uses a **secure multi-stage Docker build** that minimizes build sizes and executes processes under a non-root system principal (`appuser`).
+The application uses a **secure multi-stage Docker build** executing processes under a non-root system principal (`appuser`).
 
-### Local Compilation & Running
-1. **Build the Docker Image**:
+### Local Compilation & Execution
+1. **Build Docker Image**:
    ```bash
-   docker build -t sentiment-analyzer:latest .
+   docker build -t sailesh2508/sentiment-analyzer:latest .
    ```
-2. **Run the Container**:
+2. **Run Container**:
    ```bash
    docker run -d \
      -p 8501:8501 \
      -p 8000:8000 \
      --name sentiment-analyzer \
-     sentiment-analyzer:latest
+     sailesh2508/sentiment-analyzer:latest
    ```
 3. **Access Services**:
-   * **Streamlit UI**: `http://localhost:8501`
-   * **FastAPI Docs**: `http://localhost:8000/docs`
-   * **FastAPI Health Check**: `http://localhost:8000/health`
-4. **Clean up**:
+   * **Streamlit Web UI**: `http://localhost:8501`
+   * **FastAPI REST API Docs**: `http://localhost:8000/docs`
+   * **FastAPI Health Endpoint**: `http://localhost:8000/health`
+4. **Stop Container**:
    ```bash
-   docker stop sentiment-analyzer
-   docker rm sentiment-analyzer
+   docker stop sentiment-analyzer && docker rm sentiment-analyzer
    ```
 
 ---
 
 ## ⚙️ Jenkins CI/CD Pipeline Setup
 
-The pipeline-as-code is defined in the [Jenkinsfile](file:///d:/New%20folder/portifolio/sentiment%20analysis/Jenkinsfile) in the project root.
+The pipeline-as-code is defined in [Jenkinsfile](file:///d:/New%20folder/portifolio/sentiment%20analysis/Jenkinsfile).
 
 ### Jenkins Pipeline Job Configuration
-1. Open Jenkins and click on **New Item**.
-2. Enter name `sentiment-analyzer`, select **Pipeline**, and click **OK**.
-3. Under the **Pipeline** section in configuration:
-   * **Definition**: Select `Pipeline script from SCM`.
-   * **SCM**: Select `Git`.
-   * **Repository URL**: Enter your Git repository link (e.g. `https://github.com/SAILESH2508/SENTIMENT-ANALYSIS.git`).
-   * **Branch Specifier**: Enter `*/main`.
-   * **Script Path**: Verify it is set to `Jenkinsfile`.
-4. Click **Save** and trigger a build by clicking **Build Now**.
+1. Open Jenkins Dashboard -> **New Item**.
+2. Enter `sentiment-analyzer`, choose **Pipeline**, click **OK**.
+3. Under **Pipeline Settings**:
+   * **Definition**: `Pipeline script from SCM`
+   * **SCM**: `Git`
+   * **Repository URL**: `https://github.com/SAILESH2508/SENTIMENT-ANALYSIS.git`
+   * **Branch Specifier**: `*/main`
+   * **Script Path**: `Jenkinsfile`
+4. Click **Save** and trigger build via **Build Now**.
 
 ---
 
-## 🔗 Jenkins REST API Client Utility
+## 🔗 Jenkins REST API Integration Client (`trigger_jenkins.py`)
 
-We have created an integration helper script [trigger_jenkins.py](file:///d:/New%20folder/portifolio/sentiment%20analysis/trigger_jenkins.py) to interact with Jenkins programmatically using the Jenkins API.
+[trigger_jenkins.py](file:///d:/New%20folder/portifolio/sentiment%20analysis/trigger_jenkins.py) enables programmatic interaction with Jenkins via REST API.
 
-### Common CLI Operations
+### Environment Variable Setup
+You can optionally set credentials in `.env` or system environment:
+```bash
+JENKINS_URL=http://localhost:8080
+JENKINS_JOB=sentiment-analyzer
+JENKINS_USER=your_username
+JENKINS_TOKEN=your_api_token
+```
+
+### Usage Commands
 
 1. **Check Latest Build Status**:
    ```bash
-   python trigger_jenkins.py --url http://localhost:8080 --job sentiment-analyzer --action status
+   python trigger_jenkins.py --action status
    ```
 
-2. **Trigger a New Build**:
+2. **Trigger Build**:
    ```bash
-   python trigger_jenkins.py --url http://localhost:8080 --job sentiment-analyzer --user sailesh --token <your-api-token> --action trigger
-   ```
-   *(Note: API tokens can be generated in Jenkins under your User profile ➡️ Configure ➡️ API Tokens).*
-
-3. **Stream Console Build Logs**:
-   ```bash
-   python trigger_jenkins.py --url http://localhost:8080 --job sentiment-analyzer --action logs
+   python trigger_jenkins.py --user sailesh --token <api_token> --action trigger
    ```
 
-4. **Trigger Build and Monitor Real-Time Log Output**:
+3. **Trigger and Monitor Pipeline Execution**:
    ```bash
-   python trigger_jenkins.py \
-     --url http://localhost:8080 \
-     --job sentiment-analyzer \
-     --user sailesh \
-     --token <your-api-token> \
-     --action monitor
+   python trigger_jenkins.py --user sailesh --token <api_token> --action monitor
    ```
-   This command schedules the build, polls the status API until completion, and prints the console text trace automatically.
+
+4. **Fetch Console Output Logs**:
+   ```bash
+   python trigger_jenkins.py --user sailesh --token <api_token> --action logs
+   ```

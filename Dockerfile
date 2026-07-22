@@ -51,7 +51,6 @@ echo "🚀 Starting Universal Sentiment Analyzer in Production Mode"\n\
 # Check if model exists, if not run setup\n\
 if [ ! -f "sentiment_pipeline.pkl" ]; then\n\
     echo "📊 Model not found, running initial training..."\n\
-    python eda.py\n\
     python model_trainer.py\n\
 fi\n\
 \n\

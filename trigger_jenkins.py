@@ -1,17 +1,31 @@
 #!/usr/bin/env python3
 """
-Jenkins REST API Integration Client for Sentiment Analyzer CI/CD.
-Allows triggering builds, checking build status, and streaming console logs.
+Jenkins REST API Client Utility for Sentiment Analyzer CI/CD.
+Triggers builds, polls job status, streams logs, and handles CSRF crumbs.
 """
 
 import argparse
 import sys
 import time
+import os
 import requests
 from requests.auth import HTTPBasicAuth
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
+
+
+def get_crumb(jenkins_url, auth):
+    """Retrieve CSRF Crumb token from Jenkins server."""
+    crumb_url = f"{jenkins_url.rstrip('/')}/crumbIssuer/api/json"
+    try:
+        resp = requests.get(crumb_url, auth=auth, timeout=5)
+        if resp.status_code == 200:
+            data = resp.json()
+            return {data["crumbRequestField"]: data["crumb"]}
+    except Exception:
+        pass
+    return {}
 
 
 def trigger_job(jenkins_url, job_name, username, token):
@@ -21,45 +35,31 @@ def trigger_job(jenkins_url, job_name, username, token):
 
     try:
         print(f"🚀 Triggering build for job: '{job_name}' at {url}...")
-        # Get crumb token for CSRF protection first (optional, standard in secured Jenkins)
-        crumb_url = f"{jenkins_url.rstrip('/')}/crumbIssuer/api/json"
-        crumb = None
-
-        try:
-            crumb_resp = requests.get(crumb_url, auth=auth, timeout=5)
-            if crumb_resp.status_code == 200:
-                crumb_data = crumb_resp.json()
-                crumb = {crumb_data["crumbRequestField"]: crumb_data["crumb"]}
-                print("🔒 CSRF Crumb acquired successfully.")
-        except Exception:
-            # Continue without crumb if crumb issuer is disabled
-            pass
-
-        headers = {}
-        if crumb:
-            headers.update(crumb)
+        headers = get_crumb(jenkins_url, auth)
 
         response = requests.post(url, auth=auth, headers=headers, timeout=10)
 
         if response.status_code in [200, 201, 202]:
-            print("✅ Build successfully scheduled in Jenkins queue!")
-            # Retries queue location headers if available
+            print("✅ Build successfully scheduled in Jenkins build queue!")
             queue_url = response.headers.get("Location")
             if queue_url:
                 print(f"📍 Queue location: {queue_url}")
             return True
+        elif response.status_code == 403:
+            print("❌ Authentication failed (403 Forbidden). Check user credentials and API token.")
+            return False
         else:
             print(f"❌ Failed to trigger build. Status Code: {response.status_code}")
-            print(f"Response: {response.text}")
+            print(f"Response: {response.text[:200]}")
             return False
 
     except requests.exceptions.RequestException as e:
-        print(f"❌ Connection error during job trigger: {e}")
+        print(f"❌ Connection error triggering build: {e}")
         return False
 
 
 def check_build_status(jenkins_url, job_name, username, token):
-    """Retrieve details and status of the last build."""
+    """Retrieve status details of the latest Jenkins build."""
     url = f"{jenkins_url.rstrip('/')}/job/{job_name}/lastBuild/api/json"
     auth = HTTPBasicAuth(username, token) if username and token else None
 
@@ -68,9 +68,9 @@ def check_build_status(jenkins_url, job_name, username, token):
         if response.status_code == 200:
             data = response.json()
             build_num = data.get("number")
-            result = data.get("result")  # SUCCESS, FAILURE, ABORTED, null (if building)
+            result = data.get("result")
             building = data.get("building", False)
-            duration = data.get("duration", 0) / 1000.0  # convert ms to seconds
+            duration = data.get("duration", 0) / 1000.0
 
             status = "BUILDING 🔄" if building else (result or "UNKNOWN ❓")
             print(f"\n📊 --- Last Build Details (Build #{build_num}) ---")
@@ -80,25 +80,27 @@ def check_build_status(jenkins_url, job_name, username, token):
             print(f"URL:         {data.get('url')}")
             return build_num, result, building
         elif response.status_code == 404:
-            print(f"⚠️ No builds found for job '{job_name}'.")
+            print(f"⚠️ Job '{job_name}' found, but no builds have executed yet.")
+            return None, None, False
+        elif response.status_code == 403:
+            print(f"❌ Access denied (403 Forbidden). Jenkins requires authentication (`--user` and `--token`).")
             return None, None, False
         else:
-            print(
-                f"❌ Failed to check build status. Status Code: {response.status_code}"
-            )
+            print(f"❌ Failed to query build status. Status Code: {response.status_code}")
             return None, None, False
+
     except requests.exceptions.RequestException as e:
-        print(f"❌ Connection error during status check: {e}")
+        print(f"❌ Connection error checking build status: {e}")
         return None, None, False
 
 
 def get_console_output(jenkins_url, job_name, build_number, username, token):
-    """Stream or print the console output logs of a specific build."""
+    """Fetch and display console output logs for a build."""
     url = f"{jenkins_url.rstrip('/')}/job/{job_name}/{build_number}/consoleText"
     auth = HTTPBasicAuth(username, token) if username and token else None
 
     try:
-        print(f"\n📖 Fetching console output for build #{build_number}...")
+        print(f"\n📖 Fetching console output logs for build #{build_number}...")
         response = requests.get(url, auth=auth, timeout=15)
         if response.status_code == 200:
             print("=" * 60)
@@ -106,35 +108,45 @@ def get_console_output(jenkins_url, job_name, build_number, username, token):
             print("=" * 60)
             return True
         else:
-            print(
-                f"❌ Failed to get console output. Status Code: {response.status_code}"
-            )
+            print(f"❌ Failed to fetch build logs. Status Code: {response.status_code}")
             return False
     except requests.exceptions.RequestException as e:
-        print(f"❌ Connection error during logs streaming: {e}")
+        print(f"❌ Connection error fetching logs: {e}")
         return False
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Jenkins REST API integration CLI.")
+    parser = argparse.ArgumentParser(description="Jenkins REST API integration client.")
     parser.add_argument(
-        "--url", default="http://localhost:8080", help="Jenkins base server URL"
+        "--url",
+        default=os.getenv("JENKINS_URL", "http://localhost:8080"),
+        help="Jenkins base server URL (or JENKINS_URL env)",
     )
     parser.add_argument(
-        "--job", default="sentiment-analyzer", help="Jenkins job/pipeline name"
+        "--job",
+        default=os.getenv("JENKINS_JOB", "sentiment-analyzer"),
+        help="Jenkins job/pipeline name (or JENKINS_JOB env)",
     )
-    parser.add_argument("--user", help="Jenkins username")
-    parser.add_argument("--token", help="Jenkins API token or password")
+    parser.add_argument(
+        "--user",
+        default=os.getenv("JENKINS_USER", None),
+        help="Jenkins username (or JENKINS_USER env)",
+    )
+    parser.add_argument(
+        "--token",
+        default=os.getenv("JENKINS_TOKEN", None),
+        help="Jenkins API token or password (or JENKINS_TOKEN env)",
+    )
     parser.add_argument(
         "--action",
         choices=["trigger", "status", "logs", "monitor"],
         default="status",
-        help="Action to perform: trigger a build, get status, fetch logs, or trigger & monitor",
+        help="Action: trigger, status, logs, or monitor",
     )
     parser.add_argument(
         "--build",
         type=int,
-        help="Build number (required for 'logs' if not querying the last build)",
+        help="Specific build number for log inspection",
     )
 
     args = parser.parse_args()
@@ -148,7 +160,6 @@ def main():
     elif args.action == "logs":
         build_num = args.build
         if not build_num:
-            # Query last build number first
             res = check_build_status(args.url, args.job, args.user, args.token)
             build_num = res[0]
 
@@ -156,12 +167,10 @@ def main():
             get_console_output(args.url, args.job, build_num, args.user, args.token)
 
     elif args.action == "monitor":
-        # 1. Trigger job
         if trigger_job(args.url, args.job, args.user, args.token):
-            print("⏳ Waiting for build to start in queue...")
-            time.sleep(5)  # Wait for Jenkins to transition from queue to active build
+            print("⏳ Waiting for build to start...")
+            time.sleep(5)
 
-            # 2. Poll status
             while True:
                 build_num, result, building = check_build_status(
                     args.url, args.job, args.user, args.token
@@ -172,9 +181,7 @@ def main():
                         args.url, args.job, build_num, args.user, args.token
                     )
                     break
-                print(
-                    "⏳ Job is still compiling in Jenkins pipeline. Checking again in 10 seconds..."
-                )
+                print("⏳ Pipeline running in Jenkins. Checking status again in 10 seconds...")
                 time.sleep(10)
 
 

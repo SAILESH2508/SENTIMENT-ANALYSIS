@@ -9,8 +9,7 @@ import tempfile
 import json
 from unittest.mock import Mock, patch, MagicMock
 from utils import preprocess_text, validate_text_input, ModelConfig
-from enhanced_inference_service import SentimentAnalyzer
-from monitoring import PerformanceMonitor
+from inference_service import SentimentAnalyzer
 
 
 class TestUtils:
@@ -82,10 +81,10 @@ class TestSentimentAnalyzer:
     def analyzer_with_mock_pipeline(self, mock_pipeline):
         """Create analyzer with mocked pipeline."""
         with patch(
-            "enhanced_inference_service.joblib.load", return_value=mock_pipeline
+            "inference_service.joblib.load", return_value=mock_pipeline
         ):
             with patch(
-                "enhanced_inference_service.ensure_model_exists", return_value=True
+                "inference_service.ensure_model_exists", return_value=True
             ):
                 analyzer = SentimentAnalyzer()
                 analyzer.pipeline = mock_pipeline
@@ -148,68 +147,6 @@ class TestSentimentAnalyzer:
         assert len(analyzer_with_mock_pipeline.prediction_cache) == 0
 
 
-class TestPerformanceMonitor:
-    """Test performance monitoring functionality."""
-
-    @pytest.fixture
-    def temp_log_file(self):
-        """Create a temporary log file for testing."""
-        from datetime import datetime, timedelta
-
-        now = datetime.now()
-        t1 = (now - timedelta(days=1)).isoformat()
-        t2 = (now - timedelta(days=2)).isoformat()
-        t3 = (now - timedelta(days=3)).isoformat()
-
-        with tempfile.NamedTemporaryFile(mode="w", delete=False, suffix=".log") as f:
-            # Write sample log entries with dynamic timestamps
-            sample_logs = [
-                f'2026-07-20 10:00:00,000 - INFO - Prediction logged: {{"timestamp": "{t1}", "text_length": 50, "text_preview": "This is a great movie...", "prediction": "Positive", "confidence": 0.85, "user_id": "user1"}}',
-                f'2026-07-20 11:00:00,000 - INFO - Prediction logged: {{"timestamp": "{t2}", "text_length": 30, "text_preview": "Bad movie...", "prediction": "Negative", "confidence": 0.75, "user_id": "user2"}}',
-                f'2026-07-20 12:00:00,000 - INFO - Prediction logged: {{"timestamp": "{t3}", "text_length": 40, "text_preview": "It was okay...", "prediction": "Intermediate", "confidence": 0.55, "user_id": "user1"}}',
-            ]
-            for log in sample_logs:
-                f.write(log + "\n")
-            f.flush()
-
-        yield f.name
-
-        # Cleanup
-        os.unlink(f.name)
-
-    def test_parse_prediction_logs(self, temp_log_file):
-        """Test log parsing functionality."""
-        monitor = PerformanceMonitor(temp_log_file)
-        df = monitor.parse_prediction_logs(
-            days_back=30
-        )  # Large window to catch test data
-
-        assert not df.empty
-        assert len(df) == 3
-        assert "timestamp" in df.columns
-        assert "prediction" in df.columns
-        assert "confidence" in df.columns
-
-    def test_generate_performance_report(self, temp_log_file):
-        """Test performance report generation."""
-        monitor = PerformanceMonitor(temp_log_file)
-        report = monitor.generate_performance_report(days_back=30)
-
-        assert "error" not in report
-        assert "total_predictions" in report
-        assert "sentiment_distribution" in report
-        assert "confidence_statistics" in report
-        assert report["total_predictions"] == 3
-
-    def test_detect_anomalies(self, temp_log_file):
-        """Test anomaly detection."""
-        monitor = PerformanceMonitor(temp_log_file)
-        anomalies = monitor.detect_anomalies(days_back=30)
-
-        # Should return a list (may be empty for our small test dataset)
-        assert isinstance(anomalies, list)
-
-
 class TestIntegration:
     """Integration tests for the complete system."""
 
@@ -232,8 +169,8 @@ class TestIntegration:
         yield f.name
         os.unlink(f.name)
 
-    @patch("enhanced_inference_service.joblib.load")
-    @patch("enhanced_inference_service.ensure_model_exists")
+    @patch("inference_service.joblib.load")
+    @patch("inference_service.ensure_model_exists")
     def test_end_to_end_prediction(self, mock_exists, mock_load):
         """Test end-to-end prediction workflow."""
         # Setup mocks

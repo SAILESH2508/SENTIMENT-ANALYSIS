@@ -2,8 +2,8 @@ pandas
 scikit-learn
 streamlit
 joblib
-matplotlib
-seaborn
-wordcloud
 requests
 pytest
+fastapi
+uvicorn
+pydantic

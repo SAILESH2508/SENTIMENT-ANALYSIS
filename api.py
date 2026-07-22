@@ -13,8 +13,7 @@ except ImportError:
 from typing import List, Optional, Dict, Any
 import pandas as pd
 import io
-from enhanced_inference_service import get_analyzer
-from monitoring import PerformanceMonitor
+from inference_service import get_analyzer
 import logging
 from datetime import datetime
 
@@ -236,60 +235,6 @@ async def clear_cache():
     except Exception as e:
         logger.error(f"Error clearing cache: {e}")
         raise HTTPException(status_code=500, detail=f"Failed to clear cache: {str(e)}")
-
-
-@app.get("/analytics/report")
-async def get_analytics_report(days_back: int = 7):
-    """
-    Get performance analytics report.
-
-    Args:
-        days_back: Number of days to analyze (default: 7)
-
-    Returns:
-        Performance analytics report
-    """
-    try:
-        monitor = PerformanceMonitor()
-        report = monitor.generate_performance_report(days_back)
-
-        if "error" in report:
-            raise HTTPException(status_code=404, detail=report["error"])
-
-        return report
-    except Exception as e:
-        logger.error(f"Error generating analytics report: {e}")
-        raise HTTPException(
-            status_code=500, detail=f"Failed to generate report: {str(e)}"
-        )
-
-
-@app.get("/analytics/anomalies")
-async def get_anomalies(days_back: int = 7):
-    """
-    Detect anomalies in usage patterns.
-
-    Args:
-        days_back: Number of days to analyze (default: 7)
-
-    Returns:
-        List of detected anomalies
-    """
-    try:
-        monitor = PerformanceMonitor()
-        anomalies = monitor.detect_anomalies(days_back)
-
-        return {
-            "period_days": days_back,
-            "anomalies_count": len(anomalies),
-            "anomalies": anomalies,
-            "generated_at": datetime.now().isoformat(),
-        }
-    except Exception as e:
-        logger.error(f"Error detecting anomalies: {e}")
-        raise HTTPException(
-            status_code=500, detail=f"Failed to detect anomalies: {str(e)}"
-        )
 
 
 if __name__ == "__main__":

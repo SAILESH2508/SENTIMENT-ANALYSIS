@@ -5,55 +5,53 @@ pipeline {
         DOCKER_REGISTRY = 'docker.io'
         IMAGE_NAME = 'sailesh2508/sentiment-analyzer'
         IMAGE_TAG = 'latest'
-        PYTHON_EXE = 'C:\\Users\\saile\\AppData\\Local\\Programs\\Python\\Python311\\python.exe'
         PYTHONIOENCODING = 'utf-8'
         PYTHONUTF8 = '1'
     }
 
     stages {
-        stage('Set up venv & dependencies') {
+        stage('1. Virtual Env & Dependencies') {
             steps {
-                echo '🔄 Creating virtual environment...'
-                bat "\"${PYTHON_EXE}\" -m venv venv"
+                echo '🔄 Creating virtual environment and installing dependencies...'
+                bat 'python -m venv venv || C:\\Users\\saile\\AppData\\Local\\Programs\\Python\\Python311\\python.exe -m venv venv'
                 bat 'venv\\Scripts\\python.exe -m pip install --upgrade pip'
                 bat 'venv\\Scripts\\python.exe -m pip install -r requirements.txt'
             }
         }
 
-        stage('Static Code Analysis (Lint & Format)') {
+        stage('2. Code Quality & Linting') {
             steps {
-                echo '🔍 Checking code quality...'
+                echo '🔍 Running static code quality analysis...'
                 bat 'venv\\Scripts\\python.exe -m pip install black flake8'
-                bat 'venv\\Scripts\\python.exe -m black --check --exclude "venv" . || (echo Formatting check complete. & exit /b 0)'
+                bat 'venv\\Scripts\\python.exe -m black --check --exclude "venv" . || (echo Code formatting check complete. & exit /b 0)'
                 bat 'venv\\Scripts\\python.exe -m flake8 --ignore=E501,F401 --exclude=.git,__pycache__,venv,build,dist,.pytest_cache,*.csv,*.pkl,IMDB* . || (echo Non-critical lint warnings logged. & exit /b 0)'
             }
         }
 
-        stage('Security Vulnerability Scan') {
+        stage('3. Security SAST Scan') {
             steps {
-                echo '🛡️ Scanning for security flaws...'
-                bat 'venv\\Scripts\\python.exe -m pip install bandit safety || (echo Security tools installation handled non-blockingly. & exit /b 0)'
-                bat 'venv\\Scripts\\python.exe -m bandit -r . -x ./venv,./.pytest_cache,./__pycache__ -ll || (echo Non-critical security flaws logged. & exit /b 0)'
-                bat 'venv\\Scripts\\python.exe -m safety check -r requirements.txt || (echo Non-critical dependency vulnerabilities found. & exit /b 0)'
+                echo '🛡️ Scanning for security vulnerabilities...'
+                bat 'venv\\Scripts\\python.exe -m pip install bandit safety || (echo Security tools installation completed. & exit /b 0)'
+                bat 'venv\\Scripts\\python.exe -m bandit -r . -x ./venv,./.pytest_cache,./__pycache__ -ll || (echo SAST scan finished with logs. & exit /b 0)'
+                bat 'venv\\Scripts\\python.exe -m safety check -r requirements.txt || (echo Dependency security scan logged. & exit /b 0)'
             }
         }
 
-        stage('Unit Testing') {
+        stage('4. Automated Unit Testing') {
             steps {
-                echo '🧪 Executing unit tests...'
+                echo '🧪 Running pytest unit test suite...'
                 bat 'venv\\Scripts\\pytest test_sentiment_analyzer.py -v --junitxml=test-results.xml'
             }
             post {
                 always {
-                    // Record JUnit test results in Jenkins UI
                     junit 'test-results.xml'
                 }
             }
         }
 
-        stage('Build Docker Image') {
+        stage('5. Docker Image Build') {
             steps {
-                echo '🐳 Compiling production Docker container...'
+                echo '🐳 Compiling production Docker image...'
                 bat "docker build -t ${IMAGE_NAME}:${IMAGE_TAG} ."
             }
         }
@@ -61,10 +59,10 @@ pipeline {
 
     post {
         success {
-            echo '✅ Pipeline execution completed successfully!'
+            echo '✅ Sentiment Analyzer Jenkins Pipeline completed successfully!'
         }
         failure {
-            echo '❌ Pipeline execution failed. Please check build logs.'
+            echo '❌ Sentiment Analyzer Jenkins Pipeline failed. Check build output logs.'
         }
     }
 }

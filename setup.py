@@ -65,7 +65,7 @@ def main():
 
     if not data_files_exist:
         print("\n📊 Preparing data...")
-        if not run_command("python eda.py", "Running EDA and data preparation"):
+        if not run_command("python download_data.py", "Downloading IMDB dataset"):
             print("❌ Data preparation failed!")
             sys.exit(1)
 
@@ -85,10 +85,6 @@ def main():
     ):
         print("⚠️ Some tests failed, but setup can continue.")
 
-    # Generate initial performance report
-    print("\n📈 Generating initial performance report...")
-    run_command("python monitoring.py", "Generating performance report")
-
     print(f"\n{'='*60}")
     print("🎉 SETUP COMPLETED SUCCESSFULLY!")
     print(f"{'='*60}")
@@ -97,8 +93,7 @@ def main():
     print("1. Run the Streamlit app: streamlit run app.py")
     print("2. Or start the API server: python api.py")
     print("3. View API docs at: http://localhost:8000/docs")
-    print("4. Monitor performance: python monitoring.py")
-    print("5. Run tests: python -m pytest test_sentiment_analyzer.py")
+    print("4. Run tests: python -m pytest test_sentiment_analyzer.py")
 
     print("\n📁 Generated Files:")
     files_to_check = [
