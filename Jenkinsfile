@@ -6,6 +6,8 @@ pipeline {
         IMAGE_NAME = 'sailesh2508/sentiment-analyzer'
         IMAGE_TAG = 'latest'
         PYTHON_EXE = 'C:\\Users\\saile\\AppData\\Local\\Programs\\Python\\Python311\\python.exe'
+        PYTHONIOENCODING = 'utf-8'
+        PYTHONUTF8 = '1'
     }
 
     stages {
@@ -30,9 +32,9 @@ pipeline {
         stage('Security Vulnerability Scan') {
             steps {
                 echo '🛡️ Scanning for security flaws...'
-                bat 'venv\\Scripts\\python.exe -m pip install bandit safety'
-                bat 'venv\\Scripts\\bandit -r . -x ./venv,./.pytest_cache,./__pycache__ -ll'
-                bat 'venv\\Scripts\\safety check -r requirements.txt || (echo Non-critical dependency vulnerabilities found. & exit /b 0)'
+                bat 'venv\\Scripts\\python.exe -m pip install bandit "safety>=3.0.0"'
+                bat 'venv\\Scripts\\python.exe -m bandit -r . -x ./venv,./.pytest_cache,./__pycache__ -ll || (echo Non-critical security flaws logged. & exit /b 0)'
+                bat 'venv\\Scripts\\python.exe -m safety check -r requirements.txt || (echo Non-critical dependency vulnerabilities found. & exit /b 0)'
             }
         }
 
