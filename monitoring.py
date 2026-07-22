@@ -216,6 +216,14 @@ class PerformanceMonitor:
                     "severity": "medium",
                 }
             )
+        elif high_confidence_count > len(df) * 0.9:
+            anomalies.append(
+                {
+                    "type": "high_confidence_spike",
+                    "description": f"High number of high-confidence predictions: {high_confidence_count}",
+                    "severity": "low",
+                }
+            )
 
         # Check for unusual text lengths
         mean_length = df["text_length"].mean()
@@ -229,6 +237,14 @@ class PerformanceMonitor:
                 {
                     "type": "short_text_spike",
                     "description": f"High number of very short texts: {very_short_texts}",
+                    "severity": "low",
+                }
+            )
+        elif very_long_texts > len(df) * 0.1:
+            anomalies.append(
+                {
+                    "type": "long_text_spike",
+                    "description": f"High number of unusually long texts: {very_long_texts}",
                     "severity": "low",
                 }
             )

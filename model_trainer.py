@@ -1,6 +1,11 @@
 import pandas as pd
 import joblib
-import yaml
+
+try:
+    import yaml
+except ImportError:
+    yaml = None
+
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.pipeline import Pipeline
@@ -13,11 +18,15 @@ logger = logging.getLogger(__name__)
 
 def load_config(config_path: str = "config.yaml") -> dict:
     """Load configuration from YAML file."""
+    if yaml is None:
+        return {}
     try:
         with open(config_path, "r") as file:
-            return yaml.safe_load(file)
+            return yaml.safe_load(file) or {}
     except FileNotFoundError:
         logger.warning(f"Config file {config_path} not found, using defaults")
+        return {}
+    except Exception:
         return {}
 
 

@@ -95,8 +95,6 @@ async def root():
 @app.get("/health", response_model=HealthResponse)
 async def health_check():
     """Health check endpoint."""
-    model_info = analyzer.get_model_info()
-
     return HealthResponse(
         status="healthy" if analyzer.pipeline is not None else "unhealthy",
         model_loaded=analyzer.pipeline is not None,

@@ -40,14 +40,8 @@ if "compare_result_b" not in st.session_state:
 
 # --- Logic Helpers ---
 def translate_and_analyze(text):
-    try:
-        translator = GoogleTranslator(source="auto", target="en")
-        translated = translator.translate(text)
-        is_translated = text.strip().lower() != translated.strip().lower()
-        res = inference_service.predict_sentiment(translated)
-        return res, text, translated, is_translated
-    except Exception as e:
-        return {"error": f"Translation/Analysis Error: {e}"}, text, text, False
+    res = inference_service.predict_sentiment(text)
+    return res, text, text, False
 
 
 def set_text(text):
@@ -175,13 +169,8 @@ with tab2:
                         headers = {"User-Agent": "Mozilla/5.0"}
                         response = requests.get(url_input, headers=headers, timeout=10)
                         response.raise_for_status()
-                        soup = BeautifulSoup(response.content, "html.parser")
-
-                        # Cleanup
-                        for s in soup(["script", "style", "nav", "footer", "header"]):
-                            s.decompose()
-
-                        page_text = soup.get_text(separator=" ", strip=True)
+                        page_text = re.sub(r"<.*?>", " ", response.text)
+                        page_text = re.sub(r"\s+", " ", page_text).strip()
                         truncated_text = page_text[:5000]
 
                         if not truncated_text:

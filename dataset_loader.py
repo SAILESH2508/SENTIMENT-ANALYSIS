@@ -108,7 +108,7 @@ class DatasetLoader:
                 if isinstance(sentiment_dist, pd.Series):
                     for sentiment, count in sentiment_dist.items():
                         print(f"   └─ {sentiment}: {count}")
-            except Exception as e:
+            except Exception:
                 print(f"📁 {name:<30} Error loading")
 
         print("\n💡 Usage Examples:")
